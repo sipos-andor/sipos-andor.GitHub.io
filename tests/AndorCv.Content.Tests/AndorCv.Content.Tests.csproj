@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="jsonresume-schema.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="jsonresume-schema-v1.2.1.json" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>
