@@ -1,5 +1,5 @@
 # Tests the CV, builds the site with the resume engine and deploys it to GitHub Pages (andor.sipos.io).
-# Pull requests are tested and built but never deployed; master is deployed.
+# Pull requests, pushes to master and manual runs are tested and built; only master is deployed.
 name: Pages
 
 on:
@@ -25,6 +25,8 @@ jobs:
     permissions:
       contents: read
       packages: read
+      # configure-pages reads the site's settings through the Pages API.
+      pages: read
     env:
       DOTNET_NOLOGO: "true"
       DOTNET_CLI_TELEMETRY_OPTOUT: "true"
@@ -46,25 +48,26 @@ jobs:
       - name: Publish the build program
         run: dotnet publish src/AndorCv.Build -c Release -o build
       # Decision: the e-mail address comes from the CV_EMAIL secret, as an environment variable only, and only for a
-      # run that deploys; a deployment requires it. Pull requests get neither secret.
+      # run that can deploy: a push or a manual run of master; a deployment requires it. Pull requests and manual runs
+      # of other branches get neither secret.
       # Why: the address may appear only as an image in the PDFs. A secret is masked in the log, an environment
       # variable never shows on a command line, and the engine never writes it anywhere but into the PDFs' images. A
-      # pull request runs its branch's code, which must not be able to read the address or the token, and its build
-      # is never published, so it needs neither.
+      # pull request or another branch runs that branch's code, which must not be able to read the address or the
+      # token, and its build is never published, so it needs neither.
       - name: Build the site
         env:
-          RESUME_CONTACT_EMAIL: ${{ github.event_name != 'pull_request' && secrets.CV_EMAIL || '' }}
-          RESUME_ANALYTICS_TOKEN: ${{ github.event_name != 'pull_request' && secrets.CF_WEB_ANALYTICS_TOKEN || '' }}
-          REQUIRE_EMAIL: ${{ github.event_name == 'pull_request' && 'false' || 'true' }}
+          RESUME_CONTACT_EMAIL: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/master' && secrets.CV_EMAIL || '' }}
+          RESUME_ANALYTICS_TOKEN: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/master' && secrets.CF_WEB_ANALYTICS_TOKEN || '' }}
+          REQUIRE_EMAIL: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/master' && 'true' || 'false' }}
         run: |
           arguments=(--content content --output site --clean)
           if [ "$REQUIRE_EMAIL" = "true" ]; then arguments+=(--require-email); fi
           dotnet build/AndorCv.Build.dll "${arguments[@]}"
       - name: Configure Pages
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - name: Upload the site
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: site
