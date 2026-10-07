@@ -28,31 +28,33 @@ jobs:
     env:
       DOTNET_NOLOGO: "true"
       DOTNET_CLI_TELEMETRY_OPTOUT: "true"
+      # The engine and the operandor design system are GitHub Packages; each package grants this repository read
+      # access (package settings, Manage Actions access). NuGet reads the credentials of the nuget.config source
+      # named "github" from this variable, so no file holds the token.
+      NuGetPackageSourceCredentials_github: Username=${{ github.actor }};Password=${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Check out
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - name: Set up .NET
         uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
         with:
           dotnet-version: "10.0.x"
-      # The engine and the operandor design system are GitHub Packages; each package grants this repository read
-      # access (package settings, Manage Actions access).
-      - name: Authenticate to GitHub Packages
-        run: >
-          dotnet nuget update source github --configfile nuget.config
-          --username "${{ github.actor }}" --password "${{ secrets.GITHUB_TOKEN }}" --store-password-in-clear-text
       - name: Test the content
         run: dotnet test AndorCv.slnx -c Release
       - name: Publish the build program
         run: dotnet publish src/AndorCv.Build -c Release -o build
-      # Decision: the e-mail address comes from the CV_EMAIL secret, as an environment variable only; deployments
-      # require it.
+      # Decision: the e-mail address comes from the CV_EMAIL secret, as an environment variable only, and only for a
+      # run that deploys; a deployment requires it. Pull requests get neither secret.
       # Why: the address may appear only as an image in the PDFs. A secret is masked in the log, an environment
-      # variable never shows on a command line, and the engine never writes it anywhere but into the PDFs' images.
+      # variable never shows on a command line, and the engine never writes it anywhere but into the PDFs' images. A
+      # pull request runs its branch's code, which must not be able to read the address or the token, and its build
+      # is never published, so it needs neither.
       - name: Build the site
         env:
-          RESUME_CONTACT_EMAIL: ${{ secrets.CV_EMAIL }}
-          RESUME_ANALYTICS_TOKEN: ${{ secrets.CF_WEB_ANALYTICS_TOKEN }}
+          RESUME_CONTACT_EMAIL: ${{ github.event_name != 'pull_request' && secrets.CV_EMAIL || '' }}
+          RESUME_ANALYTICS_TOKEN: ${{ github.event_name != 'pull_request' && secrets.CF_WEB_ANALYTICS_TOKEN || '' }}
           REQUIRE_EMAIL: ${{ github.event_name == 'pull_request' && 'false' || 'true' }}
         run: |
           arguments=(--content content --output site --clean)
