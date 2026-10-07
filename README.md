@@ -51,4 +51,5 @@ dotnet build/AndorCv.Build.dll --content content --output site --clean
 ## Licence
 
 The code is MIT ([LICENSE](LICENSE)). The CV's content in `content/` is not: all rights reserved
-([content/LICENSE](content/LICENSE)).
+([content/LICENSE](content/LICENSE)). The copy of the JSON Resume schema the tests use keeps its own MIT licence
+([THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)).
