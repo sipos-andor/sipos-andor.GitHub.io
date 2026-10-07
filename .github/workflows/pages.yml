@@ -1,0 +1,98 @@
+# Tests the CV, builds the site with the resume engine and deploys it to GitHub Pages (andor.sipos.io).
+# Pull requests, pushes to master and manual runs are tested and built; only master is deployed.
+name: Pages
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Decision: one run at a time per ref; a newer run of a pull request cancels the older one, runs of master wait.
+# Why: two pushes to master in quick succession must not deploy in parallel, where the older build could finish last;
+# the deploy job also checks that its commit is still master's head.
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      packages: read
+      # configure-pages reads the site's settings through the Pages API.
+      pages: read
+    env:
+      DOTNET_NOLOGO: "true"
+      DOTNET_CLI_TELEMETRY_OPTOUT: "true"
+      # The engine and the operandor design system are GitHub Packages; each package grants this repository read
+      # access (package settings, Manage Actions access). NuGet reads the credentials of the nuget.config source
+      # named "github" from this variable, so no file holds the token.
+      NuGetPackageSourceCredentials_github: Username=${{ github.actor }};Password=${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up .NET
+        uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
+        with:
+          dotnet-version: "10.0.x"
+      - name: Test the content
+        run: dotnet test AndorCv.slnx -c Release
+      - name: Publish the build program
+        run: dotnet publish src/AndorCv.Build -c Release -o build
+      # Decision: the e-mail address comes from the CV_EMAIL secret, as an environment variable only, and only for a
+      # run that can deploy: a push or a manual run of master; a deployment requires it. Pull requests and manual runs
+      # of other branches get neither secret.
+      # Why: the address may appear only as an image in the PDFs. A secret is masked in the log, an environment
+      # variable never shows on a command line, and the engine never writes it anywhere but into the PDFs' images. A
+      # pull request or another branch runs that branch's code, which must not be able to read the address or the
+      # token, and its build is never published, so it needs neither.
+      - name: Build the site
+        env:
+          RESUME_CONTACT_EMAIL: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/master' && secrets.CV_EMAIL || '' }}
+          RESUME_ANALYTICS_TOKEN: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/master' && secrets.CF_WEB_ANALYTICS_TOKEN || '' }}
+          REQUIRE_EMAIL: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/master' && 'true' || 'false' }}
+        run: |
+          arguments=(--content content --output site --clean)
+          if [ "$REQUIRE_EMAIL" = "true" ]; then arguments+=(--require-email); fi
+          dotnet build/AndorCv.Build.dll "${arguments[@]}"
+      - name: Configure Pages
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - name: Upload the site
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: site
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Decision: deploy only while this run's commit is still master's head.
+      # Why: runs wait for each other in the concurrency group, but GitHub does not promise that they start in push
+      # order, so an older build could otherwise go live after a newer one.
+      - name: Check that the commit is master's head
+        id: head
+        run: |
+          head=$(git ls-remote "https://github.com/${{ github.repository }}" refs/heads/master | cut -f1)
+          if [ "$head" = "${{ github.sha }}" ]; then echo "current=true" >> "$GITHUB_OUTPUT"; else echo "::notice::master moved on to $head; skipping the deploy of ${{ github.sha }}."; fi
+      - name: Deploy
+        id: deployment
+        if: steps.head.outputs.current == 'true'
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

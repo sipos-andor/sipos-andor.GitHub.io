@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AndorCv.Build/AndorCv.Build.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AndorCv.Content.Tests/AndorCv.Content.Tests.csproj" />
+  </Folder>
+</Solution>
