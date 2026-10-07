@@ -1,0 +1,583 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Andor Sípos",
+    "label": "Founder, Technical Lead & Software Architect",
+    "phone": "+36 30 903 6622",
+    "url": "https://andor.sipos.io/",
+    "summary": "Software architect and technical lead with 13+ years of experience building business .NET systems. As founder and technical lead of operandor, he designs the structure of each solution, coordinates the developers' work and writes code himself. He is at home in large, long-lived codebases and modernises them step by step into a modular structure while they stay in production. Recent work combines .NET and Azure with AI-assisted workflows, from Azure OpenAI document extraction to an MCP server for coding agents, alongside TypeScript/React front ends.",
+    "location": {
+      "region": "Europe",
+      "x-label": "Remote from Europe"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "sipos-andor",
+        "url": "https://github.com/sipos-andor"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "sipos-andor",
+        "url": "https://www.linkedin.com/in/sipos-andor"
+      }
+    ],
+    "x-givenName": "Andor",
+    "x-familyName": "Sípos",
+    "x-tagline": ".NET, Azure AI & TypeScript/React",
+    "x-contact": {
+      "url": "https://operandor.io/contact?intent=general&service=senior-capacity&source=andor-cv",
+      "label": "Get in touch via operandor"
+    },
+    "x-availability": {
+      "status": "available",
+      "url": "https://operandor.io/senior-capacity",
+      "label": "Available now"
+    }
+  },
+  "work": [
+    {
+      "x-id": "operandor",
+      "name": "operandor",
+      "description": "formerly a sole proprietorship",
+      "position": "Founder, Technical Lead & Software Architect",
+      "url": "https://operandor.io/",
+      "location": "Remote",
+      "startDate": "2022-11",
+      "summary": "Software development business that builds custom business applications, connects and modernises existing systems, and automates repetitive work, bringing in AI where the task and the data make it worthwhile. Its services are custom software development, system integration, taking over an existing system, system modernisation, AI-assisted workflow automation and senior developer capacity; its own product, rovatix, extracts data from documents.",
+      "highlights": [
+        "Leads the technical work: designs the structure of each solution, coordinates the developers and takes part in development and technical reviews.",
+        "Works remotely with clients' existing teams, agreeing tasks, availability and responsibilities before the work starts, and brings in experienced developers he has worked with before for larger pieces of work.",
+        "Leads the development of rovatix, which reads data from PDFs, scanned documents and photos and, after a human check, passes it on in an agreed format; it is offered as a demo and an agreed pilot.",
+        "Built operandor.io, a four-language website, with Blazor WebAssembly and an Azure Functions API following Clean Architecture, tested with xUnit and deployed to Azure Static Web Apps through GitHub Actions."
+      ],
+      "x-keywords": [
+        "C#",
+        ".NET",
+        "ASP.NET Core",
+        "Entity Framework",
+        "LINQ",
+        "SQL Server",
+        "Azure SQL",
+        "Azure",
+        "Azure Functions",
+        "Azure Service Bus",
+        "Azure Static Web Apps",
+        "Azure OpenAI",
+        "Azure DevOps",
+        "GitHub Actions",
+        "Git",
+        "Blazor",
+        "CSS",
+        "xUnit",
+        "Clean Architecture",
+        "Modular monolith",
+        "GitHub Copilot",
+        "Claude",
+        "Cursor"
+      ],
+      "x-short": true,
+      "x-shortHighlights": 2,
+      "x-focus": ["architect", "tech-lead", "ai-assisted", "senior-dotnet"]
+    },
+    {
+      "x-id": "allwin",
+      "name": "ALLWIN Informatika Kft.",
+      "position": "Senior Software Engineer",
+      "startDate": "2015-03",
+      "endDate": "2022-11",
+      "summary": "Consultancy delivery across eCommerce, GIS, public sector and R&D projects, with lead engineer and architect responsibilities from 2021.",
+      "highlights": [
+        "Took on lead engineer and architect responsibilities from 2021.",
+        "Delivered projects for a large enterprise, the public sector, an international vessel-tracking client and a German gaming company, plus an R&D project from a winning tender."
+      ],
+      "x-keywords": [
+        "C#",
+        ".NET",
+        "ASP.NET",
+        "Entity Framework",
+        "WPF",
+        "SQL Server",
+        "JavaScript",
+        "jQuery",
+        "Azure"
+      ],
+      "x-short": true,
+      "x-shortHighlights": 2,
+      "x-focus": ["architect", "senior-dotnet"]
+    },
+    {
+      "x-id": "grape-solutions",
+      "name": "Grape Solutions Kft.",
+      "position": "Junior Software Engineer",
+      "startDate": "2014-07",
+      "endDate": "2015-02",
+      "highlights": [
+        "Worked on a hospital BI system built to Hungarian regulatory requirements, including MOLAP cube construction, KPI definition and a web portal for data upload and visualisation.",
+        "Developed an internal portal for an international pharmaceutical company to manage active substances.",
+        "Developed a website for an international hunting association documenting game records."
+      ],
+      "x-keywords": [
+        "C#",
+        ".NET",
+        "ASP.NET MVC",
+        "SQL Server",
+        "Entity Framework",
+        "Kendo UI",
+        "Excel Power Pivot"
+      ]
+    },
+    {
+      "x-id": "regatta-2013",
+      "name": "Regatta Project Kft.",
+      "position": "Junior Software Engineer",
+      "startDate": "2013-04",
+      "endDate": "2014-07",
+      "highlights": [
+        "Developed multi-layered manufacturing tracking software for a ceramics manufacturer.",
+        "Developed bespoke multi-layered ERP and stock management software for an international quality assurance company."
+      ],
+      "x-keywords": [
+        "C#",
+        ".NET",
+        "Windows Forms",
+        "DevExpress",
+        "SQL Server",
+        "Entity Framework"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "x-id": "lightbloom-modular-modernisation",
+      "x-work": "operandor",
+      "name": "Modernisation of a mortgage and property transaction platform",
+      "entity": "Lightbloom",
+      "roles": ["Lead software engineer & architect"],
+      "startDate": "2025-08",
+      "endDate": "2026-05",
+      "description": "Business-critical platform used by lenders and law firms to manage mortgage and property transaction processes, including complex panel and workflow processes. Responsible for modernising the codebase and for architectural direction, with scalability, compliance and transparency as the driving constraints; played a key role in defining the development strategy and in selecting team members.",
+      "highlights": [
+        "Reshaped a tightly coupled .NET Framework system, built on WCF and stored procedures, step by step into modular monoliths with Clean Architecture while it stayed in production throughout.",
+        "Delivered a reusable access-control module, later adopted by three of the client's other products, and a reporting module fed by Azure Data Factory; the two modules were then used to build a new product.",
+        "Delivered an Azure Functions service that used Azure OpenAI to extract structured data from uploaded documents as JSON and persist it directly in the production database.",
+        "Built an internal MCP server that lets AI coding agents retrieve relevant codebase and project context from work item descriptions, using lexical, domain-specific retrieval tuned to the project's terminology.",
+        "Introduced a testing framework covering the full testing pyramid, with unit, integration and end-to-end tests accompanying both the modernisation and new features.",
+        "Owned design and code reviews, mentored engineers and onboarded new joiners onto the large legacy codebase as the team grew from 3 to 7–8 people.",
+        "Handled escalated production issues on the business-critical system, from investigation through root cause analysis to remediation.",
+        "Used GitHub Copilot, Claude and Cursor daily as part of the team's development workflow."
+      ],
+      "keywords": [
+        "C#",
+        ".NET",
+        "ASP.NET Core",
+        "Razor Pages",
+        "WCF",
+        "SQL Server",
+        "T-SQL",
+        "Azure",
+        "Azure App Service",
+        "Azure Key Vault",
+        "Azure Functions",
+        "Azure OpenAI",
+        "Azure Data Factory",
+        "MCP",
+        "Clean Architecture",
+        "Modular monolith",
+        "GitHub Copilot",
+        "Claude",
+        "Cursor"
+      ],
+      "x-short": true,
+      "x-shortHighlights": 3,
+      "x-focus": ["architect", "tech-lead", "ai-assisted"]
+    },
+    {
+      "x-id": "supercharge-insurance-saas",
+      "x-work": "operandor",
+      "name": "Insurance agency management SaaS",
+      "entity": "Supercharge",
+      "roles": ["Lead software engineer"],
+      "startDate": "2024-10",
+      "endDate": "2025-05",
+      "description": "SaaS product for smaller insurance agencies, covering lead and opportunity management, carrier communication and accounting support, designed to scale as an agency grows.",
+      "highlights": [
+        "Built a feasibility demo of the product for a prospective enterprise client."
+      ],
+      "keywords": [
+        "C#",
+        ".NET",
+        "WPF",
+        "SQL Server",
+        "Azure"
+      ],
+      "x-short": true,
+      "x-shortHighlights": 1,
+      "x-focus": ["tech-lead", "senior-dotnet"]
+    },
+    {
+      "x-id": "regatta-lab-test-reports",
+      "x-work": "operandor",
+      "name": "Test reports for an accredited laboratory",
+      "entity": "Regatta Project Kft.",
+      "roles": ["Software engineer"],
+      "startDate": "2023-03",
+      "endDate": "2023-05",
+      "description": "A .NET application that helped an accredited materials testing laboratory prepare its test records and reports.",
+      "highlights": [
+        "Developed test record and report features in .NET with DevExpress on a SQL Server database."
+      ],
+      "keywords": [
+        ".NET",
+        "DevExpress",
+        "SQL Server"
+      ],
+      "x-short": true,
+      "x-shortHighlights": 1,
+      "x-focus": ["senior-dotnet"]
+    },
+    {
+      "x-id": "agco-supplier-reporting",
+      "x-work": "operandor",
+      "name": "Supplier reporting platform",
+      "entity": "AGCO Corporation",
+      "roles": ["Full-stack engineer, then tech lead"],
+      "startDate": "2022-11",
+      "endDate": "2024-09",
+      "description": "Internal supply chain BI platform for an international manufacturer, surfacing the organisation's main KPIs on a dashboard: decision-makers and business leaders saw in one place how suppliers confirmed forecasts and how this affected production.",
+      "highlights": [
+        "Owned technical delivery across back end, front end and deployment, first as full-stack engineer and then as tech lead of a distributed team of 3–4 people.",
+        "Built and maintained the TypeScript/React/MUI front end consuming the BI dashboard's APIs, where leaders filtered figures by business unit, region and supplier and compared successive forecasts part by part.",
+        "Worked on an ASP.NET Core monolith following Clean Architecture, with AWS Lambda functions loading supplier data into a PostgreSQL star schema for the reports.",
+        "Owned CI/CD across Azure DevOps and GitHub Actions, with containerised deployment on Docker and Kubernetes.",
+        "Provided technical guidance and code review for the engineering team across several time zones."
+      ],
+      "keywords": [
+        "C#",
+        ".NET",
+        "ASP.NET Core",
+        "REST APIs",
+        "PostgreSQL",
+        "TypeScript",
+        "React",
+        "MUI",
+        "AWS",
+        "AWS Lambda",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "Azure DevOps",
+        "Clean Architecture"
+      ],
+      "x-short": true,
+      "x-shortHighlights": 2,
+      "x-focus": ["tech-lead"]
+    },
+    {
+      "x-id": "allwin-nopcommerce",
+      "x-work": "allwin",
+      "name": "Plugin-based eCommerce solution on nopCommerce",
+      "roles": ["Architect and lead engineer"],
+      "description": "Online store built on the nopCommerce open-source platform.",
+      "highlights": [
+        "Extended a large third-party .NET codebase through nopCommerce's plugin architecture, without forking it or changing the core application's source code."
+      ],
+      "keywords": [
+        "C#",
+        ".NET",
+        "ASP.NET",
+        "SQL Server",
+        "HTML",
+        "JavaScript",
+        "nopCommerce"
+      ],
+      "x-focus": ["architect"]
+    },
+    {
+      "x-id": "allwin-service-management",
+      "x-work": "allwin",
+      "name": "Service management system",
+      "roles": ["Engineer responsible for the whole system"],
+      "description": "Flexible service management system covering the full business process from quote to after-sales service.",
+      "highlights": [
+        "Fitted the application to how the client operated, supporting the process from the quote to the paperwork after the service work."
+      ],
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "Knockout",
+        "jQuery",
+        "SQL Server",
+        "C#",
+        ".NET",
+        "Azure"
+      ],
+      "x-focus": ["senior-dotnet"]
+    },
+    {
+      "x-id": "allwin-public-sector-app",
+      "x-work": "allwin",
+      "name": "Government business application",
+      "description": "Multi-layer business application for the public sector.",
+      "keywords": [
+        "C#",
+        ".NET",
+        "Entity Framework",
+        "WPF",
+        "ASP.NET",
+        "HTML",
+        "JavaScript",
+        "jQuery",
+        "SQL Server"
+      ]
+    },
+    {
+      "x-id": "allwin-vessel-tracking",
+      "x-work": "allwin",
+      "name": "Ship navigation and vessel tracking software",
+      "description": "Ship navigation and vessel tracking software for an international client.",
+      "keywords": [
+        "C#",
+        ".NET",
+        "Entity Framework",
+        "WPF",
+        "ASP.NET",
+        "SQL Server",
+        "Telerik UI",
+        "ArcGIS"
+      ]
+    },
+    {
+      "x-id": "allwin-ui-test-suite",
+      "x-work": "allwin",
+      "name": "Automated UI test suite",
+      "description": "Automated UI test suite for the website of a German gaming company.",
+      "highlights": [
+        "Built a full UI regression suite from scratch."
+      ],
+      "keywords": [
+        ".NET",
+        "C#",
+        "xUnit",
+        "NUnit",
+        "Selenium"
+      ]
+    },
+    {
+      "x-id": "allwin-image-annotator",
+      "x-work": "allwin",
+      "name": "Intelligent Image Object Annotator",
+      "description": "R&D project from a winning tender: a tool for annotating objects in images.",
+      "keywords": [
+        "C#",
+        ".NET",
+        "Python",
+        "Jupyter",
+        "CNTK",
+        "Azure",
+        "Docker",
+        "Kubernetes"
+      ],
+      "x-focus": ["ai-assisted"]
+    },
+    {
+      "x-id": "allwin-permission-management",
+      "x-work": "allwin",
+      "name": "Performance and permission management system",
+      "description": "Performance and permission management system for a large enterprise.",
+      "keywords": [
+        "C#",
+        ".NET",
+        "ASP.NET",
+        "JavaScript",
+        "jQuery",
+        "SQL Server",
+        "SharePoint"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Polytechnic School of Engineering, Subotica",
+      "area": "Internet and Electronic Management",
+      "studyType": "BSc",
+      "endDate": "2012"
+    },
+    {
+      "institution": "ELTE Summer University / Microsoft Summer School",
+      "area": "Advanced C# and XNA game development",
+      "studyType": "Summer school",
+      "endDate": "2011"
+    },
+    {
+      "institution": "Microsoft Summer School",
+      "area": "Web development: Silverlight, ASP.NET, SQL Server",
+      "studyType": "Summer school",
+      "endDate": "2010"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Programming in C# (exam 70-483)",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "DAT236x: Deep Learning Explained",
+      "issuer": "edX",
+      "date": "2017"
+    }
+  ],
+  "awards": [
+    {
+      "title": "2nd place, CEE IoT Hackathon Hungary",
+      "date": "2016",
+      "awarder": "CEE IoT Hackathon Hungary",
+      "summary": "With Team ALLWIN."
+    },
+    {
+      "title": "National finals, Imagine Cup 2012",
+      "date": "2012",
+      "awarder": "Microsoft",
+      "summary": "Plant recognition system."
+    },
+    {
+      "title": "Creativity award and Nuance-Recognita Zrt. special prize",
+      "date": "2012",
+      "awarder": "Óbuda University, 32nd Scientific Students' Conference (TDK)"
+    }
+  ],
+  "skills": [
+    { "name": ".NET platform", "level": "Expert", "x-rating": 5, "keywords": ["C#", ".NET", "ASP.NET Core", "ASP.NET MVC", "LINQ"] },
+    { "name": ".NET platform", "level": "Advanced", "x-rating": 4, "keywords": ["Razor Pages", "Entity Framework", "WCF", "WPF", "Windows Forms"] },
+    { "name": ".NET platform", "level": "Proficient", "x-rating": 3, "keywords": ["Blazor", ".NET MAUI"] },
+    { "name": "AI-assisted development", "level": "Advanced", "x-rating": 4, "keywords": ["GitHub Copilot", "Claude", "Cursor"] },
+    { "name": "AI-assisted development", "level": "Proficient", "x-rating": 3, "keywords": ["Azure OpenAI", "MCP"] },
+    { "name": "Architecture & practices", "level": "Advanced", "x-rating": 4, "keywords": ["Clean Architecture", "Modular monolith", "REST APIs"] },
+    { "name": "Databases & data access", "level": "Advanced", "x-rating": 4, "keywords": ["SQL Server", "T-SQL"] },
+    { "name": "Databases & data access", "level": "Proficient", "x-rating": 3, "keywords": ["Azure SQL", "Dapper"] },
+    { "name": "Databases & data access", "level": "Basic", "x-rating": 2, "keywords": ["PostgreSQL"] },
+    { "name": "Front end & UI libraries", "level": "Advanced", "x-rating": 4, "keywords": ["HTML", "Telerik UI", "Kendo UI"] },
+    { "name": "Front end & UI libraries", "level": "Proficient", "x-rating": 3, "keywords": ["TypeScript", "JavaScript", "React", "CSS", "jQuery", "MUI", "DevExpress"] },
+    { "name": "Cloud & platforms", "level": "Expert", "x-rating": 5, "keywords": ["nopCommerce"] },
+    { "name": "Cloud & platforms", "level": "Advanced", "x-rating": 4, "keywords": ["Azure", "Azure App Service", "Azure Static Web Apps"] },
+    { "name": "Cloud & platforms", "level": "Proficient", "x-rating": 3, "keywords": ["Azure Functions", "Azure Key Vault", "SharePoint"] },
+    { "name": "Cloud & platforms", "level": "Basic", "x-rating": 2, "keywords": ["Azure Service Bus", "AWS"] },
+    { "name": "DevOps, CI/CD & testing", "level": "Advanced", "x-rating": 4, "keywords": ["Azure DevOps", "GitHub Actions", "Git", "xUnit"] },
+    { "name": "DevOps, CI/CD & testing", "level": "Proficient", "x-rating": 3, "keywords": ["Docker", "Kubernetes", "Playwright", "Selenium", "NUnit"] },
+    { "name": "Other languages & runtimes", "level": "Basic", "x-rating": 2, "keywords": ["Python", "Node.js"] },
+    { "name": "Leadership", "level": "Advanced", "x-rating": 4, "keywords": ["Technical leadership", "Code review", "Mentoring"] }
+  ],
+  "languages": [
+    { "language": "Hungarian", "fluency": "Native" },
+    { "language": "English", "fluency": "Fluent, professional working proficiency" },
+    { "language": "Serbian", "fluency": "Basic" },
+    { "language": "Croatian", "fluency": "Basic" }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "lastModified": "2026-10-07",
+    "x-ogLocale": "en_GB"
+  },
+  "x-strengths": [
+    {
+      "id": "legacy-modernisation",
+      "title": "Modernisation without stopping production",
+      "summary": "Reshapes large, tightly coupled .NET systems step by step into modular monoliths with Clean Architecture while they stay in production, most recently a .NET Framework, WCF and stored-procedure platform used by lenders and law firms.",
+      "short": true,
+      "focus": ["architect", "senior-dotnet"]
+    },
+    {
+      "id": "technical-leadership",
+      "title": "Technical leadership of small remote teams",
+      "summary": "Designs the structure of the solution, coordinates developers, runs design and code reviews, mentors and onboards engineers, and acts as the primary technical contact for client stakeholders, most recently in a team that grew from 3 to 7–8 people.",
+      "short": true,
+      "focus": ["tech-lead"]
+    },
+    {
+      "id": "modular-design",
+      "title": "Clean Architecture and modular design",
+      "summary": "Starts new systems from a clean, modular design with clear module boundaries, and builds modules that other products can reuse, such as an access-control module adopted by three further products.",
+      "short": false,
+      "focus": ["architect"]
+    },
+    {
+      "id": "ai-assisted-development",
+      "title": "AI-assisted development and document processing",
+      "summary": "Uses GitHub Copilot, Claude and Cursor daily, built an MCP server that gives coding agents codebase and project context, and delivered Azure OpenAI-based extraction of structured data from documents into a production database.",
+      "short": true,
+      "focus": ["ai-assisted"]
+    },
+    {
+      "id": "full-stack-delivery",
+      "title": "Full-stack .NET and TypeScript/React delivery",
+      "summary": "Delivers end to end with C#, ASP.NET Core, Entity Framework and SQL Server or PostgreSQL on the back end, TypeScript, React and MUI on the front end, and CI/CD through Azure DevOps or GitHub Actions to Azure, AWS and Kubernetes.",
+      "short": false,
+      "focus": ["tech-lead", "senior-dotnet"]
+    },
+    {
+      "id": "root-cause-debugging",
+      "title": "Root-cause debugging in long-lived codebases",
+      "summary": "Investigates complex defects and escalated production issues in large, long-lived codebases, traces them back to their root cause, and pragmatically removes the technical debt and single points of failure behind them.",
+      "short": true,
+      "focus": ["senior-dotnet"]
+    }
+  ],
+  "x-focusProfiles": [
+    {
+      "id": "architect",
+      "label": "Software architect",
+      "summary": "Software architect with 13+ years of experience building business .NET systems, who sets the structure of a solution and then helps build it. He reshapes large, long-lived codebases step by step into modular monoliths with Clean Architecture while they stay in production, and designs modules other products can reuse, such as an access-control module adopted by three of them. Scalability, compliance and maintainability drive his decisions on Azure.",
+      "skills": ["Clean Architecture", "Modular monolith", "C#", ".NET", "ASP.NET Core", "Azure", "Azure Functions", "SQL Server", "WCF", "REST APIs"]
+    },
+    {
+      "id": "tech-lead",
+      "label": ".NET tech lead / full-stack",
+      "summary": "Technical lead and full-stack .NET engineer with 13+ years of experience, who leads small, distributed teams while writing code himself. He owns technical delivery from design and code reviews to CI/CD and production support, and onboards engineers onto large, unfamiliar codebases. He delivers C# and ASP.NET Core back ends with TypeScript/React front ends.",
+      "skills": ["C#", "ASP.NET Core", "TypeScript", "React", "MUI", "SQL Server", "PostgreSQL", "Azure DevOps", "GitHub Actions", "Docker", "Kubernetes", "Technical leadership"]
+    },
+    {
+      "id": "ai-assisted",
+      "label": "AI-assisted development",
+      "summary": "Senior .NET engineer with 13+ years of experience who builds AI into both the product and the development workflow. He delivered an Azure OpenAI-based service that extracts structured data from documents into a production database, built an MCP server that gives AI coding agents codebase and project context, and uses GitHub Copilot, Claude and Cursor daily. At operandor he brings this to AI-assisted workflow automation and to rovatix, a document data extraction product.",
+      "skills": ["Azure OpenAI", "MCP", "GitHub Copilot", "Claude", "Cursor", "Azure Functions", "C#", ".NET", "Azure"]
+    },
+    {
+      "id": "senior-dotnet",
+      "label": "Senior .NET developer (capacity)",
+      "summary": "Senior .NET developer with 13+ years of experience building business systems, available to join an existing team remotely. He is at home in large, long-lived codebases, from WCF, WPF and Windows Forms to ASP.NET Core and Azure, and traces production failures back to their root cause. Tasks, availability and responsibilities are agreed before the work starts.",
+      "skills": ["C#", ".NET", "ASP.NET Core", "Entity Framework", "LINQ", "SQL Server", "T-SQL", "WCF", "WPF", "Azure", "Azure DevOps"]
+    }
+  ],
+  "x-aliases": {
+    "C#": ["csharp", "c sharp"],
+    ".NET": ["dotnet", "dot net", ".NET Core", ".NET Framework"],
+    "ASP.NET Core": ["aspnetcore", "ASP.NET Core MVC", "ASP.NET Core Web API"],
+    "Entity Framework": ["EF", "EF Core", "Entity Framework Core", "EF6"],
+    "SQL Server": ["MSSQL", "MS SQL", "MS SQL Server", "Microsoft SQL Server"],
+    "T-SQL": ["TSQL", "Transact-SQL"],
+    "PostgreSQL": ["Postgres"],
+    "Azure": ["Microsoft Azure"],
+    "Azure OpenAI": ["Azure OpenAI Service"],
+    "Azure Functions": ["Azure Function", "Function Apps"],
+    "Azure App Service": ["App Service", "Azure Web Apps"],
+    "Azure Key Vault": ["Key Vault"],
+    "Azure Service Bus": ["Service Bus"],
+    "Azure Data Factory": ["ADF"],
+    "Azure DevOps": ["Azure Pipelines", "VSTS"],
+    "AWS": ["Amazon Web Services"],
+    "Kubernetes": ["k8s"],
+    "MCP": ["Model Context Protocol", "MCP server"],
+    "GitHub Copilot": ["Copilot"],
+    "TypeScript": ["TS"],
+    "JavaScript": ["JS", "ECMAScript"],
+    "React": ["React.js", "ReactJS"],
+    "MUI": ["Material UI", "Material-UI"],
+    "Node.js": ["NodeJS"],
+    "Windows Forms": ["WinForms"],
+    "Kendo UI": ["Telerik Kendo UI"],
+    "Telerik UI": ["Telerik", "Telerik DevTools"],
+    "Blazor": ["Blazor WebAssembly", "Blazor WASM"],
+    "REST APIs": ["REST", "REST API", "RESTful API", "Web API"],
+    "Modular monolith": ["modular monoliths"]
+  }
+}

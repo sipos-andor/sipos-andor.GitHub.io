@@ -1,0 +1,8 @@
+{
+  "origin": "https://andor.sipos.io",
+  "defaultLanguage": "en",
+  "languageOrder": ["hu", "hr", "sr-Latn"],
+  "downloadPrefix": "Andor_Sipos_CV",
+  "themeStorageKey": "andor-cv-theme",
+  "languageStorageKey": "andor-cv-language"
+}
