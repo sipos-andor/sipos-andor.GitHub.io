@@ -27,10 +27,13 @@ else does.
 
 ## Building locally
 
-The engine and the design system are GitHub Packages; add a personal access token with `read:packages` once:
+The engine and the design system are GitHub Packages, which need a token even to read. Give NuGet a personal access
+token with `read:packages` through an environment variable, so it is never written into `nuget.config` or any other
+file of the repository (read the token without echoing it, so it stays out of the shell history):
 
 ```sh
-dotnet nuget update source github --username <you> --password <token> --store-password-in-clear-text --configfile nuget.config
+read -rs GITHUB_PACKAGES_TOKEN
+export NuGetPackageSourceCredentials_github="Username=<you>;Password=$GITHUB_PACKAGES_TOKEN"
 dotnet test AndorCv.slnx
 dotnet publish src/AndorCv.Build -c Release -o build
 dotnet build/AndorCv.Build.dll --content content --output site --clean
