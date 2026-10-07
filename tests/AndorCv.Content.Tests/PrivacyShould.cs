@@ -9,14 +9,18 @@ namespace AndorCv.Content.Tests;
 /// </summary>
 public class PrivacyShould
 {
-    private static readonly string[] TextExtensions = [".json", ".md", ".cs", ".csproj", ".props", ".targets", ".slnx", ".yml", ".yaml", ".config", ".txt", ".editorconfig", ".gitignore", ""];
+    // Decision: every file is scanned, whatever its extension, unless its first bytes show it is binary (a NUL byte).
+    // Why: an allow-list of text extensions misses the file type nobody thought of; a source file, a script or an SVG
+    // can carry an address as well as a JSON file.
+    private static List<string> TextFiles() =>
+        [.. Repository.Files().Where(file => !IsBinary(file))];
 
     [Fact]
     public void KeepEveryAddressOutOfRepository()
     {
-        var files = Repository.Files().Where(file => TextExtensions.Contains(Path.GetExtension(file))).ToList();
+        var files = TextFiles();
 
-        files.ShouldNotBeEmpty();
+        files.ShouldContain(file => file.EndsWith("resume.en.json", StringComparison.Ordinal));
         files.Where(file => EmailGuard.ContainsAddress(File.ReadAllText(file, Encoding.UTF8))).Select(file => Path.GetRelativePath(Repository.Root, file)).ShouldBeEmpty();
     }
 
@@ -27,8 +31,7 @@ public class PrivacyShould
     {
         var domain = string.Join('.', "sipos", "ws");
 
-        Repository.Files().Where(file => TextExtensions.Contains(Path.GetExtension(file)) && File.ReadAllText(file).Contains(domain, StringComparison.OrdinalIgnoreCase))
-            .ShouldBeEmpty();
+        TextFiles().Where(file => File.ReadAllText(file).Contains(domain, StringComparison.OrdinalIgnoreCase)).ShouldBeEmpty();
     }
 
     [Fact]
@@ -38,5 +41,13 @@ public class PrivacyShould
         {
             File.ReadAllText(file).ShouldNotContain("\"email\"", Case.Insensitive, Path.GetFileName(file));
         }
+    }
+
+    private static bool IsBinary(string file)
+    {
+        Span<byte> head = stackalloc byte[8000];
+        using var stream = File.OpenRead(file);
+        var read = stream.Read(head);
+        return head[..read].Contains((byte)0);
     }
 }
