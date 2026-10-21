@@ -376,10 +376,11 @@
   ],
   "education": [
     {
-      "institution": "Polytechnic School of Engineering, Subotica",
-      "area": "Internet and Electronic Management",
-      "studyType": "BSc",
-      "endDate": "2012"
+      "institution": "Subotica Tech – College of Applied Sciences",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "BSc (Applied)",
+      "startDate": "2008",
+      "endDate": "2011"
     },
     {
       "institution": "ELTE Summer University / Microsoft Summer School",

@@ -376,10 +376,11 @@
   ],
   "education": [
     {
-      "institution": "Visoka tehnička škola strukovnih studija u Subotici",
-      "area": "Internet i elektronički menadžment",
-      "studyType": "Prvostupnik (BSc)",
-      "endDate": "2012"
+      "institution": "Visoka tehnička škola strukovnih studija u Subotici (Subotica Tech)",
+      "area": "Elektrotehnika i računarstvo",
+      "studyType": "Stručni prvostupnik (BSc)",
+      "startDate": "2008",
+      "endDate": "2011"
     },
     {
       "institution": "ELTE Summer University / Microsoft Summer School",

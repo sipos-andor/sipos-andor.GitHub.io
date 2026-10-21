@@ -376,10 +376,11 @@
   ],
   "education": [
     {
-      "institution": "Szabadkai Műszaki Szakfőiskola",
-      "area": "Internet és elektronikus menedzsment",
-      "studyType": "BSc",
-      "endDate": "2012"
+      "institution": "Szabadkai Műszaki Szakfőiskola (Subotica Tech)",
+      "area": "Villamosmérnöki és számítástechnika",
+      "studyType": "BSc (alkalmazott)",
+      "startDate": "2008",
+      "endDate": "2011"
     },
     {
       "institution": "ELTE Summer University / Microsoft Summer School",
