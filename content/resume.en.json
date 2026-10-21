@@ -425,6 +425,11 @@
       "awarder": "Óbuda University, 32nd Scientific Students' Conference (TDK)"
     }
   ],
+  "publications": [
+    {
+      "name": "Microsoft Windows 7 Pontról pontra"
+    }
+  ],
   "skills": [
     { "name": ".NET platform", "level": "Expert", "x-rating": 5, "keywords": ["C#", ".NET", "ASP.NET Core", "ASP.NET MVC", "LINQ"] },
     { "name": ".NET platform", "level": "Advanced", "x-rating": 4, "keywords": ["Razor Pages", "Entity Framework", "WCF", "WPF", "Windows Forms"] },
