@@ -50,7 +50,7 @@ public class FactsShould
         [
             ("Lightbloom", "2025-08", "2026-05"),
             ("Supercharge", "2024-10", "2025-05"),
-            ("Regatta Project Kft.", "2023-03", "2023-05"),
+            ("Regatta Project Kft.", "2024-02", "2024-05"),
             ("AGCO Corporation", "2022-11", "2024-09"),
         ]);
     }

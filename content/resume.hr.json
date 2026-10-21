@@ -221,8 +221,8 @@
       "name": "Izvješća o ispitivanju za akreditirani laboratorij",
       "entity": "Regatta Project Kft.",
       "roles": ["Programer"],
-      "startDate": "2023-03",
-      "endDate": "2023-05",
+      "startDate": "2024-02",
+      "endDate": "2024-05",
       "description": ".NET aplikacija koja je akreditiranom laboratoriju za ispitivanje materijala pomagala u izradi zapisnika o ispitivanjima i izvješća.",
       "highlights": [
         "Razvio funkcije za zapisnike o ispitivanjima i izvješća u .NET-u s DevExpressom, uz bazu podataka SQL Server."
