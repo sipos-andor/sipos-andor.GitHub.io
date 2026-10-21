@@ -302,6 +302,8 @@
         "JavaScript",
         "nopCommerce"
       ],
+      "x-short": true,
+      "x-shortHighlights": 1,
       "x-focus": ["architect"]
     },
     {
