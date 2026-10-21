@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Andor Sípos",
-    "label": "Osnivač, tehnički rukovodilac i softverski arhitekta",
+    "label": "Vlasnik i tehnički rukovodilac",
     "phone": "+36 30 903 6622",
     "url": "https://andor.sipos.io/sr/",
-    "summary": "Softverski arhitekta i tehnički rukovodilac sa 13+ godina iskustva u razvoju poslovnih .NET sistema. Kao osnivač i tehnički rukovodilac firme operandor projektuje strukturu svakog rešenja, usklađuje rad programera i sam piše kod. Dobro se snalazi u velikim kodnim bazama koje se razvijaju godinama i korak po korak ih prevodi na modularnu strukturu, dok sve vreme rade u produkciji. U novijim projektima spaja .NET i Azure sa radnim procesima uz podršku AI-ja, od izdvajanja podataka iz dokumenata pomoću Azure OpenAI-ja do MCP servera za agente za kodiranje, uz front-end u TypeScriptu i Reactu.",
+    "summary": "Softverski arhitekta i tehnički rukovodilac sa 13+ godina iskustva u razvoju poslovnih .NET sistema. Kao vlasnik i tehnički rukovodilac firme operandor projektuje strukturu svakog rešenja, usklađuje rad programera i sam piše kod. Dobro se snalazi u velikim kodnim bazama koje se razvijaju godinama i korak po korak ih prevodi na modularnu strukturu, dok sve vreme rade u produkciji. U novijim projektima spaja .NET i Azure sa radnim procesima uz podršku AI-ja, od izdvajanja podataka iz dokumenata pomoću Azure OpenAI-ja do MCP servera za agente za kodiranje, uz front-end u TypeScriptu i Reactu.",
     "location": {
       "region": "Evropa",
       "x-label": "Rad na daljinu iz Evrope"
@@ -39,11 +39,11 @@
     {
       "x-id": "operandor",
       "name": "operandor",
-      "description": "ranije preduzetnička radnja",
-      "position": "Osnivač, tehnički rukovodilac i softverski arhitekta",
+      "description": "preduzetnička radnja",
+      "position": "Vlasnik i tehnički rukovodilac",
       "url": "https://operandor.io/",
       "location": "Na daljinu",
-      "startDate": "2022-11",
+      "startDate": "2021-08",
       "summary": "Firma za razvoj softvera koja pravi poslovne aplikacije po meri, povezuje i modernizuje postojeće sisteme i automatizuje ponavljajuće zadatke, a AI uvodi tamo gde se to, s obzirom na zadatak i podatke, isplati. Njene usluge su razvoj softvera po meri, integracija sistema, preuzimanje postojećeg sistema, modernizacija sistema, automatizacija procesa uz podršku AI-ja i kapacitet senior programera, a sopstveni proizvod rovatix izdvaja podatke iz dokumenata.",
       "highlights": [
         "Vodi stručni rad: projektuje strukturu svakog rešenja, usklađuje rad programera i učestvuje u razvoju i tehničkim pregledima.",
@@ -83,13 +83,12 @@
     {
       "x-id": "allwin",
       "name": "ALLWIN Informatika Kft.",
-      "position": "Senior programer",
+      "position": "Programer",
       "startDate": "2015-03",
-      "endDate": "2022-11",
-      "summary": "Radio je na konsultantskim projektima iz oblasti e-trgovine, GIS-a, javnog sektora i istraživanja i razvoja, a od 2021. imao je i zaduženja vodećeg programera i arhitekte.",
+      "endDate": "2021-08",
+      "summary": "Radio je na konsultantskim projektima iz oblasti GIS-a, javnog sektora i istraživanja i razvoja.",
       "highlights": [
-        "Preuzeo je zaduženja vodećeg programera i arhitekte od 2021. godine.",
-        "Realizovao je projekte za veliko preduzeće, javni sektor, međunarodnog klijenta iz oblasti praćenja plovila i nemačku gejming kompaniju, kao i istraživačko-razvojni projekat dobijen na konkursu."
+        "Realizovao je projekte za veliko preduzeće, javni sektor i međunarodnog klijenta iz oblasti praćenja plovila, kao i istraživačko-razvojni projekat dobijen na konkursu."
       ],
       "x-keywords": [
         "C#",
@@ -103,13 +102,13 @@
         "Azure"
       ],
       "x-short": true,
-      "x-shortHighlights": 2,
-      "x-focus": ["architect", "senior-dotnet"]
+      "x-shortHighlights": 1,
+      "x-focus": ["senior-dotnet"]
     },
     {
       "x-id": "grape-solutions",
       "name": "Grape Solutions Kft.",
-      "position": "Junior programer",
+      "position": "Junior .NET programer",
       "startDate": "2014-07",
       "endDate": "2015-02",
       "highlights": [
@@ -130,7 +129,7 @@
     {
       "x-id": "regatta-2013",
       "name": "Regatta Project Kft.",
-      "position": "Junior programer",
+      "position": ".NET programer",
       "startDate": "2013-04",
       "endDate": "2014-07",
       "highlights": [
@@ -156,22 +155,26 @@
       "roles": ["Vodeći programer i arhitekta"],
       "startDate": "2025-08",
       "endDate": "2026-05",
-      "description": "Poslovno kritična platforma koju zajmodavci i advokatske kancelarije koriste za vođenje hipotekarnih poslova i transakcija nekretninama, uključujući složene procese upravljanja panelima i radnim tokovima. Bio je odgovoran za modernizaciju kodne baze i arhitektonski pravac, pri čemu su skalabilnost, usklađenost sa propisima i transparentnost bili presudni zahtevi; imao je ključnu ulogu u definisanju strategije razvoja i u izboru članova tima.",
+      "description": "Poslovno kritična platforma koju zajmodavci i advokatske kancelarije koriste za vođenje hipotekarnih poslova i transakcija nekretninama, uključujući složene procese upravljanja panelima i radnim tokovima. Modernizovana platforma je višemodularni poslovni sistem izgrađen na .NET-u 10 i Blazoru po principima Clean Architecture, koji obuhvata najmanje šest međusobno povezanih repozitorijuma i proizvoda. Bio je odgovoran za modernizaciju kodne baze i arhitektonski pravac, pri čemu su skalabilnost, usklađenost sa propisima i transparentnost bili presudni zahtevi; imao je ključnu ulogu u definisanju strategije razvoja i u izboru članova tima.",
       "highlights": [
-        "Preoblikovao je korak po korak čvrsto povezan .NET Framework sistem, zasnovan na WCF-u i uskladištenim procedurama, u modularne monolite po principima Clean Architecture, bez prekida rada u produkciji.",
+        "Preoblikovao je korak po korak čvrsto povezan .NET Framework sistem, zasnovan na WCF-u i uskladištenim procedurama, u modularne monolite na .NET-u 10 po principima Clean Architecture, CQRS-a i vertical slice arhitekture, uz migraciju starih WCF servisa po obrascu Strangler Fig, bez prekida rada u produkciji.",
         "Isporučio je višekratno upotrebljiv modul za upravljanje ovlašćenjima, kasnije uveden i u tri druga proizvoda klijenta, kao i modul za izveštavanje sa učitavanjem podataka pomoću Azure Data Factoryja; na ta dva modula zatim je razvijen novi proizvod.",
         "Isporučio je Azure Functions servis koji je pomoću Azure OpenAI-ja izdvajao strukturirane podatke iz otpremljenih dokumenata u JSON formatu i upisivao ih direktno u produkcionu bazu podataka.",
         "Napravio je interni MCP server koji AI agentima za kodiranje omogućava da na osnovu opisa radnih stavki pronađu relevantan kontekst iz kodne baze i projekta, uz leksičku pretragu specifičnu za domen, podešenu prema terminologiji projekta.",
+        "Osmislio je integraciju modula Platform directory na nivou cele platforme i uspostavio referentne implementacije kao meru usklađenosti sa arhitekturom.",
         "Uveo je okvir za testiranje koji pokriva celu piramidu testiranja, sa jediničnim, integracionim i end-to-end testovima koji su pratili i modernizaciju i nove funkcije.",
-        "Vodio je preglede dizajna i koda, mentorisao programere i uvodio nove članove tima u veliku nasleđenu kodnu bazu dok je tim rastao sa 3 na 7–8 osoba.",
+        "Vodio je nadogradnje .NET-a, CI/CD procese, infrastrukturu za funkcionalno testiranje i sveobuhvatnu dokumentaciju.",
+        "Pregledao je sve pull requestove tima, vodio preglede dizajna, sprovodio detaljne revizije repozitorijuma i definisao tehničke standarde za celu platformu.",
+        "Mentorisao je programere i uvodio nove članove tima u veliku nasleđenu kodnu bazu dok je tim rastao sa 3 na 7–8 osoba.",
         "Rešavao je eskalirane probleme u produkciji poslovno kritičnog sistema, od ispitivanja, preko analize osnovnog uzroka, do otklanjanja.",
-        "Koristio je GitHub Copilot, Claude i Cursor svakodnevno, kao deo razvojnog procesa tima."
+        "Izgradio je razvojne tokove uz podršku AI-ja sa Claude Codeom, GitHub Copilotom i sopstvenom automatizacijom, koji su prepolovili vreme razvoja koji obuhvata više repozitorijuma, i svakodnevno je koristio GitHub Copilot, Claude i Cursor kao deo razvojnog procesa tima."
       ],
       "keywords": [
         "C#",
         ".NET",
         "ASP.NET Core",
         "Razor Pages",
+        "Blazor",
         "WCF",
         "SQL Server",
         "T-SQL",
@@ -181,9 +184,12 @@
         "Azure Functions",
         "Azure OpenAI",
         "Azure Data Factory",
+        "Azure DevOps",
         "MCP",
         "Clean Architecture",
         "Modular monolith",
+        "CQRS",
+        "Vertical Slice Architecture",
         "GitHub Copilot",
         "Claude",
         "Cursor"
@@ -221,15 +227,18 @@
       "name": "Izveštaji o ispitivanju za akreditovanu laboratoriju",
       "entity": "Regatta Project Kft.",
       "roles": ["Programer"],
-      "startDate": "2023-03",
-      "endDate": "2023-05",
+      "startDate": "2024-02",
+      "endDate": "2024-05",
       "description": ".NET aplikacija koja je akreditovanoj laboratoriji za ispitivanje materijala pomagala u izradi zapisnika o ispitivanjima i izveštaja.",
       "highlights": [
-        "Razvio je funkcije za zapisnike o ispitivanjima i izveštaje u .NET-u sa DevExpressom, na SQL Server bazi podataka."
+        "Radio je kao jedini programer na projektu.",
+        "Razvio je funkcije za zapisnike o ispitivanjima u .NET-u, na SQL Server bazi podataka, a pomoću DevExpress Reportinga izradio je izveštaje o ispitivanju spremne za štampu.",
+        "Gotovom aplikacijom pomogao je laboratoriji da ispuni akreditacione zahteve."
       ],
       "keywords": [
         ".NET",
         "DevExpress",
+        "DevExpress Reporting",
         "SQL Server"
       ],
       "x-short": true,
@@ -241,12 +250,12 @@
       "x-work": "operandor",
       "name": "Platforma za izveštavanje o dobavljačima",
       "entity": "AGCO Corporation",
-      "roles": ["Full stack programer, zatim tehnički lider"],
+      "roles": ["Vodeći programer"],
       "startDate": "2022-11",
       "endDate": "2024-09",
       "description": "Interna BI platforma za lanac snabdevanja međunarodnog proizvođača, koja je glavne pokazatelje učinka (KPI) organizacije prikazivala na kontrolnoj tabli: donosioci odluka i poslovni rukovodioci videli su na jednom mestu kako dobavljači potvrđuju prognoze i kako to utiče na proizvodnju.",
       "highlights": [
-        "Vodio je tehničku realizaciju back-enda, front-enda i isporuke, najpre kao full stack programer, a zatim kao tehnički lider distribuiranog tima od 3–4 osobe.",
+        "Vodio je tehničku realizaciju back-enda, front-enda i isporuke kao vodeći programer distribuiranog tima od 3–4 osobe.",
         "Izradio je i održavao front-end u TypeScriptu, Reactu i MUI-ju, koji je koristio API-je BI kontrolne table; u njemu su rukovodioci filtrirali podatke po poslovnoj jedinici, regionu i dobavljaču i po šifri artikla poredili uzastopne prognoze.",
         "Radio je na ASP.NET Core monolitu po principima Clean Architecture, uz AWS Lambda funkcije koje su podatke o dobavljačima učitavale u zvezdastu šemu u PostgreSQL-u, na kojoj su se zasnivali izveštaji.",
         "Vodio je CI/CD kroz Azure DevOps i GitHub Actions, sa isporukom u kontejnerima pomoću Dockera i Kubernetesa.",
@@ -274,10 +283,12 @@
       "x-focus": ["tech-lead"]
     },
     {
-      "x-id": "allwin-nopcommerce",
-      "x-work": "allwin",
+      "x-id": "nopcommerce-store",
+      "x-work": "operandor",
       "name": "Rešenje za e-trgovinu na platformi nopCommerce, zasnovano na pluginovima",
       "roles": ["Arhitekta i vodeći programer"],
+      "startDate": "2022-01",
+      "endDate": "2022-11",
       "description": "Internet prodavnica izgrađena na platformi otvorenog koda nopCommerce.",
       "highlights": [
         "Proširio je veliku .NET kodnu bazu treće strane kroz arhitekturu pluginova platforme nopCommerce, bez pravljenja forka i bez izmene izvornog koda osnovne aplikacije."
@@ -294,10 +305,31 @@
       "x-focus": ["architect"]
     },
     {
-      "x-id": "allwin-service-management",
-      "x-work": "allwin",
+      "x-id": "ui-test-suite",
+      "x-work": "operandor",
+      "name": "Automatizovani skup UI testova",
+      "roles": ["Programer za automatizaciju UI testova"],
+      "startDate": "2021-11",
+      "endDate": "2021-12",
+      "description": "Automatizovani skup UI testova za veb-sajt nemačke gejming kompanije.",
+      "highlights": [
+        "Napravio je od nule kompletan skup regresionih UI testova."
+      ],
+      "keywords": [
+        ".NET",
+        "C#",
+        "xUnit",
+        "NUnit",
+        "Selenium"
+      ]
+    },
+    {
+      "x-id": "service-management-system",
+      "x-work": "operandor",
       "name": "Sistem za upravljanje servisom",
-      "roles": ["Programer odgovoran za ceo sistem"],
+      "roles": ["Vodeći programer odgovoran za ceo sistem"],
+      "startDate": "2021-09",
+      "endDate": "2021-11",
       "description": "Fleksibilan sistem za upravljanje servisom koji pokriva ceo poslovni proces, od ponude do postprodajnog servisa.",
       "highlights": [
         "Prilagodio je aplikaciju načinu rada klijenta, uz podršku procesu od ponude do administracije posle servisnog rada."
@@ -348,22 +380,6 @@
       ]
     },
     {
-      "x-id": "allwin-ui-test-suite",
-      "x-work": "allwin",
-      "name": "Automatizovani skup UI testova",
-      "description": "Automatizovani skup UI testova za veb-sajt nemačke gejming kompanije.",
-      "highlights": [
-        "Napravio je od nule kompletan skup regresionih UI testova."
-      ],
-      "keywords": [
-        ".NET",
-        "C#",
-        "xUnit",
-        "NUnit",
-        "Selenium"
-      ]
-    },
-    {
       "x-id": "allwin-image-annotator",
       "x-work": "allwin",
       "name": "Inteligentni anotator objekata na slikama",
@@ -398,10 +414,11 @@
   ],
   "education": [
     {
-      "institution": "Visoka tehnička škola strukovnih studija u Subotici",
-      "area": "Internet i elektronski menadžment",
-      "studyType": "Osnovne studije (BSc)",
-      "endDate": "2012"
+      "institution": "Visoka tehnička škola strukovnih studija u Subotici (Subotica Tech)",
+      "area": "Elektrotehnika i računarstvo",
+      "studyType": "Osnovne strukovne studije (BSc)",
+      "startDate": "2008",
+      "endDate": "2011"
     },
     {
       "institution": "ELTE Summer University / Microsoft Summer School",
@@ -446,6 +463,11 @@
       "awarder": "Univerzitet Óbuda, 32. studentska naučna konferencija (TDK)"
     }
   ],
+  "publications": [
+    {
+      "name": "Microsoft Windows 7 Pontról pontra"
+    }
+  ],
   "skills": [
     { "name": ".NET platforma", "level": "Ekspert", "x-rating": 5, "keywords": ["C#", ".NET", "ASP.NET Core", "ASP.NET MVC", "LINQ"] },
     { "name": ".NET platforma", "level": "Napredno", "x-rating": 4, "keywords": ["Razor Pages", "Entity Framework", "WCF", "WPF", "Windows Forms"] },
@@ -470,12 +492,12 @@
   "languages": [
     { "language": "Mađarski", "fluency": "Maternji" },
     { "language": "Engleski", "fluency": "Tečno, na profesionalnom radnom nivou" },
-    { "language": "Srpski", "fluency": "Osnovni nivo" },
-    { "language": "Hrvatski", "fluency": "Osnovni nivo" }
+    { "language": "Srpski", "fluency": "Na ograničenom radnom nivou" },
+    { "language": "Hrvatski", "fluency": "Na ograničenom radnom nivou" }
   ],
   "meta": {
     "version": "v1.0.0",
-    "lastModified": "2026-10-07",
+    "lastModified": "2026-10-21",
     "x-endonym": "Srpski"
   },
   "x-strengths": [

@@ -38,20 +38,24 @@ public class FactsShould
     [MemberData(nameof(Tags))]
     public void StateThirteenYearsInSummary(string language) => Read(language).Basics!.Summary!.ShouldContain("13+");
 
-    // Since AGCO the work went through Andor's own business, renamed operandor: one position, the clients as projects.
+    // Since August 2021 the work went through Andor's own business, renamed operandor: one position, the clients as projects;
+    // the engagements before AGCO name no client.
     [Fact]
     public void ShowOperandorAsCurrentPositionWithClientProjects()
     {
         var resume = Read("en");
         var operandor = resume.Work[0];
 
-        (operandor.Id, operandor.Name, operandor.StartDate, operandor.EndDate).ShouldBe(("operandor", "operandor", "2022-11", null));
+        (operandor.Id, operandor.Name, operandor.StartDate, operandor.EndDate).ShouldBe(("operandor", "operandor", "2021-08", null));
         resume.Projects.Where(project => project.Work == "operandor").Select(project => (project.Entity, project.StartDate, project.EndDate)).ShouldBe(
         [
             ("Lightbloom", "2025-08", "2026-05"),
             ("Supercharge", "2024-10", "2025-05"),
-            ("Regatta Project Kft.", "2023-03", "2023-05"),
+            ("Regatta Project Kft.", "2024-02", "2024-05"),
             ("AGCO Corporation", "2022-11", "2024-09"),
+            (null, "2022-01", "2022-11"),
+            (null, "2021-11", "2021-12"),
+            (null, "2021-09", "2021-11"),
         ]);
     }
 

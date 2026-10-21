@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Sípos Andor",
-    "label": "Alapító, szakmai vezető és szoftverarchitekt",
+    "label": "Tulajdonos és szakmai vezető",
     "phone": "+36 30 903 6622",
     "url": "https://andor.sipos.io/hu/",
-    "summary": "Szoftverarchitekt és szakmai vezető, 13+ év tapasztalattal üzleti .NET-rendszerek fejlesztésében. Az operandor alapítójaként és szakmai vezetőjeként megtervezi az egyes megoldások felépítését, összehangolja a fejlesztők munkáját, és maga is fejleszt. Otthonosan mozog a nagy, régóta fejlesztett kódbázisokban, és lépésenként moduláris felépítésűvé korszerűsíti őket, miközben végig élesben futnak. Legutóbbi munkáiban a .NET-et és az Azure-t AI-támogatott munkafolyamatokkal ötvözi – az Azure OpenAI-alapú dokumentumfeldolgozástól a kódolóügynököknek készült MCP-szerverig –, emellett TypeScript/React frontendeket is fejleszt.",
+    "summary": "Szoftverarchitekt és szakmai vezető, 13+ év tapasztalattal üzleti .NET-rendszerek fejlesztésében. Az operandor tulajdonosaként és szakmai vezetőjeként megtervezi az egyes megoldások felépítését, összehangolja a fejlesztők munkáját, és maga is fejleszt. Otthonosan mozog a nagy, régóta fejlesztett kódbázisokban, és lépésenként moduláris felépítésűvé korszerűsíti őket, miközben végig élesben futnak. Legutóbbi munkáiban a .NET-et és az Azure-t AI-támogatott munkafolyamatokkal ötvözi – az Azure OpenAI-alapú dokumentumfeldolgozástól a kódolóügynököknek készült MCP-szerverig –, emellett TypeScript/React frontendeket is fejleszt.",
     "location": {
       "region": "Európa",
       "x-label": "Távmunkában, Európából"
@@ -39,11 +39,11 @@
     {
       "x-id": "operandor",
       "name": "operandor",
-      "description": "korábban egyéni vállalkozás",
-      "position": "Alapító, szakmai vezető és szoftverarchitekt",
+      "description": "egyéni vállalkozás",
+      "position": "Tulajdonos és szakmai vezető",
       "url": "https://operandor.io/",
       "location": "Távmunka",
-      "startDate": "2022-11",
+      "startDate": "2021-08",
       "summary": "Szoftverfejlesztő vállalkozás: egyedi üzleti alkalmazásokat fejleszt, összeköti és korszerűsíti a meglévő rendszereket, és automatizálja az ismétlődő feladatokat; AI-t ott von be, ahol a feladat és a rendelkezésre álló adatok alapján érdemes. Szolgáltatásai: egyedi szoftverfejlesztés, rendszerintegráció, meglévő rendszer átvétele, rendszerkorszerűsítés, AI-támogatott folyamatautomatizálás és senior fejlesztői kapacitás. Saját terméke a rovatix, amely dokumentumokból nyer ki adatokat.",
       "highlights": [
         "Vezeti a szakmai munkát: megtervezi az egyes megoldások felépítését, összehangolja a fejlesztők munkáját, valamint részt vesz a fejlesztésben és a szakmai ellenőrzésben.",
@@ -83,13 +83,12 @@
     {
       "x-id": "allwin",
       "name": "ALLWIN Informatika Kft.",
-      "position": "Senior szoftverfejlesztő",
+      "position": "Szoftverfejlesztő",
       "startDate": "2015-03",
-      "endDate": "2022-11",
-      "summary": "Tanácsadói ügyfélprojektek e-kereskedelmi, térinformatikai (GIS), közszférabeli és K+F-területen; 2021-től vezető fejlesztői és architekt feladatkörrel.",
+      "endDate": "2021-08",
+      "summary": "Tanácsadói ügyfélprojektek térinformatikai (GIS), közszférabeli és K+F-területen.",
       "highlights": [
-        "Ellátta a vezető fejlesztői és architekt feladatokat 2021-től.",
-        "Megvalósította egy nagyvállalat, a közszféra, egy nemzetközi hajókövetési ügyfél és egy német játékipari cég projektjeit, valamint egy nyertes pályázatból indult K+F-projektet."
+        "Megvalósította egy nagyvállalat, a közszféra és egy nemzetközi hajókövetési ügyfél projektjeit, valamint egy nyertes pályázatból indult K+F-projektet."
       ],
       "x-keywords": [
         "C#",
@@ -103,13 +102,13 @@
         "Azure"
       ],
       "x-short": true,
-      "x-shortHighlights": 2,
-      "x-focus": ["architect", "senior-dotnet"]
+      "x-shortHighlights": 1,
+      "x-focus": ["senior-dotnet"]
     },
     {
       "x-id": "grape-solutions",
       "name": "Grape Solutions Kft.",
-      "position": "Junior szoftverfejlesztő",
+      "position": "Junior .NET-fejlesztő",
       "startDate": "2014-07",
       "endDate": "2015-02",
       "highlights": [
@@ -130,7 +129,7 @@
     {
       "x-id": "regatta-2013",
       "name": "Regatta Project Kft.",
-      "position": "Junior szoftverfejlesztő",
+      "position": ".NET-fejlesztő",
       "startDate": "2013-04",
       "endDate": "2014-07",
       "highlights": [
@@ -156,22 +155,26 @@
       "roles": ["Vezető fejlesztő és architekt"],
       "startDate": "2025-08",
       "endDate": "2026-05",
-      "description": "Hitelezők és ügyvédi irodák által használt üzletkritikus platform a jelzálog- és ingatlanügyletek folyamatainak kezelésére, beleértve az összetett panelkezelést és munkafolyamatokat. Feladata a kódbázis korszerűsítése és az architektúra irányának meghatározása volt, elsősorban a skálázhatóság, a szabályozási megfelelés és az átláthatóság szempontjai szerint; kulcsszerepet játszott a fejlesztési stratégia kialakításában és a csapattagok kiválasztásában.",
+      "description": "Hitelezők és ügyvédi irodák által használt üzletkritikus platform a jelzálog- és ingatlanügyletek folyamatainak kezelésére, beleértve az összetett panelkezelést és munkafolyamatokat. A korszerűsített platform .NET 10-re és Blazorra épülő, Clean Architecture szerint felépített, többmodulos vállalati rendszer, amely legalább hat, egymással összekapcsolt kódtárat és terméket fog át. Feladata a kódbázis korszerűsítése és az architektúra irányának meghatározása volt, elsősorban a skálázhatóság, a szabályozási megfelelés és az átláthatóság szempontjai szerint; kulcsszerepet játszott a fejlesztési stratégia kialakításában és a csapattagok kiválasztásában.",
       "highlights": [
-        "Átalakította a WCF-re és tárolt eljárásokra épülő, szorosan csatolt .NET Framework-rendszert Clean Architecture szerint felépített moduláris monolitokká, lépésenként, miközben a rendszer végig élesben futott.",
+        "Lépésenként alakította át a WCF-re és tárolt eljárásokra épülő, szorosan csatolt .NET Framework-rendszert .NET 10-es, Clean Architecture, CQRS és vertical slice architektúra szerint felépített moduláris monolitokká, a régi WCF-szolgáltatásokat a Strangler Fig mintával kiváltva, miközben a rendszer végig élesben futott.",
         "Elkészített egy újra felhasználható jogosultságkezelési modult, amely később az ügyfél három másik termékébe is bekerült, valamint egy riportmodult Azure Data Factory-alapú adatbetöltéssel; a két modulra építve később új termék is készült.",
         "Elkészített egy Azure Functions-szolgáltatást, amely Azure OpenAI segítségével strukturált adatokat nyert ki JSON formátumban a feltöltött dokumentumokból, és közvetlenül az éles adatbázisba mentette őket.",
         "Megépített egy belső MCP-szervert, amelyen keresztül az AI-kódolóügynökök a feladatleírások alapján lekérik a releváns kód- és projektkontextust, a projekt szakszókincsére hangolt, lexikális, szakterület-specifikus kereséssel.",
+        "Megtervezte a Platform directory modul platformszintű integrációját, és mintaként szolgáló referencia-implementációkat hozott létre az architekturális előírások betartásához.",
         "Bevezette a teljes tesztpiramist lefedő tesztelési keretrendszert: egység-, integrációs és end-to-end tesztek kísérték a korszerűsítést és az új funkciók fejlesztését is.",
-        "Felelt a design- és code review-kért, mentorálta a fejlesztőket, és bevezette az új kollégákat a nagy, régi kódbázisba, miközben a csapat 3 főről 7–8 főre bővült.",
+        "Irányította a .NET-verzióváltásokat, a CI/CD-folyamatokat, a funkcionális tesztinfrastruktúrát és az átfogó dokumentációt.",
+        "Átnézte a csapat összes pull requestjét, felelt a design review-kért, mélyreható auditot végzett a kódtárakon, és meghatározta a technikai standardokat az egész platformon.",
+        "Mentorálta a fejlesztőket, és bevezette az új kollégákat a nagy, régi kódbázisba, miközben a csapat 3 főről 7–8 főre bővült.",
         "Kezelte az üzletkritikus rendszer eszkalált éles hibáit a vizsgálattól a kiváltó ok elemzésén át a javításig.",
-        "Naponta használta a GitHub Copilotot, a Claude-ot és a Cursort a csapat fejlesztési folyamatának részeként."
+        "AI-támogatott fejlesztési munkafolyamatokat épített ki Claude Code-dal, GitHub Copilottal és saját automatizálással, amelyek felére csökkentették a több kódtárat érintő fejlesztések idejét; a GitHub Copilotot, a Claude-ot és a Cursort naponta használta a csapat fejlesztési folyamatának részeként."
       ],
       "keywords": [
         "C#",
         ".NET",
         "ASP.NET Core",
         "Razor Pages",
+        "Blazor",
         "WCF",
         "SQL Server",
         "T-SQL",
@@ -181,9 +184,12 @@
         "Azure Functions",
         "Azure OpenAI",
         "Azure Data Factory",
+        "Azure DevOps",
         "MCP",
         "Clean Architecture",
         "Modular monolith",
+        "CQRS",
+        "Vertical Slice Architecture",
         "GitHub Copilot",
         "Claude",
         "Cursor"
@@ -221,15 +227,18 @@
       "name": "Vizsgálati jegyzőkönyvek egy akkreditált laboratóriumnak",
       "entity": "Regatta Project Kft.",
       "roles": ["Fejlesztő"],
-      "startDate": "2023-03",
-      "endDate": "2023-05",
+      "startDate": "2024-02",
+      "endDate": "2024-05",
       "description": ".NET-alapú alkalmazás, amely egy akkreditált anyagvizsgáló laboratórium vizsgálati jegyzőkönyveinek és riportjainak elkészítését segítette.",
       "highlights": [
-        "Kifejlesztette a vizsgálati jegyzőkönyvek és riportok funkcióit .NET-ben és DevExpress-szel, SQL Server-adatbázisra építve."
+        "Egyedüli fejlesztőként dolgozott a projekten.",
+        "Kifejlesztette a vizsgálati jegyzőkönyvek funkcióit .NET-ben, SQL Server-adatbázisra építve, a nyomtatható riportokat pedig DevExpress Reportinggal készítette el.",
+        "A kész alkalmazással segítette a laboratóriumot az akkreditációs követelmények teljesítésében."
       ],
       "keywords": [
         ".NET",
         "DevExpress",
+        "DevExpress Reporting",
         "SQL Server"
       ],
       "x-short": true,
@@ -241,12 +250,12 @@
       "x-work": "operandor",
       "name": "Beszállítói riportplatform",
       "entity": "AGCO Corporation",
-      "roles": ["Full stack fejlesztő, majd technikai vezető"],
+      "roles": ["Vezető fejlesztő"],
       "startDate": "2022-11",
       "endDate": "2024-09",
       "description": "Belső BI-platform egy nemzetközi gyártóvállalat ellátási láncához, amely egy dashboardon jelenítette meg a szervezet legfontosabb KPI-jait: a döntéshozók és az üzleti vezetők egy helyen látták, hogyan igazolják vissza a beszállítók az előrejelzéseket, és ez milyen hatással van a gyártásra.",
       "highlights": [
-        "Felelt a műszaki megvalósításért a backendtől a frontendig és a telepítésig, előbb full stack fejlesztőként, majd egy 3–4 fős, elosztott csapat technikai vezetőjeként.",
+        "Felelt a műszaki megvalósításért a backendtől a frontendig és a telepítésig, egy 3–4 fős, elosztott csapat vezető fejlesztőjeként.",
         "Fejlesztette és karbantartotta a BI-dashboard API-jaira épülő TypeScript/React/MUI frontendet, ahol a vezetők üzletáganként, régiónként és beszállítónként szűrhették a mutatókat, és cikkszámonként összevethették az egymást követő előrejelzéseket.",
         "Dolgozott a Clean Architecture szerint felépített ASP.NET Core-monoliton, ahol AWS Lambda-függvények töltötték be a beszállítói adatokat a riportok alapjául szolgáló PostgreSQL-csillagsémába.",
         "Felelt az Azure DevOpsra és GitHub Actionsre épülő CI/CD-ért, Docker- és Kubernetes-alapú konténeres telepítéssel.",
@@ -274,10 +283,12 @@
       "x-focus": ["tech-lead"]
     },
     {
-      "x-id": "allwin-nopcommerce",
-      "x-work": "allwin",
+      "x-id": "nopcommerce-store",
+      "x-work": "operandor",
       "name": "Pluginekre épülő e-kereskedelmi megoldás nopCommerce platformon",
       "roles": ["Architekt és vezető fejlesztő"],
+      "startDate": "2022-01",
+      "endDate": "2022-11",
       "description": "Webáruház a nyílt forráskódú nopCommerce platformra építve.",
       "highlights": [
         "Bővítette a nopCommerce nagy, külső fejlesztésű .NET-kódbázisát a platform pluginrendszerén keresztül, forkolás és az alapalkalmazás forráskódjának módosítása nélkül."
@@ -294,10 +305,31 @@
       "x-focus": ["architect"]
     },
     {
-      "x-id": "allwin-service-management",
-      "x-work": "allwin",
+      "x-id": "ui-test-suite",
+      "x-work": "operandor",
+      "name": "Automatizált UI-tesztkészlet",
+      "roles": ["UI-tesztautomatizálási fejlesztő"],
+      "startDate": "2021-11",
+      "endDate": "2021-12",
+      "description": "Automatizált UI-tesztkészlet egy német játékipari cég weboldalához.",
+      "highlights": [
+        "Felépített a nulláról egy teljes UI-regressziós tesztkészletet."
+      ],
+      "keywords": [
+        ".NET",
+        "C#",
+        "xUnit",
+        "NUnit",
+        "Selenium"
+      ]
+    },
+    {
+      "x-id": "service-management-system",
+      "x-work": "operandor",
       "name": "Szervizmenedzsment-rendszer",
-      "roles": ["A teljes szoftverért felelős fejlesztő"],
+      "roles": ["A teljes rendszerért felelős vezető fejlesztő"],
+      "startDate": "2021-09",
+      "endDate": "2021-11",
       "description": "Rugalmas szervizmenedzsment-rendszer, amely a teljes üzleti folyamatot lefedi az árajánlattól az értékesítés utáni szolgáltatásokig.",
       "highlights": [
         "Hozzáigazította az alkalmazást az ügyfél működéséhez: az árajánlattól a szervizmunka utáni ügyintézésig támogatta a folyamatot."
@@ -348,22 +380,6 @@
       ]
     },
     {
-      "x-id": "allwin-ui-test-suite",
-      "x-work": "allwin",
-      "name": "Automatizált UI-tesztkészlet",
-      "description": "Automatizált UI-tesztkészlet egy német játékipari cég weboldalához.",
-      "highlights": [
-        "Felépített a nulláról egy teljes UI-regressziós tesztkészletet."
-      ],
-      "keywords": [
-        ".NET",
-        "C#",
-        "xUnit",
-        "NUnit",
-        "Selenium"
-      ]
-    },
-    {
       "x-id": "allwin-image-annotator",
       "x-work": "allwin",
       "name": "Intelligent Image Object Annotator",
@@ -398,10 +414,11 @@
   ],
   "education": [
     {
-      "institution": "Szabadkai Műszaki Szakfőiskola",
-      "area": "Internet és elektronikus menedzsment",
-      "studyType": "BSc",
-      "endDate": "2012"
+      "institution": "Szabadkai Műszaki Szakfőiskola (Subotica Tech)",
+      "area": "Villamosmérnöki és számítástechnika",
+      "studyType": "BSc (alkalmazott)",
+      "startDate": "2008",
+      "endDate": "2011"
     },
     {
       "institution": "ELTE Summer University / Microsoft Summer School",
@@ -446,6 +463,11 @@
       "awarder": "Óbudai Egyetem, XXXII. Tudományos Diákköri Konferencia (TDK)"
     }
   ],
+  "publications": [
+    {
+      "name": "Microsoft Windows 7 Pontról pontra"
+    }
+  ],
   "skills": [
     { "name": ".NET-platform", "level": "Szakértő", "x-rating": 5, "keywords": ["C#", ".NET", "ASP.NET Core", "ASP.NET MVC", "LINQ"] },
     { "name": ".NET-platform", "level": "Haladó", "x-rating": 4, "keywords": ["Razor Pages", "Entity Framework", "WCF", "WPF", "Windows Forms"] },
@@ -470,12 +492,12 @@
   "languages": [
     { "language": "Magyar", "fluency": "Anyanyelv" },
     { "language": "Angol", "fluency": "Folyékony, tárgyalóképes" },
-    { "language": "Szerb", "fluency": "Alapfok" },
-    { "language": "Horvát", "fluency": "Alapfok" }
+    { "language": "Szerb", "fluency": "Társalgási szint" },
+    { "language": "Horvát", "fluency": "Társalgási szint" }
   ],
   "meta": {
     "version": "v1.0.0",
-    "lastModified": "2026-10-07"
+    "lastModified": "2026-10-21"
   },
   "x-strengths": [
     {

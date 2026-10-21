@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Andor Sípos",
-    "label": "Founder, Technical Lead & Software Architect",
+    "label": "Owner & Technical Lead",
     "phone": "+36 30 903 6622",
     "url": "https://andor.sipos.io/",
-    "summary": "Software architect and technical lead with 13+ years of experience building business .NET systems. As founder and technical lead of operandor, he designs the structure of each solution, coordinates the developers' work and writes code himself. He is at home in large, long-lived codebases and modernises them step by step into a modular structure while they stay in production. Recent work combines .NET and Azure with AI-assisted workflows, from Azure OpenAI document extraction to an MCP server for coding agents, alongside TypeScript/React front ends.",
+    "summary": "Software architect and technical lead with 13+ years of experience building business .NET systems. As owner and technical lead of operandor, he designs the structure of each solution, coordinates the developers' work and writes code himself. He is at home in large, long-lived codebases and modernises them step by step into a modular structure while they stay in production. Recent work combines .NET and Azure with AI-assisted workflows, from Azure OpenAI document extraction to an MCP server for coding agents, alongside TypeScript/React front ends.",
     "location": {
       "region": "Europe",
       "x-label": "Remote from Europe"
@@ -39,11 +39,11 @@
     {
       "x-id": "operandor",
       "name": "operandor",
-      "description": "formerly a sole proprietorship",
-      "position": "Founder, Technical Lead & Software Architect",
+      "description": "sole proprietorship",
+      "position": "Owner & Technical Lead",
       "url": "https://operandor.io/",
       "location": "Remote",
-      "startDate": "2022-11",
+      "startDate": "2021-08",
       "summary": "Software development business that builds custom business applications, connects and modernises existing systems, and automates repetitive work, bringing in AI where the task and the data make it worthwhile. Its services are custom software development, system integration, taking over an existing system, system modernisation, AI-assisted workflow automation and senior developer capacity; its own product, rovatix, extracts data from documents.",
       "highlights": [
         "Leads the technical work: designs the structure of each solution, coordinates the developers and takes part in development and technical reviews.",
@@ -83,13 +83,12 @@
     {
       "x-id": "allwin",
       "name": "ALLWIN Informatika Kft.",
-      "position": "Senior Software Engineer",
+      "position": "Software Engineer",
       "startDate": "2015-03",
-      "endDate": "2022-11",
-      "summary": "Consultancy delivery across eCommerce, GIS, public sector and R&D projects, with lead engineer and architect responsibilities from 2021.",
+      "endDate": "2021-08",
+      "summary": "Consultancy delivery across GIS, public sector and R&D projects.",
       "highlights": [
-        "Took on lead engineer and architect responsibilities from 2021.",
-        "Delivered projects for a large enterprise, the public sector, an international vessel-tracking client and a German gaming company, plus an R&D project from a winning tender."
+        "Delivered projects for a large enterprise, the public sector and an international vessel-tracking client, plus an R&D project from a winning tender."
       ],
       "x-keywords": [
         "C#",
@@ -103,13 +102,13 @@
         "Azure"
       ],
       "x-short": true,
-      "x-shortHighlights": 2,
-      "x-focus": ["architect", "senior-dotnet"]
+      "x-shortHighlights": 1,
+      "x-focus": ["senior-dotnet"]
     },
     {
       "x-id": "grape-solutions",
       "name": "Grape Solutions Kft.",
-      "position": "Junior Software Engineer",
+      "position": "Junior .NET Engineer",
       "startDate": "2014-07",
       "endDate": "2015-02",
       "highlights": [
@@ -130,7 +129,7 @@
     {
       "x-id": "regatta-2013",
       "name": "Regatta Project Kft.",
-      "position": "Junior Software Engineer",
+      "position": ".NET Developer",
       "startDate": "2013-04",
       "endDate": "2014-07",
       "highlights": [
@@ -156,22 +155,26 @@
       "roles": ["Lead software engineer & architect"],
       "startDate": "2025-08",
       "endDate": "2026-05",
-      "description": "Business-critical platform used by lenders and law firms to manage mortgage and property transaction processes, including complex panel and workflow processes. Responsible for modernising the codebase and for architectural direction, with scalability, compliance and transparency as the driving constraints; played a key role in defining the development strategy and in selecting team members.",
+      "description": "Business-critical platform used by lenders and law firms to manage mortgage and property transaction processes, including complex panel and workflow processes. The modernised platform is a multi-module enterprise platform on .NET 10, Blazor and Clean Architecture, spanning at least six interconnected repositories and products. Responsible for modernising the codebase and for architectural direction, with scalability, compliance and transparency as the driving constraints; played a key role in defining the development strategy and in selecting team members.",
       "highlights": [
-        "Reshaped a tightly coupled .NET Framework system, built on WCF and stored procedures, step by step into modular monoliths with Clean Architecture while it stayed in production throughout.",
+        "Reshaped a tightly coupled .NET Framework system, built on WCF and stored procedures, step by step into modular monoliths on .NET 10 with Clean Architecture, CQRS and vertical slices, migrating the legacy WCF services with the Strangler Fig pattern while the system stayed in production throughout.",
         "Delivered a reusable access-control module, later adopted by three of the client's other products, and a reporting module fed by Azure Data Factory; the two modules were then used to build a new product.",
         "Delivered an Azure Functions service that used Azure OpenAI to extract structured data from uploaded documents as JSON and persist it directly in the production database.",
         "Built an internal MCP server that lets AI coding agents retrieve relevant codebase and project context from work item descriptions, using lexical, domain-specific retrieval tuned to the project's terminology.",
+        "Designed the platform-wide integration of the Platform directory module and established canonical reference implementations for architectural compliance.",
         "Introduced a testing framework covering the full testing pyramid, with unit, integration and end-to-end tests accompanying both the modernisation and new features.",
-        "Owned design and code reviews, mentored engineers and onboarded new joiners onto the large legacy codebase as the team grew from 3 to 7–8 people.",
+        "Drove the .NET upgrades, the CI/CD pipelines, the functional test infrastructure and comprehensive documentation.",
+        "Reviewed all of the team's pull requests, owned design reviews, ran in-depth repository audits and defined technical standards across the platform.",
+        "Mentored engineers and onboarded new joiners onto the large legacy codebase as the team grew from 3 to 7–8 people.",
         "Handled escalated production issues on the business-critical system, from investigation through root cause analysis to remediation.",
-        "Used GitHub Copilot, Claude and Cursor daily as part of the team's development workflow."
+        "Built AI-assisted development workflows with Claude Code, GitHub Copilot and custom automation that halved cross-repository development time, and used GitHub Copilot, Claude and Cursor daily as part of the team's workflow."
       ],
       "keywords": [
         "C#",
         ".NET",
         "ASP.NET Core",
         "Razor Pages",
+        "Blazor",
         "WCF",
         "SQL Server",
         "T-SQL",
@@ -181,9 +184,12 @@
         "Azure Functions",
         "Azure OpenAI",
         "Azure Data Factory",
+        "Azure DevOps",
         "MCP",
         "Clean Architecture",
         "Modular monolith",
+        "CQRS",
+        "Vertical Slice Architecture",
         "GitHub Copilot",
         "Claude",
         "Cursor"
@@ -221,15 +227,18 @@
       "name": "Test reports for an accredited laboratory",
       "entity": "Regatta Project Kft.",
       "roles": ["Software engineer"],
-      "startDate": "2023-03",
-      "endDate": "2023-05",
+      "startDate": "2024-02",
+      "endDate": "2024-05",
       "description": "A .NET application that helped an accredited materials testing laboratory prepare its test records and reports.",
       "highlights": [
-        "Developed test record and report features in .NET with DevExpress on a SQL Server database."
+        "Worked as the sole developer on the project.",
+        "Developed the test record features in .NET on a SQL Server database and built the printable test reports with DevExpress Reporting.",
+        "Supported the laboratory in meeting its accreditation requirements with the finished application."
       ],
       "keywords": [
         ".NET",
         "DevExpress",
+        "DevExpress Reporting",
         "SQL Server"
       ],
       "x-short": true,
@@ -241,12 +250,12 @@
       "x-work": "operandor",
       "name": "Supplier reporting platform",
       "entity": "AGCO Corporation",
-      "roles": ["Full-stack engineer, then tech lead"],
+      "roles": ["Lead software engineer"],
       "startDate": "2022-11",
       "endDate": "2024-09",
       "description": "Internal supply chain BI platform for an international manufacturer, surfacing the organisation's main KPIs on a dashboard: decision-makers and business leaders saw in one place how suppliers confirmed forecasts and how this affected production.",
       "highlights": [
-        "Owned technical delivery across back end, front end and deployment, first as full-stack engineer and then as tech lead of a distributed team of 3–4 people.",
+        "Owned technical delivery across back end, front end and deployment as lead software engineer of a distributed team of 3–4 people.",
         "Built and maintained the TypeScript/React/MUI front end consuming the BI dashboard's APIs, where leaders filtered figures by business unit, region and supplier and compared successive forecasts part by part.",
         "Worked on an ASP.NET Core monolith following Clean Architecture, with AWS Lambda functions loading supplier data into a PostgreSQL star schema for the reports.",
         "Owned CI/CD across Azure DevOps and GitHub Actions, with containerised deployment on Docker and Kubernetes.",
@@ -274,10 +283,12 @@
       "x-focus": ["tech-lead"]
     },
     {
-      "x-id": "allwin-nopcommerce",
-      "x-work": "allwin",
+      "x-id": "nopcommerce-store",
+      "x-work": "operandor",
       "name": "Plugin-based eCommerce solution on nopCommerce",
-      "roles": ["Architect and lead engineer"],
+      "roles": ["Architect and lead developer"],
+      "startDate": "2022-01",
+      "endDate": "2022-11",
       "description": "Online store built on the nopCommerce open-source platform.",
       "highlights": [
         "Extended a large third-party .NET codebase through nopCommerce's plugin architecture, without forking it or changing the core application's source code."
@@ -294,10 +305,31 @@
       "x-focus": ["architect"]
     },
     {
-      "x-id": "allwin-service-management",
-      "x-work": "allwin",
+      "x-id": "ui-test-suite",
+      "x-work": "operandor",
+      "name": "Automated UI test suite",
+      "roles": ["UI test automation developer"],
+      "startDate": "2021-11",
+      "endDate": "2021-12",
+      "description": "Automated UI test suite for the website of a German gaming company.",
+      "highlights": [
+        "Built a full UI regression suite from scratch."
+      ],
+      "keywords": [
+        ".NET",
+        "C#",
+        "xUnit",
+        "NUnit",
+        "Selenium"
+      ]
+    },
+    {
+      "x-id": "service-management-system",
+      "x-work": "operandor",
       "name": "Service management system",
-      "roles": ["Engineer responsible for the whole system"],
+      "roles": ["Lead developer responsible for the whole system"],
+      "startDate": "2021-09",
+      "endDate": "2021-11",
       "description": "Flexible service management system covering the full business process from quote to after-sales service.",
       "highlights": [
         "Fitted the application to how the client operated, supporting the process from the quote to the paperwork after the service work."
@@ -348,22 +380,6 @@
       ]
     },
     {
-      "x-id": "allwin-ui-test-suite",
-      "x-work": "allwin",
-      "name": "Automated UI test suite",
-      "description": "Automated UI test suite for the website of a German gaming company.",
-      "highlights": [
-        "Built a full UI regression suite from scratch."
-      ],
-      "keywords": [
-        ".NET",
-        "C#",
-        "xUnit",
-        "NUnit",
-        "Selenium"
-      ]
-    },
-    {
       "x-id": "allwin-image-annotator",
       "x-work": "allwin",
       "name": "Intelligent Image Object Annotator",
@@ -398,10 +414,11 @@
   ],
   "education": [
     {
-      "institution": "Polytechnic School of Engineering, Subotica",
-      "area": "Internet and Electronic Management",
-      "studyType": "BSc",
-      "endDate": "2012"
+      "institution": "Subotica Tech – College of Applied Sciences",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "BSc (Applied)",
+      "startDate": "2008",
+      "endDate": "2011"
     },
     {
       "institution": "ELTE Summer University / Microsoft Summer School",
@@ -446,6 +463,11 @@
       "awarder": "Óbuda University, 32nd Scientific Students' Conference (TDK)"
     }
   ],
+  "publications": [
+    {
+      "name": "Microsoft Windows 7 Pontról pontra"
+    }
+  ],
   "skills": [
     { "name": ".NET platform", "level": "Expert", "x-rating": 5, "keywords": ["C#", ".NET", "ASP.NET Core", "ASP.NET MVC", "LINQ"] },
     { "name": ".NET platform", "level": "Advanced", "x-rating": 4, "keywords": ["Razor Pages", "Entity Framework", "WCF", "WPF", "Windows Forms"] },
@@ -470,12 +492,12 @@
   "languages": [
     { "language": "Hungarian", "fluency": "Native" },
     { "language": "English", "fluency": "Fluent, professional working proficiency" },
-    { "language": "Serbian", "fluency": "Basic" },
-    { "language": "Croatian", "fluency": "Basic" }
+    { "language": "Serbian", "fluency": "Limited working proficiency" },
+    { "language": "Croatian", "fluency": "Limited working proficiency" }
   ],
   "meta": {
     "version": "v1.0.0",
-    "lastModified": "2026-10-07",
+    "lastModified": "2026-10-21",
     "x-ogLocale": "en_GB"
   },
   "x-strengths": [
