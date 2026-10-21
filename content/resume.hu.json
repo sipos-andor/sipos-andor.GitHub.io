@@ -283,17 +283,15 @@
       "x-focus": ["tech-lead"]
     },
     {
-      "x-id": "ecommerce-service-management",
+      "x-id": "nopcommerce-store",
       "x-work": "operandor",
-      "name": "E-kereskedelmi, szervizmenedzsment- és UI-tesztautomatizálási projektek",
-      "roles": ["Vezető fejlesztő"],
-      "startDate": "2021-09",
+      "name": "Pluginekre épülő e-kereskedelmi megoldás nopCommerce platformon",
+      "roles": ["Architekt és vezető fejlesztő"],
+      "startDate": "2022-01",
       "endDate": "2022-11",
-      "description": "Ügyfélmegbízás vezető fejlesztőként, amely egy pluginekre épülő e-kereskedelmi megoldást, egy szervizmenedzsment-rendszert és egy automatizált UI-tesztkészletet fogott át.",
+      "description": "Webáruház a nyílt forráskódú nopCommerce platformra építve.",
       "highlights": [
-        "Architektként és vezető fejlesztőként megtervezett és elkészített egy pluginekre épülő webáruházat a nyílt forráskódú nopCommerce platformon: a nagy, külső fejlesztésű .NET-kódbázist a platform pluginrendszerén keresztül bővítette, forkolás és az alapalkalmazás forráskódjának módosítása nélkül.",
-        "A teljes rendszerért felelős vezető fejlesztőként elkészített egy rugalmas, az ügyfél működéséhez igazított szervizmenedzsment-rendszert, amely a teljes üzleti folyamatot lefedte az árajánlattól az értékesítés utáni szolgáltatásokig.",
-        "Felépített a nulláról egy teljes UI-regressziós tesztkészletet egy német játékipari cég weboldalához."
+        "Bővítette a nopCommerce nagy, külső fejlesztésű .NET-kódbázisát a platform pluginrendszerén keresztül, forkolás és az alapalkalmazás forráskódjának módosítása nélkül."
       ],
       "keywords": [
         "C#",
@@ -302,18 +300,51 @@
         "SQL Server",
         "HTML",
         "JavaScript",
-        "nopCommerce",
-        "Node.js",
-        "Knockout",
-        "jQuery",
-        "Azure",
+        "nopCommerce"
+      ],
+      "x-focus": ["architect"]
+    },
+    {
+      "x-id": "ui-test-suite",
+      "x-work": "operandor",
+      "name": "Automatizált UI-tesztkészlet",
+      "roles": ["UI-tesztautomatizálási fejlesztő"],
+      "startDate": "2021-11",
+      "endDate": "2021-12",
+      "description": "Automatizált UI-tesztkészlet egy német játékipari cég weboldalához.",
+      "highlights": [
+        "Felépített a nulláról egy teljes UI-regressziós tesztkészletet."
+      ],
+      "keywords": [
+        ".NET",
+        "C#",
         "xUnit",
         "NUnit",
         "Selenium"
+      ]
+    },
+    {
+      "x-id": "service-management-system",
+      "x-work": "operandor",
+      "name": "Szervizmenedzsment-rendszer",
+      "roles": ["A teljes rendszerért felelős vezető fejlesztő"],
+      "startDate": "2021-09",
+      "endDate": "2021-11",
+      "description": "Rugalmas szervizmenedzsment-rendszer, amely a teljes üzleti folyamatot lefedi az árajánlattól az értékesítés utáni szolgáltatásokig.",
+      "highlights": [
+        "Hozzáigazította az alkalmazást az ügyfél működéséhez: az árajánlattól a szervizmunka utáni ügyintézésig támogatta a folyamatot."
       ],
-      "x-short": true,
-      "x-shortHighlights": 1,
-      "x-focus": ["architect", "senior-dotnet"]
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "Knockout",
+        "jQuery",
+        "SQL Server",
+        "C#",
+        ".NET",
+        "Azure"
+      ],
+      "x-focus": ["senior-dotnet"]
     },
     {
       "x-id": "allwin-public-sector-app",

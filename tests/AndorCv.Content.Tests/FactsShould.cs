@@ -39,7 +39,7 @@ public class FactsShould
     public void StateThirteenYearsInSummary(string language) => Read(language).Basics!.Summary!.ShouldContain("13+");
 
     // Since August 2021 the work went through Andor's own business, renamed operandor: one position, the clients as projects;
-    // the first engagement names no client.
+    // the engagements before AGCO name no client.
     [Fact]
     public void ShowOperandorAsCurrentPositionWithClientProjects()
     {
@@ -53,7 +53,9 @@ public class FactsShould
             ("Supercharge", "2024-10", "2025-05"),
             ("Regatta Project Kft.", "2024-02", "2024-05"),
             ("AGCO Corporation", "2022-11", "2024-09"),
-            (null, "2021-09", "2022-11"),
+            (null, "2022-01", "2022-11"),
+            (null, "2021-11", "2021-12"),
+            (null, "2021-09", "2021-11"),
         ]);
     }
 

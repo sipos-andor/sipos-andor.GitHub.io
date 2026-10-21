@@ -283,17 +283,15 @@
       "x-focus": ["tech-lead"]
     },
     {
-      "x-id": "ecommerce-service-management",
+      "x-id": "nopcommerce-store",
       "x-work": "operandor",
-      "name": "Projekti e-trgovine, upravljanja servisom i automatizacije UI testova",
-      "roles": ["Vodeći programer"],
-      "startDate": "2021-09",
+      "name": "Rešenje za e-trgovinu na platformi nopCommerce, zasnovano na pluginovima",
+      "roles": ["Arhitekta i vodeći programer"],
+      "startDate": "2022-01",
       "endDate": "2022-11",
-      "description": "Angažman za klijenta u ulozi vodećeg programera, koji je obuhvatio rešenje za e-trgovinu zasnovano na pluginovima, sistem za upravljanje servisom i automatizovane UI testove.",
+      "description": "Internet prodavnica izgrađena na platformi otvorenog koda nopCommerce.",
       "highlights": [
-        "Kao arhitekta i vodeći programer osmislio je i napravio internet prodavnicu zasnovanu na pluginovima na platformi otvorenog koda nopCommerce, proširujući veliku .NET kodnu bazu treće strane kroz arhitekturu pluginova, bez pravljenja forka i bez izmene izvornog koda osnovne aplikacije.",
-        "Kao vodeći programer odgovoran za ceo sistem napravio je fleksibilan sistem za upravljanje servisom, prilagođen načinu rada klijenta, koji pokriva ceo poslovni proces od ponude do postprodajnog servisa.",
-        "Napravio je od nule kompletan skup regresionih UI testova za veb-sajt nemačke gejming kompanije."
+        "Proširio je veliku .NET kodnu bazu treće strane kroz arhitekturu pluginova platforme nopCommerce, bez pravljenja forka i bez izmene izvornog koda osnovne aplikacije."
       ],
       "keywords": [
         "C#",
@@ -302,18 +300,51 @@
         "SQL Server",
         "HTML",
         "JavaScript",
-        "nopCommerce",
-        "Node.js",
-        "Knockout",
-        "jQuery",
-        "Azure",
+        "nopCommerce"
+      ],
+      "x-focus": ["architect"]
+    },
+    {
+      "x-id": "ui-test-suite",
+      "x-work": "operandor",
+      "name": "Automatizovani skup UI testova",
+      "roles": ["Programer za automatizaciju UI testova"],
+      "startDate": "2021-11",
+      "endDate": "2021-12",
+      "description": "Automatizovani skup UI testova za veb-sajt nemačke gejming kompanije.",
+      "highlights": [
+        "Napravio je od nule kompletan skup regresionih UI testova."
+      ],
+      "keywords": [
+        ".NET",
+        "C#",
         "xUnit",
         "NUnit",
         "Selenium"
+      ]
+    },
+    {
+      "x-id": "service-management-system",
+      "x-work": "operandor",
+      "name": "Sistem za upravljanje servisom",
+      "roles": ["Vodeći programer odgovoran za ceo sistem"],
+      "startDate": "2021-09",
+      "endDate": "2021-11",
+      "description": "Fleksibilan sistem za upravljanje servisom koji pokriva ceo poslovni proces, od ponude do postprodajnog servisa.",
+      "highlights": [
+        "Prilagodio je aplikaciju načinu rada klijenta, uz podršku procesu od ponude do administracije posle servisnog rada."
       ],
-      "x-short": true,
-      "x-shortHighlights": 1,
-      "x-focus": ["architect", "senior-dotnet"]
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "Knockout",
+        "jQuery",
+        "SQL Server",
+        "C#",
+        ".NET",
+        "Azure"
+      ],
+      "x-focus": ["senior-dotnet"]
     },
     {
       "x-id": "allwin-public-sector-app",

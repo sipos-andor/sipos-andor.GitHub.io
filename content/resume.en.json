@@ -283,17 +283,15 @@
       "x-focus": ["tech-lead"]
     },
     {
-      "x-id": "ecommerce-service-management",
+      "x-id": "nopcommerce-store",
       "x-work": "operandor",
-      "name": "eCommerce, service management and UI test automation projects",
-      "roles": ["Lead software engineer"],
-      "startDate": "2021-09",
+      "name": "Plugin-based eCommerce solution on nopCommerce",
+      "roles": ["Architect and lead developer"],
+      "startDate": "2022-01",
       "endDate": "2022-11",
-      "description": "Client engagement as lead software engineer, covering a plugin-based eCommerce solution, a service management system and an automated UI test suite.",
+      "description": "Online store built on the nopCommerce open-source platform.",
       "highlights": [
-        "As architect and lead developer, designed and built a plugin-based online store on the nopCommerce open-source platform, extending its large third-party .NET codebase through the plugin architecture without forking it or changing the core application's source code.",
-        "As lead developer responsible for the whole system, built a flexible service management system fitted to how the client operated, covering the full business process from the quote to after-sales service.",
-        "Built a full UI regression suite from scratch for the website of a German gaming company."
+        "Extended a large third-party .NET codebase through nopCommerce's plugin architecture, without forking it or changing the core application's source code."
       ],
       "keywords": [
         "C#",
@@ -302,18 +300,51 @@
         "SQL Server",
         "HTML",
         "JavaScript",
-        "nopCommerce",
-        "Node.js",
-        "Knockout",
-        "jQuery",
-        "Azure",
+        "nopCommerce"
+      ],
+      "x-focus": ["architect"]
+    },
+    {
+      "x-id": "ui-test-suite",
+      "x-work": "operandor",
+      "name": "Automated UI test suite",
+      "roles": ["UI test automation developer"],
+      "startDate": "2021-11",
+      "endDate": "2021-12",
+      "description": "Automated UI test suite for the website of a German gaming company.",
+      "highlights": [
+        "Built a full UI regression suite from scratch."
+      ],
+      "keywords": [
+        ".NET",
+        "C#",
         "xUnit",
         "NUnit",
         "Selenium"
+      ]
+    },
+    {
+      "x-id": "service-management-system",
+      "x-work": "operandor",
+      "name": "Service management system",
+      "roles": ["Lead developer responsible for the whole system"],
+      "startDate": "2021-09",
+      "endDate": "2021-11",
+      "description": "Flexible service management system covering the full business process from quote to after-sales service.",
+      "highlights": [
+        "Fitted the application to how the client operated, supporting the process from the quote to the paperwork after the service work."
       ],
-      "x-short": true,
-      "x-shortHighlights": 1,
-      "x-focus": ["architect", "senior-dotnet"]
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "Knockout",
+        "jQuery",
+        "SQL Server",
+        "C#",
+        ".NET",
+        "Azure"
+      ],
+      "x-focus": ["senior-dotnet"]
     },
     {
       "x-id": "allwin-public-sector-app",
