@@ -225,7 +225,9 @@
       "endDate": "2024-05",
       "description": ".NET-alapú alkalmazás, amely egy akkreditált anyagvizsgáló laboratórium vizsgálati jegyzőkönyveinek és riportjainak elkészítését segítette.",
       "highlights": [
-        "Kifejlesztette a vizsgálati jegyzőkönyvek és riportok funkcióit .NET-ben és DevExpress-szel, SQL Server-adatbázisra építve."
+        "Egyedüli fejlesztőként dolgozott a projekten.",
+        "Kifejlesztette a vizsgálati jegyzőkönyvek funkcióit .NET-ben, SQL Server-adatbázisra építve, a nyomtatható riportokat pedig DevExpress Reportinggal készítette el.",
+        "A kész alkalmazással segítette a laboratóriumot az akkreditációs követelmények teljesítésében."
       ],
       "keywords": [
         ".NET",

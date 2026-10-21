@@ -225,7 +225,9 @@
       "endDate": "2024-05",
       "description": "A .NET application that helped an accredited materials testing laboratory prepare its test records and reports.",
       "highlights": [
-        "Developed test record and report features in .NET with DevExpress on a SQL Server database."
+        "Worked as the sole developer on the project.",
+        "Developed the test record features in .NET on a SQL Server database and built the printable test reports with DevExpress Reporting.",
+        "Supported the laboratory in meeting its accreditation requirements with the finished application."
       ],
       "keywords": [
         ".NET",

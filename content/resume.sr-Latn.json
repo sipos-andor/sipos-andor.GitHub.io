@@ -225,7 +225,9 @@
       "endDate": "2024-05",
       "description": ".NET aplikacija koja je akreditovanoj laboratoriji za ispitivanje materijala pomagala u izradi zapisnika o ispitivanjima i izveštaja.",
       "highlights": [
-        "Razvio je funkcije za zapisnike o ispitivanjima i izveštaje u .NET-u sa DevExpressom, na SQL Server bazi podataka."
+        "Radio je kao jedini programer na projektu.",
+        "Razvio je funkcije za zapisnike o ispitivanjima u .NET-u, na SQL Server bazi podataka, a pomoću DevExpress Reportinga izradio je izveštaje o ispitivanju spremne za štampu.",
+        "Gotovom aplikacijom pomogao je laboratoriji da ispuni akreditacione zahteve."
       ],
       "keywords": [
         ".NET",
