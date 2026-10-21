@@ -39,11 +39,11 @@
     {
       "x-id": "operandor",
       "name": "operandor",
-      "description": "ranije preduzetnička radnja",
+      "description": "preduzetnička radnja",
       "position": "Osnivač, tehnički rukovodilac i softverski arhitekta",
       "url": "https://operandor.io/",
       "location": "Na daljinu",
-      "startDate": "2022-11",
+      "startDate": "2021-08",
       "summary": "Firma za razvoj softvera koja pravi poslovne aplikacije po meri, povezuje i modernizuje postojeće sisteme i automatizuje ponavljajuće zadatke, a AI uvodi tamo gde se to, s obzirom na zadatak i podatke, isplati. Njene usluge su razvoj softvera po meri, integracija sistema, preuzimanje postojećeg sistema, modernizacija sistema, automatizacija procesa uz podršku AI-ja i kapacitet senior programera, a sopstveni proizvod rovatix izdvaja podatke iz dokumenata.",
       "highlights": [
         "Vodi stručni rad: projektuje strukturu svakog rešenja, usklađuje rad programera i učestvuje u razvoju i tehničkim pregledima.",
@@ -83,13 +83,12 @@
     {
       "x-id": "allwin",
       "name": "ALLWIN Informatika Kft.",
-      "position": "Senior programer",
+      "position": "Programer",
       "startDate": "2015-03",
-      "endDate": "2022-11",
-      "summary": "Radio je na konsultantskim projektima iz oblasti e-trgovine, GIS-a, javnog sektora i istraživanja i razvoja, a od 2021. imao je i zaduženja vodećeg programera i arhitekte.",
+      "endDate": "2021-08",
+      "summary": "Radio je na konsultantskim projektima iz oblasti GIS-a, javnog sektora i istraživanja i razvoja.",
       "highlights": [
-        "Preuzeo je zaduženja vodećeg programera i arhitekte od 2021. godine.",
-        "Realizovao je projekte za veliko preduzeće, javni sektor, međunarodnog klijenta iz oblasti praćenja plovila i nemačku gejming kompaniju, kao i istraživačko-razvojni projekat dobijen na konkursu."
+        "Realizovao je projekte za veliko preduzeće, javni sektor i međunarodnog klijenta iz oblasti praćenja plovila, kao i istraživačko-razvojni projekat dobijen na konkursu."
       ],
       "x-keywords": [
         "C#",
@@ -103,8 +102,8 @@
         "Azure"
       ],
       "x-short": true,
-      "x-shortHighlights": 2,
-      "x-focus": ["architect", "senior-dotnet"]
+      "x-shortHighlights": 1,
+      "x-focus": ["senior-dotnet"]
     },
     {
       "x-id": "grape-solutions",
@@ -277,13 +276,17 @@
       "x-focus": ["tech-lead"]
     },
     {
-      "x-id": "allwin-nopcommerce",
-      "x-work": "allwin",
-      "name": "Rešenje za e-trgovinu na platformi nopCommerce, zasnovano na pluginovima",
-      "roles": ["Arhitekta i vodeći programer"],
-      "description": "Internet prodavnica izgrađena na platformi otvorenog koda nopCommerce.",
+      "x-id": "ecommerce-service-management",
+      "x-work": "operandor",
+      "name": "Projekti e-trgovine, upravljanja servisom i automatizacije UI testova",
+      "roles": ["Vodeći programer"],
+      "startDate": "2021-09",
+      "endDate": "2022-11",
+      "description": "Angažman za klijenta u ulozi vodećeg programera, koji je obuhvatio rešenje za e-trgovinu zasnovano na pluginovima, sistem za upravljanje servisom i automatizovane UI testove.",
       "highlights": [
-        "Proširio je veliku .NET kodnu bazu treće strane kroz arhitekturu pluginova platforme nopCommerce, bez pravljenja forka i bez izmene izvornog koda osnovne aplikacije."
+        "Kao arhitekta i vodeći programer osmislio je i napravio internet prodavnicu zasnovanu na pluginovima na platformi otvorenog koda nopCommerce, proširujući veliku .NET kodnu bazu treće strane kroz arhitekturu pluginova, bez pravljenja forka i bez izmene izvornog koda osnovne aplikacije.",
+        "Kao vodeći programer odgovoran za ceo sistem napravio je fleksibilan sistem za upravljanje servisom, prilagođen načinu rada klijenta, koji pokriva ceo poslovni proces od ponude do postprodajnog servisa.",
+        "Napravio je od nule kompletan skup regresionih UI testova za veb-sajt nemačke gejming kompanije."
       ],
       "keywords": [
         "C#",
@@ -292,30 +295,18 @@
         "SQL Server",
         "HTML",
         "JavaScript",
-        "nopCommerce"
-      ],
-      "x-focus": ["architect"]
-    },
-    {
-      "x-id": "allwin-service-management",
-      "x-work": "allwin",
-      "name": "Sistem za upravljanje servisom",
-      "roles": ["Programer odgovoran za ceo sistem"],
-      "description": "Fleksibilan sistem za upravljanje servisom koji pokriva ceo poslovni proces, od ponude do postprodajnog servisa.",
-      "highlights": [
-        "Prilagodio je aplikaciju načinu rada klijenta, uz podršku procesu od ponude do administracije posle servisnog rada."
-      ],
-      "keywords": [
-        "JavaScript",
+        "nopCommerce",
         "Node.js",
         "Knockout",
         "jQuery",
-        "SQL Server",
-        "C#",
-        ".NET",
-        "Azure"
+        "Azure",
+        "xUnit",
+        "NUnit",
+        "Selenium"
       ],
-      "x-focus": ["senior-dotnet"]
+      "x-short": true,
+      "x-shortHighlights": 1,
+      "x-focus": ["architect", "senior-dotnet"]
     },
     {
       "x-id": "allwin-public-sector-app",
@@ -348,22 +339,6 @@
         "SQL Server",
         "Telerik UI",
         "ArcGIS"
-      ]
-    },
-    {
-      "x-id": "allwin-ui-test-suite",
-      "x-work": "allwin",
-      "name": "Automatizovani skup UI testova",
-      "description": "Automatizovani skup UI testova za veb-sajt nemačke gejming kompanije.",
-      "highlights": [
-        "Napravio je od nule kompletan skup regresionih UI testova."
-      ],
-      "keywords": [
-        ".NET",
-        "C#",
-        "xUnit",
-        "NUnit",
-        "Selenium"
       ]
     },
     {

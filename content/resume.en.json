@@ -39,11 +39,11 @@
     {
       "x-id": "operandor",
       "name": "operandor",
-      "description": "formerly a sole proprietorship",
+      "description": "sole proprietorship",
       "position": "Founder, Technical Lead & Software Architect",
       "url": "https://operandor.io/",
       "location": "Remote",
-      "startDate": "2022-11",
+      "startDate": "2021-08",
       "summary": "Software development business that builds custom business applications, connects and modernises existing systems, and automates repetitive work, bringing in AI where the task and the data make it worthwhile. Its services are custom software development, system integration, taking over an existing system, system modernisation, AI-assisted workflow automation and senior developer capacity; its own product, rovatix, extracts data from documents.",
       "highlights": [
         "Leads the technical work: designs the structure of each solution, coordinates the developers and takes part in development and technical reviews.",
@@ -83,13 +83,12 @@
     {
       "x-id": "allwin",
       "name": "ALLWIN Informatika Kft.",
-      "position": "Senior Software Engineer",
+      "position": "Software Engineer",
       "startDate": "2015-03",
-      "endDate": "2022-11",
-      "summary": "Consultancy delivery across eCommerce, GIS, public sector and R&D projects, with lead engineer and architect responsibilities from 2021.",
+      "endDate": "2021-08",
+      "summary": "Consultancy delivery across GIS, public sector and R&D projects.",
       "highlights": [
-        "Took on lead engineer and architect responsibilities from 2021.",
-        "Delivered projects for a large enterprise, the public sector, an international vessel-tracking client and a German gaming company, plus an R&D project from a winning tender."
+        "Delivered projects for a large enterprise, the public sector and an international vessel-tracking client, plus an R&D project from a winning tender."
       ],
       "x-keywords": [
         "C#",
@@ -103,8 +102,8 @@
         "Azure"
       ],
       "x-short": true,
-      "x-shortHighlights": 2,
-      "x-focus": ["architect", "senior-dotnet"]
+      "x-shortHighlights": 1,
+      "x-focus": ["senior-dotnet"]
     },
     {
       "x-id": "grape-solutions",
@@ -277,13 +276,17 @@
       "x-focus": ["tech-lead"]
     },
     {
-      "x-id": "allwin-nopcommerce",
-      "x-work": "allwin",
-      "name": "Plugin-based eCommerce solution on nopCommerce",
-      "roles": ["Architect and lead engineer"],
-      "description": "Online store built on the nopCommerce open-source platform.",
+      "x-id": "ecommerce-service-management",
+      "x-work": "operandor",
+      "name": "eCommerce, service management and UI test automation projects",
+      "roles": ["Lead software engineer"],
+      "startDate": "2021-09",
+      "endDate": "2022-11",
+      "description": "Client engagement as lead software engineer, covering a plugin-based eCommerce solution, a service management system and an automated UI test suite.",
       "highlights": [
-        "Extended a large third-party .NET codebase through nopCommerce's plugin architecture, without forking it or changing the core application's source code."
+        "As architect and lead developer, designed and built a plugin-based online store on the nopCommerce open-source platform, extending its large third-party .NET codebase through the plugin architecture without forking it or changing the core application's source code.",
+        "As lead developer responsible for the whole system, built a flexible service management system fitted to how the client operated, covering the full business process from the quote to after-sales service.",
+        "Built a full UI regression suite from scratch for the website of a German gaming company."
       ],
       "keywords": [
         "C#",
@@ -292,30 +295,18 @@
         "SQL Server",
         "HTML",
         "JavaScript",
-        "nopCommerce"
-      ],
-      "x-focus": ["architect"]
-    },
-    {
-      "x-id": "allwin-service-management",
-      "x-work": "allwin",
-      "name": "Service management system",
-      "roles": ["Engineer responsible for the whole system"],
-      "description": "Flexible service management system covering the full business process from quote to after-sales service.",
-      "highlights": [
-        "Fitted the application to how the client operated, supporting the process from the quote to the paperwork after the service work."
-      ],
-      "keywords": [
-        "JavaScript",
+        "nopCommerce",
         "Node.js",
         "Knockout",
         "jQuery",
-        "SQL Server",
-        "C#",
-        ".NET",
-        "Azure"
+        "Azure",
+        "xUnit",
+        "NUnit",
+        "Selenium"
       ],
-      "x-focus": ["senior-dotnet"]
+      "x-short": true,
+      "x-shortHighlights": 1,
+      "x-focus": ["architect", "senior-dotnet"]
     },
     {
       "x-id": "allwin-public-sector-app",
@@ -348,22 +339,6 @@
         "SQL Server",
         "Telerik UI",
         "ArcGIS"
-      ]
-    },
-    {
-      "x-id": "allwin-ui-test-suite",
-      "x-work": "allwin",
-      "name": "Automated UI test suite",
-      "description": "Automated UI test suite for the website of a German gaming company.",
-      "highlights": [
-        "Built a full UI regression suite from scratch."
-      ],
-      "keywords": [
-        ".NET",
-        "C#",
-        "xUnit",
-        "NUnit",
-        "Selenium"
       ]
     },
     {

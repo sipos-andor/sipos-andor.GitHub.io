@@ -39,11 +39,11 @@
     {
       "x-id": "operandor",
       "name": "operandor",
-      "description": "korábban egyéni vállalkozás",
+      "description": "egyéni vállalkozás",
       "position": "Alapító, szakmai vezető és szoftverarchitekt",
       "url": "https://operandor.io/",
       "location": "Távmunka",
-      "startDate": "2022-11",
+      "startDate": "2021-08",
       "summary": "Szoftverfejlesztő vállalkozás: egyedi üzleti alkalmazásokat fejleszt, összeköti és korszerűsíti a meglévő rendszereket, és automatizálja az ismétlődő feladatokat; AI-t ott von be, ahol a feladat és a rendelkezésre álló adatok alapján érdemes. Szolgáltatásai: egyedi szoftverfejlesztés, rendszerintegráció, meglévő rendszer átvétele, rendszerkorszerűsítés, AI-támogatott folyamatautomatizálás és senior fejlesztői kapacitás. Saját terméke a rovatix, amely dokumentumokból nyer ki adatokat.",
       "highlights": [
         "Vezeti a szakmai munkát: megtervezi az egyes megoldások felépítését, összehangolja a fejlesztők munkáját, valamint részt vesz a fejlesztésben és a szakmai ellenőrzésben.",
@@ -83,13 +83,12 @@
     {
       "x-id": "allwin",
       "name": "ALLWIN Informatika Kft.",
-      "position": "Senior szoftverfejlesztő",
+      "position": "Szoftverfejlesztő",
       "startDate": "2015-03",
-      "endDate": "2022-11",
-      "summary": "Tanácsadói ügyfélprojektek e-kereskedelmi, térinformatikai (GIS), közszférabeli és K+F-területen; 2021-től vezető fejlesztői és architekt feladatkörrel.",
+      "endDate": "2021-08",
+      "summary": "Tanácsadói ügyfélprojektek térinformatikai (GIS), közszférabeli és K+F-területen.",
       "highlights": [
-        "Ellátta a vezető fejlesztői és architekt feladatokat 2021-től.",
-        "Megvalósította egy nagyvállalat, a közszféra, egy nemzetközi hajókövetési ügyfél és egy német játékipari cég projektjeit, valamint egy nyertes pályázatból indult K+F-projektet."
+        "Megvalósította egy nagyvállalat, a közszféra és egy nemzetközi hajókövetési ügyfél projektjeit, valamint egy nyertes pályázatból indult K+F-projektet."
       ],
       "x-keywords": [
         "C#",
@@ -103,8 +102,8 @@
         "Azure"
       ],
       "x-short": true,
-      "x-shortHighlights": 2,
-      "x-focus": ["architect", "senior-dotnet"]
+      "x-shortHighlights": 1,
+      "x-focus": ["senior-dotnet"]
     },
     {
       "x-id": "grape-solutions",
@@ -277,13 +276,17 @@
       "x-focus": ["tech-lead"]
     },
     {
-      "x-id": "allwin-nopcommerce",
-      "x-work": "allwin",
-      "name": "Pluginekre épülő e-kereskedelmi megoldás nopCommerce platformon",
-      "roles": ["Architekt és vezető fejlesztő"],
-      "description": "Webáruház a nyílt forráskódú nopCommerce platformra építve.",
+      "x-id": "ecommerce-service-management",
+      "x-work": "operandor",
+      "name": "E-kereskedelmi, szervizmenedzsment- és UI-tesztautomatizálási projektek",
+      "roles": ["Vezető fejlesztő"],
+      "startDate": "2021-09",
+      "endDate": "2022-11",
+      "description": "Ügyfélmegbízás vezető fejlesztőként, amely egy pluginekre épülő e-kereskedelmi megoldást, egy szervizmenedzsment-rendszert és egy automatizált UI-tesztkészletet fogott át.",
       "highlights": [
-        "Bővítette a nopCommerce nagy, külső fejlesztésű .NET-kódbázisát a platform pluginrendszerén keresztül, forkolás és az alapalkalmazás forráskódjának módosítása nélkül."
+        "Architektként és vezető fejlesztőként megtervezett és elkészített egy pluginekre épülő webáruházat a nyílt forráskódú nopCommerce platformon: a nagy, külső fejlesztésű .NET-kódbázist a platform pluginrendszerén keresztül bővítette, forkolás és az alapalkalmazás forráskódjának módosítása nélkül.",
+        "A teljes rendszerért felelős vezető fejlesztőként elkészített egy rugalmas, az ügyfél működéséhez igazított szervizmenedzsment-rendszert, amely a teljes üzleti folyamatot lefedte az árajánlattól az értékesítés utáni szolgáltatásokig.",
+        "Felépített a nulláról egy teljes UI-regressziós tesztkészletet egy német játékipari cég weboldalához."
       ],
       "keywords": [
         "C#",
@@ -292,30 +295,18 @@
         "SQL Server",
         "HTML",
         "JavaScript",
-        "nopCommerce"
-      ],
-      "x-focus": ["architect"]
-    },
-    {
-      "x-id": "allwin-service-management",
-      "x-work": "allwin",
-      "name": "Szervizmenedzsment-rendszer",
-      "roles": ["A teljes szoftverért felelős fejlesztő"],
-      "description": "Rugalmas szervizmenedzsment-rendszer, amely a teljes üzleti folyamatot lefedi az árajánlattól az értékesítés utáni szolgáltatásokig.",
-      "highlights": [
-        "Hozzáigazította az alkalmazást az ügyfél működéséhez: az árajánlattól a szervizmunka utáni ügyintézésig támogatta a folyamatot."
-      ],
-      "keywords": [
-        "JavaScript",
+        "nopCommerce",
         "Node.js",
         "Knockout",
         "jQuery",
-        "SQL Server",
-        "C#",
-        ".NET",
-        "Azure"
+        "Azure",
+        "xUnit",
+        "NUnit",
+        "Selenium"
       ],
-      "x-focus": ["senior-dotnet"]
+      "x-short": true,
+      "x-shortHighlights": 1,
+      "x-focus": ["architect", "senior-dotnet"]
     },
     {
       "x-id": "allwin-public-sector-app",
@@ -348,22 +339,6 @@
         "SQL Server",
         "Telerik UI",
         "ArcGIS"
-      ]
-    },
-    {
-      "x-id": "allwin-ui-test-suite",
-      "x-work": "allwin",
-      "name": "Automatizált UI-tesztkészlet",
-      "description": "Automatizált UI-tesztkészlet egy német játékipari cég weboldalához.",
-      "highlights": [
-        "Felépített a nulláról egy teljes UI-regressziós tesztkészletet."
-      ],
-      "keywords": [
-        ".NET",
-        "C#",
-        "xUnit",
-        "NUnit",
-        "Selenium"
       ]
     },
     {
