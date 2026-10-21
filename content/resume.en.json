@@ -449,8 +449,8 @@
   "languages": [
     { "language": "Hungarian", "fluency": "Native" },
     { "language": "English", "fluency": "Fluent, professional working proficiency" },
-    { "language": "Serbian", "fluency": "Basic" },
-    { "language": "Croatian", "fluency": "Basic" }
+    { "language": "Serbian", "fluency": "Limited working proficiency" },
+    { "language": "Croatian", "fluency": "Limited working proficiency" }
   ],
   "meta": {
     "version": "v1.0.0",

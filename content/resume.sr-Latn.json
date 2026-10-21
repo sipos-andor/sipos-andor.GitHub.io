@@ -449,8 +449,8 @@
   "languages": [
     { "language": "Mađarski", "fluency": "Maternji" },
     { "language": "Engleski", "fluency": "Tečno, na profesionalnom radnom nivou" },
-    { "language": "Srpski", "fluency": "Osnovni nivo" },
-    { "language": "Hrvatski", "fluency": "Osnovni nivo" }
+    { "language": "Srpski", "fluency": "Na ograničenom radnom nivou" },
+    { "language": "Hrvatski", "fluency": "Na ograničenom radnom nivou" }
   ],
   "meta": {
     "version": "v1.0.0",

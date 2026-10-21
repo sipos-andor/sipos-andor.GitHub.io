@@ -449,8 +449,8 @@
   "languages": [
     { "language": "Magyar", "fluency": "Anyanyelv" },
     { "language": "Angol", "fluency": "Folyékony, tárgyalóképes" },
-    { "language": "Szerb", "fluency": "Alapfok" },
-    { "language": "Horvát", "fluency": "Alapfok" }
+    { "language": "Szerb", "fluency": "Társalgási szint" },
+    { "language": "Horvát", "fluency": "Társalgási szint" }
   ],
   "meta": {
     "version": "v1.0.0",
