@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Andor Sípos",
-    "label": "Founder, Technical Lead & Software Architect",
+    "label": "Owner & Technical Lead",
     "phone": "+36 30 903 6622",
     "url": "https://andor.sipos.io/",
-    "summary": "Software architect and technical lead with 13+ years of experience building business .NET systems. As founder and technical lead of operandor, he designs the structure of each solution, coordinates the developers' work and writes code himself. He is at home in large, long-lived codebases and modernises them step by step into a modular structure while they stay in production. Recent work combines .NET and Azure with AI-assisted workflows, from Azure OpenAI document extraction to an MCP server for coding agents, alongside TypeScript/React front ends.",
+    "summary": "Software architect and technical lead with 13+ years of experience building business .NET systems. As owner and technical lead of operandor, he designs the structure of each solution, coordinates the developers' work and writes code himself. He is at home in large, long-lived codebases and modernises them step by step into a modular structure while they stay in production. Recent work combines .NET and Azure with AI-assisted workflows, from Azure OpenAI document extraction to an MCP server for coding agents, alongside TypeScript/React front ends.",
     "location": {
       "region": "Europe",
       "x-label": "Remote from Europe"
@@ -40,7 +40,7 @@
       "x-id": "operandor",
       "name": "operandor",
       "description": "sole proprietorship",
-      "position": "Founder, Technical Lead & Software Architect",
+      "position": "Owner & Technical Lead",
       "url": "https://operandor.io/",
       "location": "Remote",
       "startDate": "2021-08",
@@ -108,7 +108,7 @@
     {
       "x-id": "grape-solutions",
       "name": "Grape Solutions Kft.",
-      "position": "Junior Software Engineer",
+      "position": "Junior .NET Engineer",
       "startDate": "2014-07",
       "endDate": "2015-02",
       "highlights": [
@@ -129,7 +129,7 @@
     {
       "x-id": "regatta-2013",
       "name": "Regatta Project Kft.",
-      "position": "Junior Software Engineer",
+      "position": ".NET Developer",
       "startDate": "2013-04",
       "endDate": "2014-07",
       "highlights": [
@@ -243,12 +243,12 @@
       "x-work": "operandor",
       "name": "Supplier reporting platform",
       "entity": "AGCO Corporation",
-      "roles": ["Full-stack engineer, then tech lead"],
+      "roles": ["Lead software engineer"],
       "startDate": "2022-11",
       "endDate": "2024-09",
       "description": "Internal supply chain BI platform for an international manufacturer, surfacing the organisation's main KPIs on a dashboard: decision-makers and business leaders saw in one place how suppliers confirmed forecasts and how this affected production.",
       "highlights": [
-        "Owned technical delivery across back end, front end and deployment, first as full-stack engineer and then as tech lead of a distributed team of 3–4 people.",
+        "Owned technical delivery across back end, front end and deployment as lead software engineer of a distributed team of 3–4 people.",
         "Built and maintained the TypeScript/React/MUI front end consuming the BI dashboard's APIs, where leaders filtered figures by business unit, region and supplier and compared successive forecasts part by part.",
         "Worked on an ASP.NET Core monolith following Clean Architecture, with AWS Lambda functions loading supplier data into a PostgreSQL star schema for the reports.",
         "Owned CI/CD across Azure DevOps and GitHub Actions, with containerised deployment on Docker and Kubernetes.",

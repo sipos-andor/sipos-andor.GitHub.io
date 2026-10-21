@@ -1,6 +1,6 @@
 # andor.sipos.io
 
-The online CV of Andor Sípos, founder and technical lead of [operandor](https://operandor.io/), in English, Hungarian,
+The online CV of Andor Sípos, owner and technical lead of [operandor](https://operandor.io/), in English, Hungarian,
 Croatian and Serbian, with downloadable PDF, DOCX, ATS-friendly, Markdown and JSON Resume versions.
 
 The site is built from the JSON Resume files in [`content/`](content) by

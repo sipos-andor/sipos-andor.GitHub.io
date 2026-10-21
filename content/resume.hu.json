@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Sípos Andor",
-    "label": "Alapító, szakmai vezető és szoftverarchitekt",
+    "label": "Tulajdonos és szakmai vezető",
     "phone": "+36 30 903 6622",
     "url": "https://andor.sipos.io/hu/",
-    "summary": "Szoftverarchitekt és szakmai vezető, 13+ év tapasztalattal üzleti .NET-rendszerek fejlesztésében. Az operandor alapítójaként és szakmai vezetőjeként megtervezi az egyes megoldások felépítését, összehangolja a fejlesztők munkáját, és maga is fejleszt. Otthonosan mozog a nagy, régóta fejlesztett kódbázisokban, és lépésenként moduláris felépítésűvé korszerűsíti őket, miközben végig élesben futnak. Legutóbbi munkáiban a .NET-et és az Azure-t AI-támogatott munkafolyamatokkal ötvözi – az Azure OpenAI-alapú dokumentumfeldolgozástól a kódolóügynököknek készült MCP-szerverig –, emellett TypeScript/React frontendeket is fejleszt.",
+    "summary": "Szoftverarchitekt és szakmai vezető, 13+ év tapasztalattal üzleti .NET-rendszerek fejlesztésében. Az operandor tulajdonosaként és szakmai vezetőjeként megtervezi az egyes megoldások felépítését, összehangolja a fejlesztők munkáját, és maga is fejleszt. Otthonosan mozog a nagy, régóta fejlesztett kódbázisokban, és lépésenként moduláris felépítésűvé korszerűsíti őket, miközben végig élesben futnak. Legutóbbi munkáiban a .NET-et és az Azure-t AI-támogatott munkafolyamatokkal ötvözi – az Azure OpenAI-alapú dokumentumfeldolgozástól a kódolóügynököknek készült MCP-szerverig –, emellett TypeScript/React frontendeket is fejleszt.",
     "location": {
       "region": "Európa",
       "x-label": "Távmunkában, Európából"
@@ -40,7 +40,7 @@
       "x-id": "operandor",
       "name": "operandor",
       "description": "egyéni vállalkozás",
-      "position": "Alapító, szakmai vezető és szoftverarchitekt",
+      "position": "Tulajdonos és szakmai vezető",
       "url": "https://operandor.io/",
       "location": "Távmunka",
       "startDate": "2021-08",
@@ -108,7 +108,7 @@
     {
       "x-id": "grape-solutions",
       "name": "Grape Solutions Kft.",
-      "position": "Junior szoftverfejlesztő",
+      "position": "Junior .NET-fejlesztő",
       "startDate": "2014-07",
       "endDate": "2015-02",
       "highlights": [
@@ -129,7 +129,7 @@
     {
       "x-id": "regatta-2013",
       "name": "Regatta Project Kft.",
-      "position": "Junior szoftverfejlesztő",
+      "position": ".NET-fejlesztő",
       "startDate": "2013-04",
       "endDate": "2014-07",
       "highlights": [
@@ -243,12 +243,12 @@
       "x-work": "operandor",
       "name": "Beszállítói riportplatform",
       "entity": "AGCO Corporation",
-      "roles": ["Full stack fejlesztő, majd technikai vezető"],
+      "roles": ["Vezető fejlesztő"],
       "startDate": "2022-11",
       "endDate": "2024-09",
       "description": "Belső BI-platform egy nemzetközi gyártóvállalat ellátási láncához, amely egy dashboardon jelenítette meg a szervezet legfontosabb KPI-jait: a döntéshozók és az üzleti vezetők egy helyen látták, hogyan igazolják vissza a beszállítók az előrejelzéseket, és ez milyen hatással van a gyártásra.",
       "highlights": [
-        "Felelt a műszaki megvalósításért a backendtől a frontendig és a telepítésig, előbb full stack fejlesztőként, majd egy 3–4 fős, elosztott csapat technikai vezetőjeként.",
+        "Felelt a műszaki megvalósításért a backendtől a frontendig és a telepítésig, egy 3–4 fős, elosztott csapat vezető fejlesztőjeként.",
         "Fejlesztette és karbantartotta a BI-dashboard API-jaira épülő TypeScript/React/MUI frontendet, ahol a vezetők üzletáganként, régiónként és beszállítónként szűrhették a mutatókat, és cikkszámonként összevethették az egymást követő előrejelzéseket.",
         "Dolgozott a Clean Architecture szerint felépített ASP.NET Core-monoliton, ahol AWS Lambda-függvények töltötték be a beszállítói adatokat a riportok alapjául szolgáló PostgreSQL-csillagsémába.",
         "Felelt az Azure DevOpsra és GitHub Actionsre épülő CI/CD-ért, Docker- és Kubernetes-alapú konténeres telepítéssel.",

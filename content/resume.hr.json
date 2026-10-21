@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Andor Sípos",
-    "label": "Osnivač, tehnički voditelj i softverski arhitekt",
+    "label": "Vlasnik i tehnički voditelj",
     "phone": "+36 30 903 6622",
     "url": "https://andor.sipos.io/hr/",
-    "summary": "Softverski arhitekt i tehnički voditelj s 13+ godina iskustva u razvoju poslovnih .NET sustava. Kao osnivač i tehnički voditelj tvrtke operandor projektira strukturu svakog rješenja, usklađuje rad programera i sam piše kod. Dobro se snalazi u velikim bazama koda koje se razvijaju godinama te ih korak po korak prebacuje na modularnu strukturu, dok cijelo vrijeme rade u produkciji. U novijim projektima povezuje .NET i Azure s tijekovima rada uz podršku AI-ja, od izdvajanja podataka iz dokumenata pomoću Azure OpenAI-ja do MCP poslužitelja za agente za kodiranje, a uz to razvija i sučelja u TypeScriptu i Reactu.",
+    "summary": "Softverski arhitekt i tehnički voditelj s 13+ godina iskustva u razvoju poslovnih .NET sustava. Kao vlasnik i tehnički voditelj tvrtke operandor projektira strukturu svakog rješenja, usklađuje rad programera i sam piše kod. Dobro se snalazi u velikim bazama koda koje se razvijaju godinama te ih korak po korak prebacuje na modularnu strukturu, dok cijelo vrijeme rade u produkciji. U novijim projektima povezuje .NET i Azure s tijekovima rada uz podršku AI-ja, od izdvajanja podataka iz dokumenata pomoću Azure OpenAI-ja do MCP poslužitelja za agente za kodiranje, a uz to razvija i sučelja u TypeScriptu i Reactu.",
     "location": {
       "region": "Europa",
       "x-label": "Rad na daljinu iz Europe"
@@ -40,7 +40,7 @@
       "x-id": "operandor",
       "name": "operandor",
       "description": "obrt",
-      "position": "Osnivač, tehnički voditelj i softverski arhitekt",
+      "position": "Vlasnik i tehnički voditelj",
       "url": "https://operandor.io/",
       "location": "Na daljinu",
       "startDate": "2021-08",
@@ -108,7 +108,7 @@
     {
       "x-id": "grape-solutions",
       "name": "Grape Solutions Kft.",
-      "position": "Junior programer",
+      "position": "Junior .NET programer",
       "startDate": "2014-07",
       "endDate": "2015-02",
       "highlights": [
@@ -129,7 +129,7 @@
     {
       "x-id": "regatta-2013",
       "name": "Regatta Project Kft.",
-      "position": "Junior programer",
+      "position": ".NET programer",
       "startDate": "2013-04",
       "endDate": "2014-07",
       "highlights": [
@@ -243,12 +243,12 @@
       "x-work": "operandor",
       "name": "Platforma za izvještavanje o dobavljačima",
       "entity": "AGCO Corporation",
-      "roles": ["Full stack programer, zatim tehnički voditelj"],
+      "roles": ["Vodeći programer"],
       "startDate": "2022-11",
       "endDate": "2024-09",
       "description": "Interna BI platforma za lanac opskrbe međunarodnog proizvođača, koja je glavne pokazatelje uspješnosti organizacije prikazivala na nadzornoj ploči: donositelji odluka i poslovni rukovoditelji na jednom su mjestu vidjeli kako dobavljači potvrđuju prognoze i kako to utječe na proizvodnju.",
       "highlights": [
-        "Odgovarao za tehničku realizaciju backenda, frontenda i isporuke, najprije kao full stack programer, a zatim kao tehnički voditelj distribuiranog tima od 3–4 osobe.",
+        "Odgovarao za tehničku realizaciju backenda, frontenda i isporuke kao vodeći programer distribuiranog tima od 3–4 osobe.",
         "Izradio i održavao frontend u TypeScriptu, Reactu i MUI-ju koji koristi API-je BI nadzorne ploče, a na kojem su rukovoditelji filtrirali pokazatelje po poslovnoj jedinici, regiji i dobavljaču te po šifri artikla uspoređivali uzastopne prognoze.",
         "Radio na ASP.NET Core monolitu prema načelima Clean Architecture, uz AWS Lambda funkcije koje su podatke o dobavljačima učitavale u zvjezdastu shemu u PostgreSQL-u za potrebe izvješća.",
         "Odgovarao za CI/CD u Azure DevOpsu i GitHub Actionsu, uz isporuku u kontejnerima na Dockeru i Kubernetesu.",
