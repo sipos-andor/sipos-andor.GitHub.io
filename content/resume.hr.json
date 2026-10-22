@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Andor Sípos",
-    "label": "Vlasnik i tehnički voditelj",
+    "label": "Osnivač, tehnički voditelj i softverski arhitekt",
     "phone": "+36 30 903 6622",
     "url": "https://andor.sipos.io/hr/",
-    "summary": "Vlasnik i tehnički voditelj obrta operandor s 13+ godina iskustva u razvoju poslovnih .NET sustava. Pomaže poslovnim rukovoditeljima, operativnim timovima i tehničkim voditeljima čiji rad usporavaju nepovezani sustavi, ponavljajući unos podataka ili aplikacije koje je teško nadograđivati. Razvija poslovni softver po mjeri, modernizira postojeće .NET sustave i povezuje aplikacije, prvenstveno koristeći .NET/C#, Azure i web-tehnologije. Kao programer i arhitekt koji aktivno sudjeluje u razvoju surađuje s programerima s kojima je već radio na prijašnjim projektima. Razlikuje AI automatizaciju poslovnih procesa klijenata od AI alata koje koristi u vlastitom razvojnom procesu; razvojni tim odgovoran je za tehničke odluke, pregled koda i osiguranje kvalitete.",
+    "summary": "Osnivač, tehnički voditelj i softverski arhitekt obrta operandor s 13+ godina iskustva u razvoju poslovnih .NET sustava. Pomaže poslovnim rukovoditeljima, operativnim timovima i tehničkim voditeljima čiji rad usporavaju nepovezani sustavi, ponavljajući unos podataka ili aplikacije koje je teško nadograđivati. Razvija poslovni softver po mjeri, modernizira postojeće .NET sustave i povezuje aplikacije, prvenstveno koristeći .NET/C#, Azure i web-tehnologije. Kao programer i arhitekt koji aktivno sudjeluje u razvoju surađuje s programerima s kojima je već radio na prijašnjim projektima. Razlikuje AI automatizaciju poslovnih procesa klijenata od AI alata koje koristi u vlastitom razvojnom procesu; razvojni tim odgovoran je za tehničke odluke, pregled koda i osiguranje kvalitete.",
     "location": {
       "region": "Europa",
       "x-label": "Rad na daljinu iz Europe"
@@ -40,11 +40,11 @@
       "x-id": "operandor",
       "name": "operandor",
       "description": "obrt",
-      "position": "Vlasnik i tehnički voditelj",
+      "position": "Osnivač, tehnički voditelj i softverski arhitekt",
       "url": "https://operandor.io/",
       "location": "Na daljinu",
       "startDate": "2021-08",
-      "summary": "Pomaže smanjiti ručni rad razvojem poslovnog softvera po mjeri, modernizacijom postojećih .NET aplikacija i integracijom sustava. Usluge uključuju tehničko vođenje, preuzimanje postojećih sustava i angažman senior programera. Za klijente izrađuje i automatizaciju uz podršku AI-ja, primjerice za izdvajanje podataka iz dokumenata, razvrstavanje upita i pretraživanje internih informacija, uz definirane korake ljudske provjere i odobravanja. AI alati korišteni u razvoju podržavaju njegov vlastiti tijek rada; izrađena aplikacija ne mora sadržavati AI funkcije. Vlastiti proizvod rovatix podržava obradu dokumenata.",
+      "summary": "Pomaže smanjiti ručni rad razvojem poslovnog softvera po mjeri, modernizacijom postojećih .NET aplikacija i integracijom sustava. Usluge uključuju i preuzimanje postojećih sustava te angažman senior programera, a u tim angažmanima preuzima i tehničko vođenje. Za klijente izrađuje i automatizaciju uz podršku AI-ja, primjerice za izdvajanje podataka iz dokumenata, razvrstavanje upita i pretraživanje internih informacija, uz definirane korake ljudske provjere i odobravanja. AI alati korišteni u razvoju podržavaju njegov vlastiti tijek rada; izrađena aplikacija ne mora sadržavati AI funkcije. Vlastiti proizvod rovatix podržava obradu dokumenata.",
       "highlights": [
         "Projektira arhitekturu rješenja, usklađuje rad programera te sudjeluje u implementaciji, pregledu koda i testiranju.",
         "Surađuje na daljinu s postojećim timovima klijenata, uz dogovor o zadacima, dostupnosti i odgovornostima prije početka rada, a za veće zadatke uključuje iskusne programere s kojima je već radio.",
@@ -102,7 +102,8 @@
         "SQL Server",
         "JavaScript",
         "jQuery",
-        "Azure"
+        "Azure",
+        "Microservices"
       ],
       "x-short": true,
       "x-shortHighlights": 1,
@@ -160,7 +161,7 @@
       "roles": ["Vodeći programer i arhitekt"],
       "startDate": "2025-08",
       "endDate": "2026-05",
-      "description": "Poslovno kritična platforma koja zajmodavcima i odvjetničkim uredima podržava hipotekarne poslove i transakcije nekretninama. Višemodularni poslovni sustav, izgrađen na .NET-u 10 i Blazoru prema načelima Clean Architecture, obuhvaćao je najmanje šest međusobno povezanih repozitorija i proizvoda. Radio na definiranju arhitekture i tehničkog smjera te na provedbi postupne modernizacije.",
+      "description": "Poslovno kritična platforma koja zajmodavcima i odvjetničkim uredima podržava hipotekarne poslove i transakcije nekretninama. Višemodularni poslovni sustav, izgrađen na .NET-u 10 prema načelima Clean Architecture, obuhvaćao je najmanje šest međusobno povezanih repozitorija i proizvoda. Radio na definiranju arhitekture i tehničkog smjera te na provedbi postupne modernizacije.",
       "highlights": [
         "Preoblikovao korak po korak čvrsto povezan .NET Framework sustav, izgrađen na WCF-u i pohranjenim procedurama, u modularne monolite na .NET-u 10 prema načelima Clean Architecture, CQRS-a i vertical slice arhitekture, uz migraciju starih WCF usluga po uzorku Strangler Fig, dok je sustav cijelo vrijeme radio u produkciji.",
         "Isporučio višekratno upotrebljiv modul za upravljanje ovlastima, kasnije uveden i u tri druga proizvoda klijenta, te modul za izvješćivanje koji podatke učitava pomoću Azure Data Factoryja; na ta dva modula zatim je razvijen novi proizvod.",
@@ -179,7 +180,6 @@
         ".NET",
         "ASP.NET Core",
         "Razor Pages",
-        "Blazor",
         "WCF",
         "SQL Server",
         "T-SQL",
@@ -292,7 +292,8 @@
         "GitHub Actions",
         "Azure DevOps",
         "Clean Architecture",
-        "SOLID Design Principles"
+        "SOLID Design Principles",
+        "Microservices"
       ],
       "x-short": true,
       "x-shortHighlights": 2,
@@ -345,7 +346,7 @@
       "x-id": "service-management-system",
       "x-work": "operandor",
       "name": "Sustav za upravljanje servisom",
-      "roles": ["Vodeći programer"],
+      "roles": ["Vodeći programer odgovoran za cijeli sustav"],
       "startDate": "2021-09",
       "endDate": "2021-11",
       "description": "Razvio sustav za upravljanje servisom koji podržava poslovni proces od početnih ponuda preko pružanja usluga do postprodajne administracije, prilagođen operativnim procesima klijenta.",
@@ -433,7 +434,6 @@
   ],
   "volunteer": [
     {
-      "organization": "Individual",
       "position": "Volonter u obrani od poplava",
       "startDate": "2013-06",
       "endDate": "2013-06",
@@ -503,21 +503,21 @@
   "publications": [
     {
       "name": "Microsoft Windows 7 Pontról pontra",
-      "publisher": "Perfact kiadó",
+      "publisher": "Perfact",
       "releaseDate": "2011-08-08",
       "summary": "Izradio ilustracije za knjigu."
     }
   ],
   "skills": [
     { "name": ".NET platforma", "level": "Primjena: ključna i učestala", "x-rating": 5, "x-ratingKind": "usage", "keywords": [".NET", "C#", "Entity Framework", "LINQ"] },
-    { "name": ".NET platforma", "level": "Primjena: ponavljana u više angažmana", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Blazor", "WPF", "ASP.NET Core"] },
-    { "name": ".NET platforma", "level": "Primjena: vezana uz određene projekte", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["Razor Pages", "WCF"] },
+    { "name": ".NET platforma", "level": "Primjena: ponavljana u više angažmana", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["WPF", "ASP.NET Core"] },
+    { "name": ".NET platforma", "level": "Primjena: vezana uz određene projekte", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["Razor Pages", "WCF", "Blazor"] },
     { "name": ".NET platforma", "level": "Primjena: raniji projekti", "x-rating": 2, "x-ratingKind": "usage", "keywords": ["ASP.NET MVC", "Windows Forms"] },
     { "name": ".NET platforma", "level": "Primjena: eksperimentalna", "x-rating": 1, "x-ratingKind": "usage", "keywords": [".NET MAUI"] },
     { "name": "Baze podataka i pristup podacima", "level": "Primjena: ključna i učestala", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["SQL Server"] },
     { "name": "Baze podataka i pristup podacima", "level": "Primjena: vezana uz određene projekte", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["T-SQL", "Azure SQL", "Dapper", "PostgreSQL"] },
     { "name": "Arhitektura i prakse", "level": "Primjena: ključna i učestala", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["Clean Architecture"] },
-    { "name": "Arhitektura i prakse", "level": "Primjena: ponavljana u više angažmana", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Modular monolith"] },
+    { "name": "Arhitektura i prakse", "level": "Primjena: ponavljana u više angažmana", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Modular monolith", "Microservices"] },
     { "name": "Arhitektura i prakse", "level": "Primjena: vezana uz određene projekte", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["REST APIs"] },
     { "name": "Vođenje", "level": "Primjena: ključna i učestala", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["Technical leadership", "Code review"] },
     { "name": "Vođenje", "level": "Primjena: ponavljana u više angažmana", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Mentoring"] },
@@ -539,8 +539,8 @@
   "languages": [
     { "language": "Mađarski", "fluency": "Materinski jezik" },
     { "language": "Engleski", "fluency": "Tečno, na profesionalnoj radnoj razini" },
-    { "language": "Srpski", "fluency": "Razgovorna razina" },
-    { "language": "Hrvatski", "fluency": "Razgovorna razina" }
+    { "language": "Srpski", "fluency": "Na ograničenoj radnoj razini" },
+    { "language": "Hrvatski", "fluency": "Na ograničenoj radnoj razini" }
   ],
   "meta": {
     "version": "v1.0.0",
@@ -619,7 +619,7 @@
   "x-skillsAssessment": {
     "basis": "documented-usage",
     "assessedOn": "2026-10-22",
-    "note": "Procjena uporabe temelji se na dokumentiranim ulogama, projektima, njihovu trajanju i uporabi koju je korisnik potvrdio. Ocjene opisuju uporabu, a ne razinu stručnosti; podaci o dnevnoj ili tjednoj uporabi nisu dostupni. Svrstavanje u ranije projekte ne znači gubitak stručnosti.",
+    "note": "Procjena uporabe temelji se na dokumentiranim ulogama, projektima, njihovu trajanju i uporabi koju je Andor potvrdio. Ocjene opisuju uporabu, a ne razinu stručnosti; podaci o dnevnoj ili tjednoj uporabi nisu dostupni. Svrstavanje u ranije projekte ne znači gubitak stručnosti.",
     "scale": [
       { "value": 5, "label": "Primjena: ključna i učestala" },
       { "value": 4, "label": "Primjena: ponavljana u više angažmana" },
@@ -630,7 +630,9 @@
     "confirmedAssociations": [
       { "skill": ".NET MAUI", "work": "operandor", "context": "experimental-project" },
       { "skill": "Dapper", "project": "lightbloom-modular-modernisation" },
-      { "skill": "Playwright", "project": "lightbloom-modular-modernisation" }
+      { "skill": "Playwright", "project": "lightbloom-modular-modernisation" },
+      { "skill": "Microservices", "work": "allwin" },
+      { "skill": "Microservices", "project": "agco-supplier-reporting" }
     ]
   },
   "x-aliases": {
@@ -663,6 +665,7 @@
     "Telerik UI": ["Telerik", "Telerik DevTools"],
     "Blazor": ["Blazor WebAssembly", "Blazor WASM"],
     "REST APIs": ["REST", "REST API", "RESTful API", "Web API"],
-    "Modular monolith": ["modular monoliths"]
+    "Modular monolith": ["modular monoliths"],
+    "Microservices": ["microservice", "microservice architecture", "microservices architecture"]
   }
 }

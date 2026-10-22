@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Sípos Andor",
-    "label": "Tulajdonos és technikai vezető",
+    "label": "Alapító, szakmai vezető és szoftverarchitekt",
     "phone": "+36 30 903 6622",
     "url": "https://andor.sipos.io/hu/",
-    "summary": "Az operandor tulajdonosa és technikai vezetője, 13+ év tapasztalattal üzleti .NET-rendszerek fejlesztésében. Olyan cégvezetőknek, operatív csapatoknak és műszaki vezetőknek segít, akiknek a munkáját egymástól elszigetelt rendszerek, ismétlődő adatbevitel vagy nehezen továbbfejleszthető alkalmazások lassítják. Egyedi üzleti szoftvereket fejleszt, meglévő .NET-rendszereket korszerűsít és alkalmazásokat kapcsol össze, elsősorban .NET/C#, Azure és webes technológiákkal. Aktív fejlesztőként és architektként olyan fejlesztőkkel dolgozik együtt, akikkel korábbi projektekben már együttműködött. Az ügyfelek üzleti folyamataihoz készített AI-automatizálást külön kezeli a saját fejlesztési munkájában használt AI-eszközöktől; a műszaki döntéseket, a kódellenőrzést és a minőségellenőrzést a fejlesztőcsapat végzi.",
+    "summary": "Az operandor alapítója, szakmai vezetője és szoftverarchitektje, 13+ év tapasztalattal üzleti .NET-rendszerek fejlesztésében. Olyan cégvezetőknek, operatív csapatoknak és műszaki vezetőknek segít, akiknek a munkáját egymástól elszigetelt rendszerek, ismétlődő adatbevitel vagy nehezen továbbfejleszthető alkalmazások lassítják. Egyedi üzleti szoftvereket fejleszt, meglévő .NET-rendszereket korszerűsít és alkalmazásokat kapcsol össze, elsősorban .NET/C#, Azure és webes technológiákkal. Aktív fejlesztőként és architektként olyan fejlesztőkkel dolgozik együtt, akikkel korábbi projektekben már együttműködött. Az ügyfelek üzleti folyamataihoz készített AI-automatizálást külön kezeli a saját fejlesztési munkájában használt AI-eszközöktől; a műszaki döntéseket, a kódellenőrzést és a minőségellenőrzést a fejlesztőcsapat végzi.",
     "location": {
       "region": "Európa",
       "x-label": "Távmunkában, Európából"
@@ -40,11 +40,11 @@
       "x-id": "operandor",
       "name": "operandor",
       "description": "egyéni vállalkozás",
-      "position": "Tulajdonos és technikai vezető",
+      "position": "Alapító, szakmai vezető és szoftverarchitekt",
       "url": "https://operandor.io/",
       "location": "Távmunka",
       "startDate": "2021-08",
-      "summary": "Egyedi üzleti szoftverek fejlesztésével, meglévő .NET-alkalmazások korszerűsítésével és rendszerintegrációval segít csökkenteni a kézi munkát. Szolgáltatásai közé tartozik a technikai vezetés, a meglévő rendszerek átvétele és a senior fejlesztői kapacitás biztosítása. Az ügyfeleknek AI-támogatott automatizálást is készít például dokumentumok adatainak kinyerésére, megkeresések rendezésére és belső információk keresésére, meghatározott emberi ellenőrzési és jóváhagyási lépésekkel. A fejlesztésben használt AI-eszközök a saját munkafolyamatot támogatják; az elkészülő alkalmazásnak ettől még nem kell AI-funkciókat tartalmaznia. Saját terméke a dokumentumfeldolgozást támogató rovatix.",
+      "summary": "Egyedi üzleti szoftverek fejlesztésével, meglévő .NET-alkalmazások korszerűsítésével és rendszerintegrációval segít csökkenteni a kézi munkát. Szolgáltatásai közé tartozik a meglévő rendszerek átvétele és a senior fejlesztői kapacitás biztosítása is, és a munkák során a szakmai vezetést is vállalja. Az ügyfeleknek AI-támogatott automatizálást is készít például dokumentumok adatainak kinyerésére, megkeresések rendezésére és belső információk keresésére, meghatározott emberi ellenőrzési és jóváhagyási lépésekkel. A fejlesztésben használt AI-eszközök a saját munkafolyamatot támogatják; az elkészülő alkalmazásnak ettől még nem kell AI-funkciókat tartalmaznia. Saját terméke a dokumentumfeldolgozást támogató rovatix.",
       "highlights": [
         "Megtervezi a megoldások architektúráját, összehangolja a fejlesztők munkáját, és részt vesz a megvalósításban, a kódellenőrzésben és a tesztelésben.",
         "Távolról kapcsolódik be az ügyfelek meglévő csapatainak munkájába; a feladatokat, a rendelkezésre állást és a felelősségeket az indulás előtt egyezteti, nagyobb feladatokhoz pedig olyan tapasztalt fejlesztőket von be, akikkel korábban már együtt dolgozott.",
@@ -102,7 +102,8 @@
         "SQL Server",
         "JavaScript",
         "jQuery",
-        "Azure"
+        "Azure",
+        "Microservices"
       ],
       "x-short": true,
       "x-shortHighlights": 1,
@@ -160,7 +161,7 @@
       "roles": ["Vezető fejlesztő és architekt"],
       "startDate": "2025-08",
       "endDate": "2026-05",
-      "description": "Hitelezők és ügyvédi irodák jelzálog- és ingatlanügyleteit támogató üzletkritikus platform. A .NET 10-re, Blazorra és Clean Architecture-re épülő, többmodulos vállalati rendszer legalább hat összekapcsolt kódtárat és terméket fogott át. A projektben az architektúra és a technikai irány meghatározásán, valamint a fokozatos korszerűsítés megvalósításán dolgozott.",
+      "description": "Hitelezők és ügyvédi irodák jelzálog- és ingatlanügyleteit támogató üzletkritikus platform. A .NET 10-re és Clean Architecture-re épülő, többmodulos vállalati rendszer legalább hat összekapcsolt kódtárat és terméket fogott át. A projektben az architektúra és a technikai irány meghatározásán, valamint a fokozatos korszerűsítés megvalósításán dolgozott.",
       "highlights": [
         "Lépésenként alakította át a WCF-re és tárolt eljárásokra épülő, szorosan csatolt .NET Framework-rendszert .NET 10-es, Clean Architecture, CQRS és vertical slice architektúra szerint felépített moduláris monolitokká, a régi WCF-szolgáltatásokat a Strangler Fig mintával kiváltva, miközben a rendszer végig élesben futott.",
         "Elkészített egy újra felhasználható jogosultságkezelési modult, amely később az ügyfél három másik termékébe is bekerült, valamint egy riportmodult Azure Data Factory-alapú adatbetöltéssel; a két modulra építve később új termék is készült.",
@@ -179,7 +180,6 @@
         ".NET",
         "ASP.NET Core",
         "Razor Pages",
-        "Blazor",
         "WCF",
         "SQL Server",
         "T-SQL",
@@ -292,7 +292,8 @@
         "GitHub Actions",
         "Azure DevOps",
         "Clean Architecture",
-        "SOLID Design Principles"
+        "SOLID Design Principles",
+        "Microservices"
       ],
       "x-short": true,
       "x-shortHighlights": 2,
@@ -345,7 +346,7 @@
       "x-id": "service-management-system",
       "x-work": "operandor",
       "name": "Szervizmenedzsment-rendszer",
-      "roles": ["Vezető fejlesztő"],
+      "roles": ["A teljes rendszerért felelős vezető fejlesztő"],
       "startDate": "2021-09",
       "endDate": "2021-11",
       "description": "Szervizmenedzsment-rendszert fejlesztett az árajánlatadástól a szolgáltatás teljesítésén át az értékesítés utáni ügyintézésig, az ügyfél működési folyamataihoz igazítva.",
@@ -433,7 +434,6 @@
   ],
   "volunteer": [
     {
-      "organization": "Individual",
       "position": "Árvízvédelmi önkéntes",
       "startDate": "2013-06",
       "endDate": "2013-06",
@@ -503,21 +503,21 @@
   "publications": [
     {
       "name": "Microsoft Windows 7 Pontról pontra",
-      "publisher": "Perfact kiadó",
+      "publisher": "Perfact",
       "releaseDate": "2011-08-08",
       "summary": "Illusztrációkat készített a könyvhöz."
     }
   ],
   "skills": [
     { "name": ".NET-platform", "level": "Használat: fő, visszatérő", "x-rating": 5, "x-ratingKind": "usage", "keywords": [".NET", "C#", "Entity Framework", "LINQ"] },
-    { "name": ".NET-platform", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Blazor", "WPF", "ASP.NET Core"] },
-    { "name": ".NET-platform", "level": "Használat: projektfüggő", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["Razor Pages", "WCF"] },
+    { "name": ".NET-platform", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["WPF", "ASP.NET Core"] },
+    { "name": ".NET-platform", "level": "Használat: projektfüggő", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["Razor Pages", "WCF", "Blazor"] },
     { "name": ".NET-platform", "level": "Használat: korábbi projektekben", "x-rating": 2, "x-ratingKind": "usage", "keywords": ["ASP.NET MVC", "Windows Forms"] },
     { "name": ".NET-platform", "level": "Használat: kísérleti", "x-rating": 1, "x-ratingKind": "usage", "keywords": [".NET MAUI"] },
     { "name": "Adatbázisok és adatelérés", "level": "Használat: fő, visszatérő", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["SQL Server"] },
     { "name": "Adatbázisok és adatelérés", "level": "Használat: projektfüggő", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["T-SQL", "Azure SQL", "Dapper", "PostgreSQL"] },
     { "name": "Architektúra és módszerek", "level": "Használat: fő, visszatérő", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["Clean Architecture"] },
-    { "name": "Architektúra és módszerek", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Modular monolith"] },
+    { "name": "Architektúra és módszerek", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Modular monolith", "Microservices"] },
     { "name": "Architektúra és módszerek", "level": "Használat: projektfüggő", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["REST APIs"] },
     { "name": "Vezetés", "level": "Használat: fő, visszatérő", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["Technical leadership", "Code review"] },
     { "name": "Vezetés", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Mentoring"] },
@@ -539,8 +539,8 @@
   "languages": [
     { "language": "Magyar", "fluency": "Anyanyelv" },
     { "language": "Angol", "fluency": "Folyékony, tárgyalóképes" },
-    { "language": "Szerb", "fluency": "Társalgási szint" },
-    { "language": "Horvát", "fluency": "Társalgási szint" }
+    { "language": "Szerb", "fluency": "Korlátozott munkavégzési szint" },
+    { "language": "Horvát", "fluency": "Korlátozott munkavégzési szint" }
   ],
   "meta": {
     "version": "v1.0.0",
@@ -619,7 +619,7 @@
   "x-skillsAssessment": {
     "basis": "documented-usage",
     "assessedOn": "2026-10-22",
-    "note": "A besorolás a dokumentált szerepkörök, projektek, azok időtartama és a felhasználó által megerősített használat alapján készült becslés. A számok a használatot jelzik, nem a szakértelem szintjét; napi vagy heti használati arány nem áll rendelkezésre. A korábbi projektekhez sorolás nem jelenti a tudás elvesztését.",
+    "note": "A besorolás a dokumentált szerepkörök, projektek, azok időtartama és a Sípos Andor által megerősített használat alapján készült becslés. A számok a használatot jelzik, nem a szakértelem szintjét; napi vagy heti használati arány nem áll rendelkezésre. A korábbi projektekhez sorolás nem jelenti a tudás elvesztését.",
     "scale": [
       { "value": 5, "label": "Használat: fő, visszatérő" },
       { "value": 4, "label": "Használat: több munkában visszatérő" },
@@ -630,7 +630,9 @@
     "confirmedAssociations": [
       { "skill": ".NET MAUI", "work": "operandor", "context": "experimental-project" },
       { "skill": "Dapper", "project": "lightbloom-modular-modernisation" },
-      { "skill": "Playwright", "project": "lightbloom-modular-modernisation" }
+      { "skill": "Playwright", "project": "lightbloom-modular-modernisation" },
+      { "skill": "Microservices", "work": "allwin" },
+      { "skill": "Microservices", "project": "agco-supplier-reporting" }
     ]
   },
   "x-aliases": {
@@ -663,6 +665,7 @@
     "Telerik UI": ["Telerik", "Telerik DevTools"],
     "Blazor": ["Blazor WebAssembly", "Blazor WASM"],
     "REST APIs": ["REST", "REST API", "RESTful API", "Web API"],
-    "Modular monolith": ["modular monoliths"]
+    "Modular monolith": ["modular monoliths"],
+    "Microservices": ["microservice", "microservice architecture", "microservices architecture"]
   }
 }
