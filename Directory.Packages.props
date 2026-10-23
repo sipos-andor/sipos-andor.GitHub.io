@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup Label="Engine">
-    <PackageVersion Include="Sipos.Resume.Core" Version="0.3.0" />
-    <PackageVersion Include="Sipos.Resume.Generation" Version="0.3.0" />
-    <PackageVersion Include="Sipos.Resume.Documents.Pdf" Version="0.3.0" />
-    <PackageVersion Include="Sipos.Resume.Theme.Operandor" Version="0.3.0" />
+    <PackageVersion Include="Sipos.Resume.Core" Version="0.4.0" />
+    <PackageVersion Include="Sipos.Resume.Generation" Version="0.4.0" />
+    <PackageVersion Include="Sipos.Resume.Documents.Pdf" Version="0.4.0" />
+    <PackageVersion Include="Sipos.Resume.Theme.Operandor" Version="0.4.0" />
   </ItemGroup>
 
   <ItemGroup Label="Tests">
