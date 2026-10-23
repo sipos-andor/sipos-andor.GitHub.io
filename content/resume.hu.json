@@ -49,7 +49,7 @@
         "Megtervezi a megoldások architektúráját, összehangolja a fejlesztők munkáját, és részt vesz a megvalósításban, a kódellenőrzésben és a tesztelésben.",
         "Távolról kapcsolódik be az ügyfelek meglévő csapatainak munkájába; a feladatokat, a rendelkezésre állást és a felelősségeket az indulás előtt egyezteti, nagyobb feladatokhoz pedig olyan tapasztalt fejlesztőket von be, akikkel korábban már együtt dolgozott.",
         "Vezeti a rovatix fejlesztését: a termék PDF-ekből, szkennelt iratokból és fényképekből olvassa ki az adatokat, és emberi ellenőrzés után egyeztetett formátumban adja tovább őket; bemutatóként és egyeztetett próbaként érhető el.",
-        "Megépítette a négynyelvű operandor.io weboldalt: Blazor WebAssembly frontend, Clean Architecture szerint felépített Azure Functions API, xUnit-tesztek, valamint GitHub Actions-alapú kiadás az Azure Static Web Apps szolgáltatásba.",
+        "Megépítette a négynyelvű operandor.io weboldalt: Blazor WebAssembly frontend az általa tervezett operandor design systemre építve, világos és sötét témával és reszponzív elrendezéssel, Clean Architecture szerint felépített Azure Functions API, xUnit-tesztek, valamint GitHub Actions-alapú kiadás az Azure Static Web Apps szolgáltatásba.",
         "Az operandor keretében egy .NET MAUI-alapú kísérleti projekten is dolgozott."
       ],
       "x-keywords": [
@@ -59,12 +59,9 @@
         "Entity Framework",
         "LINQ",
         "SQL Server",
-        "Azure SQL",
         "Azure",
         "Azure Functions",
-        "Azure Service Bus",
         "Azure Static Web Apps",
-        "Azure OpenAI",
         "Azure DevOps",
         "GitHub Actions",
         "Git",
@@ -76,7 +73,10 @@
         "GitHub Copilot",
         "Claude",
         "Cursor",
-        ".NET MAUI"
+        "JavaScript",
+        "HTML",
+        "ChatGPT",
+        "Codex"
       ],
       "x-short": true,
       "x-shortHighlights": 2,
@@ -96,7 +96,7 @@
       "x-keywords": [
         "C#",
         ".NET",
-        "ASP.NET",
+        "ASP.NET MVC",
         "Entity Framework",
         "WPF",
         "SQL Server",
@@ -163,17 +163,18 @@
       "endDate": "2026-05",
       "description": "Hitelezők és ügyvédi irodák jelzálog- és ingatlanügyleteit támogató üzletkritikus platform. A .NET 10-re és Clean Architecture-re épülő, többmodulos vállalati rendszer legalább hat összekapcsolt kódtárat és terméket fogott át. A projektben az architektúra és a technikai irány meghatározásán, valamint a fokozatos korszerűsítés megvalósításán dolgozott.",
       "highlights": [
-        "Lépésenként alakította át a WCF-re és tárolt eljárásokra épülő, szorosan csatolt .NET Framework-rendszert .NET 10-es, Clean Architecture, CQRS és vertical slice architektúra szerint felépített moduláris monolitokká, a régi WCF-szolgáltatásokat a Strangler Fig mintával kiváltva, miközben a rendszer végig élesben futott.",
-        "Elkészített egy újra felhasználható jogosultságkezelési modult, amely később az ügyfél három másik termékébe is bekerült, valamint egy riportmodult Azure Data Factory-alapú adatbetöltéssel; a két modulra építve később új termék is készült.",
+        "Lépésenként alakította át a WCF-re és tárolt eljárásokra épülő, szorosan csatolt .NET Framework-rendszert .NET 10-es, Clean Architecture, CQRS és vertical slice architektúra szerint felépített moduláris monolitokká, a régi WCF-szolgáltatásokat a Strangler Fig mintával REST-végpontokkal kiváltva, miközben a rendszer végig élesben futott.",
+        "Elkészített egy újra felhasználható jogosultságkezelési modult, amely később az ügyfél három másik termékébe is bekerült, valamint egy riportmodult, amelybe az adatokat Azure Data Factory töltötte be; a két modulra építve később új termék is készült.",
         "Elkészített egy Azure Functions-szolgáltatást, amely Azure OpenAI segítségével strukturált adatokat nyert ki JSON formátumban a feltöltött dokumentumokból, és közvetlenül az éles adatbázisba mentette őket.",
         "Megépített egy belső MCP-szervert, amelyen keresztül az AI-kódolóügynökök a feladatleírások alapján lekérik a releváns kód- és projektkontextust, a projekt szakszókincsére hangolt, lexikális, szakterület-specifikus kereséssel.",
         "A Platform directory modul platformszintű integrációján dolgozott, és referencia-implementációkat készített az egységes architektúra kialakításához.",
-        "Bevezette a teljes tesztpiramist lefedő tesztelési keretrendszert: egység-, integrációs és end-to-end tesztek kísérték a korszerűsítést és az új funkciók fejlesztését is.",
+        "Bevezette a teljes tesztpiramist lefedő, xUnitra és Playwrightra épülő tesztelési keretrendszert: egység-, integrációs és end-to-end tesztek kísérték a korszerűsítést és az új funkciók fejlesztését is.",
         "Irányította a .NET-verzióváltásokat, a CI/CD-folyamatokat, a funkcionális tesztinfrastruktúrát és az átfogó dokumentációt.",
         "Átnézte a csapat összes pull requestjét, felelt a design review-kért, mélyreható auditot végzett a kódtárakon, és meghatározta a technikai standardokat az egész platformon.",
         "Mentorálta a fejlesztőket, és bevezette az új kollégákat a nagy, régi kódbázisba, miközben a csapat 3 főről 7–8 főre bővült.",
         "Kezelte az üzletkritikus rendszer eszkalált éles hibáit a vizsgálattól a kiváltó ok elemzésén át a javításig.",
-        "AI-támogatott fejlesztési munkafolyamatokat épített ki Claude Code-dal, GitHub Copilottal és saját automatizálással a több kódtárat érintő fejlesztések támogatására."
+        "Bevezette a Claude Code csapatszintű használatát, és AI-támogatott fejlesztési munkafolyamatokat épített ki Claude Code-dal, GitHub Copilottal és saját automatizálással a több kódtárat érintő fejlesztések támogatására.",
+        "Megtervezte az Entity Framework-alapú adatréteget a korszerűsítés során."
       ],
       "keywords": [
         "C#",
@@ -204,7 +205,15 @@
         "FastEndpoints",
         "SOLID Design Principles",
         "Dapper",
-        "Playwright"
+        "Playwright",
+        "Entity Framework",
+        "ASP.NET MVC",
+        "Azure SQL",
+        "REST APIs",
+        "xUnit",
+        "Docker",
+        "JavaScript",
+        "HTML"
       ],
       "x-short": true,
       "x-shortHighlights": 3,
@@ -230,7 +239,8 @@
         "Azure",
         "Clean Architecture",
         "Modular monolith",
-        "SOLID Design Principles"
+        "SOLID Design Principles",
+        "Entity Framework"
       ],
       "x-short": true,
       "x-shortHighlights": 1,
@@ -254,7 +264,8 @@
         ".NET",
         "DevExpress",
         "DevExpress Reporting",
-        "SQL Server"
+        "SQL Server",
+        "Windows Forms"
       ],
       "x-short": true,
       "x-shortHighlights": 1,
@@ -272,9 +283,10 @@
       "highlights": [
         "Felelt a műszaki megvalósításért a backendtől a frontendig és a telepítésig, egy 3–4 fős, elosztott csapat vezető fejlesztőjeként.",
         "Fejlesztette és karbantartotta a BI-dashboard API-jaira épülő TypeScript/React/MUI frontendet, ahol a vezetők üzletáganként, régiónként és beszállítónként szűrhették a mutatókat, és cikkszámonként összevethették az egymást követő előrejelzéseket.",
-        "Dolgozott a Clean Architecture szerint felépített ASP.NET Core-monoliton, ahol AWS Lambda-függvények töltötték be a beszállítói adatokat a riportok alapjául szolgáló PostgreSQL-csillagsémába.",
+        "Dolgozott a Clean Architecture szerint felépített ASP.NET Core-monoliton, és megtervezte a riportok alapjául szolgáló PostgreSQL-csillagsémát, amelybe az általa Pythonban fejlesztett AWS Lambda-függvények töltötték be a beszállítói adatokat.",
         "Felelt az Azure DevOpsra és GitHub Actionsre épülő CI/CD-ért, Docker- és Kubernetes-alapú konténeres telepítéssel.",
-        "Támogatta a több időzónában dolgozó fejlesztőcsapatot szakmai iránymutatással és code review-val."
+        "Támogatta a több időzónában dolgozó fejlesztőcsapatot szakmai iránymutatással és code review-val.",
+        "Összetett hibákat oldott meg a PostgreSQL-adatbázisban, és teljesítményproblémákat hárított el az Entity Framework-rétegben."
       ],
       "keywords": [
         "C#",
@@ -293,7 +305,8 @@
         "Azure DevOps",
         "Clean Architecture",
         "SOLID Design Principles",
-        "Microservices"
+        "Entity Framework",
+        "Python"
       ],
       "x-short": true,
       "x-shortHighlights": 2,
@@ -308,7 +321,8 @@
       "endDate": "2022-11",
       "description": "Egyedi plugineket tervezett és fejlesztett egy nopCommerce-alapú e-kereskedelmi megoldáshoz, az üzleti igényeknek megfelelően bővítve a működést az alapalkalmazás forráskódjának módosítása nélkül.",
       "highlights": [
-        "Bővítette a nopCommerce nagy, külső fejlesztésű .NET-kódbázisát a platform pluginrendszerén keresztül, forkolás és az alapalkalmazás forráskódjának módosítása nélkül."
+        "Bővítette a nopCommerce nagy, külső fejlesztésű .NET-kódbázisát a platform pluginrendszerén keresztül, forkolás és az alapalkalmazás forráskódjának módosítása nélkül.",
+        "Meghatározta a megoldás pluginarchitektúráját, a pluginekkel együtt végigvitte a nopCommerce-verziófrissítést, a platform belső működését érintő hibákat oldott meg, és több nopCommerce-alapú megoldás fejlesztését vezette."
       ],
       "keywords": [
         "C#",
@@ -317,7 +331,8 @@
         "SQL Server",
         "HTML",
         "JavaScript",
-        "nopCommerce"
+        "nopCommerce",
+        "Entity Framework"
       ],
       "x-short": true,
       "x-shortHighlights": 1,
@@ -332,7 +347,7 @@
       "endDate": "2021-12",
       "description": "Automatizált felületi teszteket fejlesztett egy német szerencsejáték-vállalat weboldalához a felhasználói funkciók ellenőrzésére és a regressziós hibák felismerésének támogatására.",
       "highlights": [
-        "Automatizált UI-tesztekkel ellenőrizte a weboldal felhasználói funkcióit és a változtatások utáni működést."
+        "Megtervezte az automatizált UI-tesztkészlet felépítését, és ezzel ellenőrizte a weboldal felhasználói funkcióit és a változtatások utáni működést."
       ],
       "keywords": [
         ".NET",
@@ -380,7 +395,8 @@
         "HTML",
         "JavaScript",
         "jQuery",
-        "SQL Server"
+        "SQL Server",
+        "Razor Pages"
       ]
     },
     {
@@ -509,32 +525,35 @@
     }
   ],
   "skills": [
-    { "name": ".NET-platform", "level": "Használat: fő, visszatérő", "x-rating": 5, "x-ratingKind": "usage", "keywords": [".NET", "C#", "Entity Framework", "LINQ"] },
-    { "name": ".NET-platform", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["WPF", "ASP.NET Core"] },
-    { "name": ".NET-platform", "level": "Használat: projektfüggő", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["Razor Pages", "WCF", "Blazor"] },
-    { "name": ".NET-platform", "level": "Használat: korábbi projektekben", "x-rating": 2, "x-ratingKind": "usage", "keywords": ["ASP.NET MVC", "Windows Forms"] },
-    { "name": ".NET-platform", "level": "Használat: kísérleti", "x-rating": 1, "x-ratingKind": "usage", "keywords": [".NET MAUI"] },
-    { "name": "Adatbázisok és adatelérés", "level": "Használat: fő, visszatérő", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["SQL Server"] },
-    { "name": "Adatbázisok és adatelérés", "level": "Használat: projektfüggő", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["T-SQL", "Azure SQL", "Dapper", "PostgreSQL"] },
-    { "name": "Architektúra és módszerek", "level": "Használat: fő, visszatérő", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["Clean Architecture"] },
-    { "name": "Architektúra és módszerek", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Modular monolith", "Microservices"] },
-    { "name": "Architektúra és módszerek", "level": "Használat: projektfüggő", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["REST APIs"] },
-    { "name": "Vezetés", "level": "Használat: fő, visszatérő", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["Technical leadership", "Code review"] },
-    { "name": "Vezetés", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Mentoring"] },
-    { "name": "Felhő és platformok", "level": "Használat: fő, visszatérő", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["Azure"] },
-    { "name": "Felhő és platformok", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Azure Functions"] },
-    { "name": "Felhő és platformok", "level": "Használat: projektfüggő", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["Azure App Service", "Azure Static Web Apps", "Azure Key Vault", "Azure Service Bus", "AWS"] },
-    { "name": "Felhő és platformok", "level": "Használat: korábbi projektekben", "x-rating": 2, "x-ratingKind": "usage", "keywords": ["nopCommerce", "SharePoint"] },
-    { "name": "DevOps, CI/CD és tesztelés", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Azure DevOps", "GitHub Actions", "Git", "xUnit", "Docker", "Kubernetes"] },
-    { "name": "DevOps, CI/CD és tesztelés", "level": "Használat: projektfüggő", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["Playwright"] },
-    { "name": "DevOps, CI/CD és tesztelés", "level": "Használat: korábbi projektekben", "x-rating": 2, "x-ratingKind": "usage", "keywords": ["Selenium", "NUnit"] },
-    { "name": "AI-támogatott fejlesztés", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["GitHub Copilot", "Claude", "Cursor"] },
-    { "name": "AI-integráció és automatizálás", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Azure OpenAI"] },
-    { "name": "AI-integráció és automatizálás", "level": "Használat: projektfüggő", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["MCP"] },
-    { "name": "Frontend és UI-könyvtárak", "level": "Használat: több munkában visszatérő", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["JavaScript", "HTML", "CSS", "jQuery", "DevExpress"] },
-    { "name": "Frontend és UI-könyvtárak", "level": "Használat: projektfüggő", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["React", "TypeScript", "MUI"] },
-    { "name": "Frontend és UI-könyvtárak", "level": "Használat: korábbi projektekben", "x-rating": 2, "x-ratingKind": "usage", "keywords": ["Telerik UI", "Kendo UI"] },
-    { "name": "Egyéb nyelvek és futtatókörnyezetek", "level": "Használat: korábbi projektekben", "x-rating": 2, "x-ratingKind": "usage", "keywords": ["Node.js", "Python"] }
+    { "name": ".NET-platform", "level": "Szakértő", "x-rating": 5, "x-ratingKind": "proficiency", "keywords": [".NET", "C#", "ASP.NET Core"] },
+    { "name": ".NET-platform", "level": "Haladó", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["Entity Framework", "LINQ", "WCF", "ASP.NET MVC"] },
+    { "name": ".NET-platform", "level": "Önálló", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["WPF", "Razor Pages", "Blazor", "Windows Forms"] },
+    { "name": ".NET-platform", "level": "Alkalmazó", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": [".NET MAUI"] },
+    { "name": "Adatbázisok és adatelérés", "level": "Haladó", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["SQL Server", "T-SQL", "PostgreSQL"] },
+    { "name": "Adatbázisok és adatelérés", "level": "Önálló", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["Azure SQL", "Dapper"] },
+    { "name": "Architektúra és módszerek", "level": "Szakértő", "x-rating": 5, "x-ratingKind": "proficiency", "keywords": ["Clean Architecture", "Modular monolith", "REST APIs", "Vertical Slice Architecture"] },
+    { "name": "Architektúra és módszerek", "level": "Haladó", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["CQRS"] },
+    { "name": "Architektúra és módszerek", "level": "Alkalmazó", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": ["Microservices"] },
+    { "name": "Vezetés", "level": "Szakértő", "x-rating": 5, "x-ratingKind": "proficiency", "keywords": ["Technical leadership", "Code review"] },
+    { "name": "Vezetés", "level": "Haladó", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["Mentoring"] },
+    { "name": "Felhő és platformok", "level": "Szakértő", "x-rating": 5, "x-ratingKind": "proficiency", "keywords": ["nopCommerce"] },
+    { "name": "Felhő és platformok", "level": "Haladó", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["Azure"] },
+    { "name": "Felhő és platformok", "level": "Önálló", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["Azure Functions", "Azure App Service", "Azure Static Web Apps", "Azure Key Vault", "AWS"] },
+    { "name": "Felhő és platformok", "level": "Alkalmazó", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": ["SharePoint", "Azure Data Factory"] },
+    { "name": "Felhő és platformok", "level": "Ismerkedő", "x-rating": 1, "x-ratingKind": "proficiency", "keywords": ["Azure Service Bus"] },
+    { "name": "DevOps, CI/CD és tesztelés", "level": "Szakértő", "x-rating": 5, "x-ratingKind": "proficiency", "keywords": ["xUnit"] },
+    { "name": "DevOps, CI/CD és tesztelés", "level": "Haladó", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["Azure DevOps", "GitHub Actions", "Git", "Docker", "Playwright", "Selenium"] },
+    { "name": "DevOps, CI/CD és tesztelés", "level": "Önálló", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["NUnit"] },
+    { "name": "DevOps, CI/CD és tesztelés", "level": "Alkalmazó", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": ["Kubernetes"] },
+    { "name": "AI-támogatott fejlesztés", "level": "Szakértő", "x-rating": 5, "x-ratingKind": "proficiency", "keywords": ["Claude"] },
+    { "name": "AI-támogatott fejlesztés", "level": "Haladó", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["GitHub Copilot", "Codex"] },
+    { "name": "AI-támogatott fejlesztés", "level": "Önálló", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["ChatGPT"] },
+    { "name": "AI-támogatott fejlesztés", "level": "Alkalmazó", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": ["Cursor"] },
+    { "name": "AI-integráció és automatizálás", "level": "Önálló", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["Azure OpenAI", "MCP"] },
+    { "name": "Frontend és UI-könyvtárak", "level": "Haladó", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["HTML", "CSS", "DevExpress"] },
+    { "name": "Frontend és UI-könyvtárak", "level": "Önálló", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["JavaScript", "jQuery", "React", "TypeScript", "MUI", "Telerik UI"] },
+    { "name": "Frontend és UI-könyvtárak", "level": "Alkalmazó", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": ["Kendo UI"] },
+    { "name": "Egyéb nyelvek és futtatókörnyezetek", "level": "Alkalmazó", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": ["Node.js", "Python"] }
   ],
   "languages": [
     { "language": "Magyar", "fluency": "Anyanyelv" },
@@ -544,7 +563,7 @@
   ],
   "meta": {
     "version": "v1.0.0",
-    "lastModified": "2026-10-22"
+    "lastModified": "2026-10-23"
   },
   "x-strengths": [
     {
@@ -571,7 +590,7 @@
     {
       "id": "ai-assisted-development",
       "title": "AI-támogatott szoftverfejlesztés",
-      "summary": "A GitHub Copilotot, a Claude-ot és a Cursort a megvalósítás, a tesztelés és a dokumentálás támogatására használja. MCP-szervert épített, amely kód- és projektkontextust ad a kódolóügynököknek. A műszaki döntéseket, a kódellenőrzést és a minőségellenőrzést a fejlesztőcsapat végzi.",
+      "summary": "A GitHub Copilotot, a Claude-ot, a Codexet, a ChatGPT-t és a Cursort a megvalósítás, a tesztelés és a dokumentálás támogatására használja. MCP-szervert épített, amely kód- és projektkontextust ad a kódolóügynököknek. A műszaki döntéseket, a kódellenőrzést és a minőségellenőrzést a fejlesztőcsapat végzi.",
       "short": true,
       "focus": ["ai-assisted"]
     },
@@ -606,8 +625,8 @@
     {
       "id": "ai-assisted",
       "label": "AI-támogatott fejlesztés",
-      "summary": "Senior .NET-fejlesztő 13+ év tapasztalattal. A saját fejlesztési folyamatában GitHub Copilotot, Claude-ot és Cursort használ a megvalósítás, a tesztelés és a dokumentálás támogatására, és MCP-szervert épített a kódolóügynökök kód- és projektkontextusának biztosításához. Ettől elkülönülő, ügyfeleknek kínált szolgáltatás az AI-támogatott folyamatautomatizálás: Azure OpenAI-alapú dokumentumfeldolgozó szolgáltatást készített, az operandornál pedig a rovatix fejlesztését vezeti. Az üzleti automatizálást a meglévő rendszerekhez és a szükséges emberi ellenőrzési lépésekhez igazítja.",
-      "skills": ["Azure OpenAI", "MCP", "GitHub Copilot", "Claude", "Cursor", "Azure Functions", "C#", ".NET", "Azure"]
+      "summary": "Senior .NET-fejlesztő 13+ év tapasztalattal. A saját fejlesztési folyamatában GitHub Copilotot, Claude-ot, Codexet, ChatGPT-t és Cursort használ a megvalósítás, a tesztelés és a dokumentálás támogatására, és MCP-szervert épített a kódolóügynökök kód- és projektkontextusának biztosításához. Ettől elkülönülő, ügyfeleknek kínált szolgáltatás az AI-támogatott folyamatautomatizálás: Azure OpenAI-alapú dokumentumfeldolgozó szolgáltatást készített, az operandornál pedig a rovatix fejlesztését vezeti. Az üzleti automatizálást a meglévő rendszerekhez és a szükséges emberi ellenőrzési lépésekhez igazítja.",
+      "skills": ["Azure OpenAI", "MCP", "GitHub Copilot", "Claude", "Codex", "ChatGPT", "Cursor", "Azure Functions", "C#", ".NET", "Azure"]
     },
     {
       "id": "senior-dotnet",
@@ -617,28 +636,44 @@
     }
   ],
   "x-skillsAssessment": {
-    "basis": "documented-usage",
-    "assessedOn": "2026-10-22",
-    "note": "A besorolás a dokumentált szerepkörök, projektek, azok időtartama és a Sípos Andor által megerősített használat alapján készült becslés. A számok a használatot jelzik, nem a szakértelem szintjét; napi vagy heti használati arány nem áll rendelkezésre. A korábbi projektekhez sorolás nem jelenti a tudás elvesztését.",
+    "basis": "documented-evidence",
+    "assessedOn": "2026-10-23",
+    "note": "A szint azt mutatja, milyen mélységben dolgozott Sípos Andor az adott technológiával a dokumentált munkákban és projektekben.",
     "scale": [
-      { "value": 5, "label": "Használat: fő, visszatérő" },
-      { "value": 4, "label": "Használat: több munkában visszatérő" },
-      { "value": 3, "label": "Használat: projektfüggő" },
-      { "value": 2, "label": "Használat: korábbi projektekben" },
-      { "value": 1, "label": "Használat: kísérleti" }
+      { "value": 5, "label": "Szakértő – architektúrát, standardot vagy migrációt vezetett vele" },
+      { "value": 4, "label": "Haladó – megoldást tervezett vele, review-zott, összetett hibát oldott meg" },
+      { "value": 3, "label": "Önálló – éles funkciókat fejlesztett vele önállóan" },
+      { "value": 2, "label": "Alkalmazó – meglévő kódban dolgozott vele" },
+      { "value": 1, "label": "Ismerkedő – kísérleti vagy gyakorló szinten használta" }
     ],
     "confirmedAssociations": [
-      { "skill": ".NET MAUI", "work": "operandor", "context": "experimental-project" },
+      { "skill": ".NET MAUI", "work": "operandor", "context": "experimental-project", "startDate": "2026", "endDate": "2026" },
+      { "skill": "Azure Service Bus", "work": "operandor", "context": "practice-project", "startDate": "2025", "endDate": "2025" },
+      { "skill": "Azure OpenAI", "project": "lightbloom-modular-modernisation", "startDate": "2025-08", "endDate": "2025" },
       { "skill": "Dapper", "project": "lightbloom-modular-modernisation" },
       { "skill": "Playwright", "project": "lightbloom-modular-modernisation" },
       { "skill": "Microservices", "work": "allwin" },
-      { "skill": "Microservices", "project": "agco-supplier-reporting" }
+      { "skill": "Kendo UI", "work": "allwin", "context": "smaller-project", "startDate": "2017", "endDate": "2017" },
+      { "skill": "SharePoint", "project": "allwin-permission-management", "startDate": "2015", "endDate": "2015" },
+      { "skill": "Telerik UI", "project": "allwin-vessel-tracking", "startDate": "2019", "endDate": "2019" },
+      { "skill": "Technical leadership", "work": "operandor" },
+      { "skill": "Technical leadership", "project": "lightbloom-modular-modernisation" },
+      { "skill": "Technical leadership", "project": "supercharge-insurance-saas" },
+      { "skill": "Technical leadership", "project": "agco-supplier-reporting" },
+      { "skill": "Technical leadership", "project": "nopcommerce-store" },
+      { "skill": "Technical leadership", "project": "service-management-system" },
+      { "skill": "Code review", "work": "operandor" },
+      { "skill": "Code review", "project": "lightbloom-modular-modernisation" },
+      { "skill": "Code review", "project": "agco-supplier-reporting" },
+      { "skill": "Mentoring", "project": "lightbloom-modular-modernisation" },
+      { "skill": "Mentoring", "project": "agco-supplier-reporting" }
     ]
   },
   "x-aliases": {
     "C#": ["csharp", "c sharp"],
     ".NET": ["dotnet", "dot net", ".NET Core", ".NET Framework"],
-    "ASP.NET Core": ["aspnetcore", "ASP.NET Core MVC", "ASP.NET Core Web API"],
+    "ASP.NET Core": ["aspnetcore", "ASP.NET Core Web API"],
+    "ASP.NET MVC": ["ASP.NET Core MVC"],
     "Entity Framework": ["EF", "EF Core", "Entity Framework Core", "EF6"],
     "SQL Server": ["MSSQL", "MS SQL", "MS SQL Server", "Microsoft SQL Server"],
     "T-SQL": ["TSQL", "Transact-SQL"],
@@ -655,6 +690,7 @@
     "Kubernetes": ["k8s"],
     "MCP": ["Model Context Protocol", "MCP server"],
     "GitHub Copilot": ["Copilot"],
+    "Codex": ["OpenAI Codex", "Codex CLI"],
     "TypeScript": ["TS"],
     "JavaScript": ["JS", "ECMAScript"],
     "React": ["React.js", "ReactJS"],

@@ -49,7 +49,7 @@
         "Designs solution architectures, coordinates developers and takes part in implementation, code review and testing.",
         "Works remotely with clients' existing teams, agreeing tasks, availability and responsibilities before the work starts, and brings in experienced developers he has worked with before for larger pieces of work.",
         "Leads the development of rovatix, which reads data from PDFs, scanned documents and photos and, after a human check, passes it on in an agreed format; it is offered as a demo and an agreed pilot.",
-        "Built operandor.io, a four-language website, with Blazor WebAssembly and an Azure Functions API following Clean Architecture, tested with xUnit and deployed to Azure Static Web Apps through GitHub Actions.",
+        "Built operandor.io, a four-language website, with a Blazor WebAssembly front end on the operandor design system he designed, with light and dark themes and a responsive layout, and an Azure Functions API following Clean Architecture, tested with xUnit and deployed to Azure Static Web Apps through GitHub Actions.",
         "Worked on an experimental .NET MAUI project within operandor."
       ],
       "x-keywords": [
@@ -59,12 +59,9 @@
         "Entity Framework",
         "LINQ",
         "SQL Server",
-        "Azure SQL",
         "Azure",
         "Azure Functions",
-        "Azure Service Bus",
         "Azure Static Web Apps",
-        "Azure OpenAI",
         "Azure DevOps",
         "GitHub Actions",
         "Git",
@@ -76,7 +73,10 @@
         "GitHub Copilot",
         "Claude",
         "Cursor",
-        ".NET MAUI"
+        "JavaScript",
+        "HTML",
+        "ChatGPT",
+        "Codex"
       ],
       "x-short": true,
       "x-shortHighlights": 2,
@@ -96,7 +96,7 @@
       "x-keywords": [
         "C#",
         ".NET",
-        "ASP.NET",
+        "ASP.NET MVC",
         "Entity Framework",
         "WPF",
         "SQL Server",
@@ -163,17 +163,18 @@
       "endDate": "2026-05",
       "description": "A business-critical platform supporting mortgage and property transactions for lenders and law firms. The multi-module enterprise system, built on .NET 10 and Clean Architecture, spanned at least six interconnected repositories and products. Worked on defining the architecture and technical direction and implementing gradual modernisation.",
       "highlights": [
-        "Reshaped a tightly coupled .NET Framework system, built on WCF and stored procedures, step by step into modular monoliths on .NET 10 with Clean Architecture, CQRS and vertical slices, migrating the legacy WCF services with the Strangler Fig pattern while the system stayed in production throughout.",
+        "Reshaped a tightly coupled .NET Framework system, built on WCF and stored procedures, step by step into modular monoliths on .NET 10 with Clean Architecture, CQRS and vertical slices, replacing the legacy WCF services with REST endpoints using the Strangler Fig pattern while the system stayed in production throughout.",
         "Delivered a reusable access-control module, later adopted by three of the client's other products, and a reporting module fed by Azure Data Factory; the two modules were then used to build a new product.",
         "Delivered an Azure Functions service that used Azure OpenAI to extract structured data from uploaded documents as JSON and persist it directly in the production database.",
         "Built an internal MCP server that lets AI coding agents retrieve relevant codebase and project context from work item descriptions, using lexical, domain-specific retrieval tuned to the project's terminology.",
         "Worked on integrating the Platform directory module across the platform and created reference implementations to guide consistent architecture.",
-        "Introduced a testing framework covering the full testing pyramid, with unit, integration and end-to-end tests accompanying both the modernisation and new features.",
+        "Introduced a testing framework built on xUnit and Playwright, covering the full testing pyramid, with unit, integration and end-to-end tests accompanying both the modernisation and new features.",
         "Drove the .NET upgrades, the CI/CD pipelines, the functional test infrastructure and comprehensive documentation.",
         "Reviewed all of the team's pull requests, owned design reviews, ran in-depth repository audits and defined technical standards across the platform.",
         "Mentored engineers and onboarded new joiners onto the large legacy codebase as the team grew from 3 to 7–8 people.",
         "Handled escalated production issues on the business-critical system, from investigation through root cause analysis to remediation.",
-        "Built AI-assisted development workflows using Claude Code, GitHub Copilot and custom automation to support development across multiple repositories."
+        "Introduced Claude Code across the team and built AI-assisted development workflows using Claude Code, GitHub Copilot and custom automation to support development across multiple repositories.",
+        "Designed the Entity Framework data layer during the modernisation."
       ],
       "keywords": [
         "C#",
@@ -204,7 +205,15 @@
         "FastEndpoints",
         "SOLID Design Principles",
         "Dapper",
-        "Playwright"
+        "Playwright",
+        "Entity Framework",
+        "ASP.NET MVC",
+        "Azure SQL",
+        "REST APIs",
+        "xUnit",
+        "Docker",
+        "JavaScript",
+        "HTML"
       ],
       "x-short": true,
       "x-shortHighlights": 3,
@@ -230,7 +239,8 @@
         "Azure",
         "Clean Architecture",
         "Modular monolith",
-        "SOLID Design Principles"
+        "SOLID Design Principles",
+        "Entity Framework"
       ],
       "x-short": true,
       "x-shortHighlights": 1,
@@ -254,7 +264,8 @@
         ".NET",
         "DevExpress",
         "DevExpress Reporting",
-        "SQL Server"
+        "SQL Server",
+        "Windows Forms"
       ],
       "x-short": true,
       "x-shortHighlights": 1,
@@ -272,9 +283,10 @@
       "highlights": [
         "Owned technical delivery across back end, front end and deployment as lead software engineer of a distributed team of 3–4 people.",
         "Built and maintained the TypeScript/React/MUI front end consuming the BI dashboard's APIs, where leaders filtered figures by business unit, region and supplier and compared successive forecasts part by part.",
-        "Worked on an ASP.NET Core monolith following Clean Architecture, with AWS Lambda functions loading supplier data into a PostgreSQL star schema for the reports.",
+        "Worked on an ASP.NET Core monolith following Clean Architecture and designed the PostgreSQL star schema behind the reports, loaded with supplier data by AWS Lambda functions he wrote in Python.",
         "Owned CI/CD across Azure DevOps and GitHub Actions, with containerised deployment on Docker and Kubernetes.",
-        "Provided technical guidance and code review for the engineering team across several time zones."
+        "Provided technical guidance and code review for the engineering team across several time zones.",
+        "Solved complex issues in the PostgreSQL database and fixed performance problems in the Entity Framework layer."
       ],
       "keywords": [
         "C#",
@@ -293,7 +305,8 @@
         "Azure DevOps",
         "Clean Architecture",
         "SOLID Design Principles",
-        "Microservices"
+        "Entity Framework",
+        "Python"
       ],
       "x-short": true,
       "x-shortHighlights": 2,
@@ -308,7 +321,8 @@
       "endDate": "2022-11",
       "description": "Designed and developed custom plugins for a nopCommerce-based eCommerce solution, extending its functionality to meet business requirements without modifying the core application's source code.",
       "highlights": [
-        "Extended a large third-party .NET codebase through nopCommerce's plugin architecture, without forking it or changing the core application's source code."
+        "Extended a large third-party .NET codebase through nopCommerce's plugin architecture, without forking it or changing the core application's source code.",
+        "Defined the solution's plugin architecture, carried the nopCommerce version upgrade through together with the plugins, solved issues in the platform's internals and led the development of several nopCommerce-based solutions."
       ],
       "keywords": [
         "C#",
@@ -317,7 +331,8 @@
         "SQL Server",
         "HTML",
         "JavaScript",
-        "nopCommerce"
+        "nopCommerce",
+        "Entity Framework"
       ],
       "x-short": true,
       "x-shortHighlights": 1,
@@ -332,7 +347,7 @@
       "endDate": "2021-12",
       "description": "Developed automated UI tests for a German gambling company's website to verify user-facing functionality and help detect regressions.",
       "highlights": [
-        "Used automated UI tests to check the website's user-facing functionality and behaviour after changes."
+        "Designed the structure of the automated UI test suite and used it to check the website's user-facing functionality and behaviour after changes."
       ],
       "keywords": [
         ".NET",
@@ -380,7 +395,8 @@
         "HTML",
         "JavaScript",
         "jQuery",
-        "SQL Server"
+        "SQL Server",
+        "Razor Pages"
       ]
     },
     {
@@ -509,32 +525,35 @@
     }
   ],
   "skills": [
-    { "name": ".NET platform", "level": "Usage: core and recurring", "x-rating": 5, "x-ratingKind": "usage", "keywords": [".NET", "C#", "Entity Framework", "LINQ"] },
-    { "name": ".NET platform", "level": "Usage: recurring across engagements", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["WPF", "ASP.NET Core"] },
-    { "name": ".NET platform", "level": "Usage: project-specific", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["Razor Pages", "WCF", "Blazor"] },
-    { "name": ".NET platform", "level": "Usage: earlier projects", "x-rating": 2, "x-ratingKind": "usage", "keywords": ["ASP.NET MVC", "Windows Forms"] },
-    { "name": ".NET platform", "level": "Usage: experimental", "x-rating": 1, "x-ratingKind": "usage", "keywords": [".NET MAUI"] },
-    { "name": "Databases & data access", "level": "Usage: core and recurring", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["SQL Server"] },
-    { "name": "Databases & data access", "level": "Usage: project-specific", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["T-SQL", "Azure SQL", "Dapper", "PostgreSQL"] },
-    { "name": "Architecture & practices", "level": "Usage: core and recurring", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["Clean Architecture"] },
-    { "name": "Architecture & practices", "level": "Usage: recurring across engagements", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Modular monolith", "Microservices"] },
-    { "name": "Architecture & practices", "level": "Usage: project-specific", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["REST APIs"] },
-    { "name": "Leadership", "level": "Usage: core and recurring", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["Technical leadership", "Code review"] },
-    { "name": "Leadership", "level": "Usage: recurring across engagements", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Mentoring"] },
-    { "name": "Cloud & platforms", "level": "Usage: core and recurring", "x-rating": 5, "x-ratingKind": "usage", "keywords": ["Azure"] },
-    { "name": "Cloud & platforms", "level": "Usage: recurring across engagements", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Azure Functions"] },
-    { "name": "Cloud & platforms", "level": "Usage: project-specific", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["Azure App Service", "Azure Static Web Apps", "Azure Key Vault", "Azure Service Bus", "AWS"] },
-    { "name": "Cloud & platforms", "level": "Usage: earlier projects", "x-rating": 2, "x-ratingKind": "usage", "keywords": ["nopCommerce", "SharePoint"] },
-    { "name": "DevOps, CI/CD & testing", "level": "Usage: recurring across engagements", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Azure DevOps", "GitHub Actions", "Git", "xUnit", "Docker", "Kubernetes"] },
-    { "name": "DevOps, CI/CD & testing", "level": "Usage: project-specific", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["Playwright"] },
-    { "name": "DevOps, CI/CD & testing", "level": "Usage: earlier projects", "x-rating": 2, "x-ratingKind": "usage", "keywords": ["Selenium", "NUnit"] },
-    { "name": "AI-assisted development", "level": "Usage: recurring across engagements", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["GitHub Copilot", "Claude", "Cursor"] },
-    { "name": "AI integration and automation", "level": "Usage: recurring across engagements", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["Azure OpenAI"] },
-    { "name": "AI integration and automation", "level": "Usage: project-specific", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["MCP"] },
-    { "name": "Front end & UI libraries", "level": "Usage: recurring across engagements", "x-rating": 4, "x-ratingKind": "usage", "keywords": ["JavaScript", "HTML", "CSS", "jQuery", "DevExpress"] },
-    { "name": "Front end & UI libraries", "level": "Usage: project-specific", "x-rating": 3, "x-ratingKind": "usage", "keywords": ["React", "TypeScript", "MUI"] },
-    { "name": "Front end & UI libraries", "level": "Usage: earlier projects", "x-rating": 2, "x-ratingKind": "usage", "keywords": ["Telerik UI", "Kendo UI"] },
-    { "name": "Other languages & runtimes", "level": "Usage: earlier projects", "x-rating": 2, "x-ratingKind": "usage", "keywords": ["Node.js", "Python"] }
+    { "name": ".NET platform", "level": "Expert", "x-rating": 5, "x-ratingKind": "proficiency", "keywords": [".NET", "C#", "ASP.NET Core"] },
+    { "name": ".NET platform", "level": "Advanced", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["Entity Framework", "LINQ", "WCF", "ASP.NET MVC"] },
+    { "name": ".NET platform", "level": "Independent", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["WPF", "Razor Pages", "Blazor", "Windows Forms"] },
+    { "name": ".NET platform", "level": "Working knowledge", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": [".NET MAUI"] },
+    { "name": "Databases & data access", "level": "Advanced", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["SQL Server", "T-SQL", "PostgreSQL"] },
+    { "name": "Databases & data access", "level": "Independent", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["Azure SQL", "Dapper"] },
+    { "name": "Architecture & practices", "level": "Expert", "x-rating": 5, "x-ratingKind": "proficiency", "keywords": ["Clean Architecture", "Modular monolith", "REST APIs", "Vertical Slice Architecture"] },
+    { "name": "Architecture & practices", "level": "Advanced", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["CQRS"] },
+    { "name": "Architecture & practices", "level": "Working knowledge", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": ["Microservices"] },
+    { "name": "Leadership", "level": "Expert", "x-rating": 5, "x-ratingKind": "proficiency", "keywords": ["Technical leadership", "Code review"] },
+    { "name": "Leadership", "level": "Advanced", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["Mentoring"] },
+    { "name": "Cloud & platforms", "level": "Expert", "x-rating": 5, "x-ratingKind": "proficiency", "keywords": ["nopCommerce"] },
+    { "name": "Cloud & platforms", "level": "Advanced", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["Azure"] },
+    { "name": "Cloud & platforms", "level": "Independent", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["Azure Functions", "Azure App Service", "Azure Static Web Apps", "Azure Key Vault", "AWS"] },
+    { "name": "Cloud & platforms", "level": "Working knowledge", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": ["SharePoint", "Azure Data Factory"] },
+    { "name": "Cloud & platforms", "level": "Familiar", "x-rating": 1, "x-ratingKind": "proficiency", "keywords": ["Azure Service Bus"] },
+    { "name": "DevOps, CI/CD & testing", "level": "Expert", "x-rating": 5, "x-ratingKind": "proficiency", "keywords": ["xUnit"] },
+    { "name": "DevOps, CI/CD & testing", "level": "Advanced", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["Azure DevOps", "GitHub Actions", "Git", "Docker", "Playwright", "Selenium"] },
+    { "name": "DevOps, CI/CD & testing", "level": "Independent", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["NUnit"] },
+    { "name": "DevOps, CI/CD & testing", "level": "Working knowledge", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": ["Kubernetes"] },
+    { "name": "AI-assisted development", "level": "Expert", "x-rating": 5, "x-ratingKind": "proficiency", "keywords": ["Claude"] },
+    { "name": "AI-assisted development", "level": "Advanced", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["GitHub Copilot", "Codex"] },
+    { "name": "AI-assisted development", "level": "Independent", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["ChatGPT"] },
+    { "name": "AI-assisted development", "level": "Working knowledge", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": ["Cursor"] },
+    { "name": "AI integration and automation", "level": "Independent", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["Azure OpenAI", "MCP"] },
+    { "name": "Front end & UI libraries", "level": "Advanced", "x-rating": 4, "x-ratingKind": "proficiency", "keywords": ["HTML", "CSS", "DevExpress"] },
+    { "name": "Front end & UI libraries", "level": "Independent", "x-rating": 3, "x-ratingKind": "proficiency", "keywords": ["JavaScript", "jQuery", "React", "TypeScript", "MUI", "Telerik UI"] },
+    { "name": "Front end & UI libraries", "level": "Working knowledge", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": ["Kendo UI"] },
+    { "name": "Other languages & runtimes", "level": "Working knowledge", "x-rating": 2, "x-ratingKind": "proficiency", "keywords": ["Node.js", "Python"] }
   ],
   "languages": [
     { "language": "Hungarian", "fluency": "Native" },
@@ -544,7 +563,7 @@
   ],
   "meta": {
     "version": "v1.0.0",
-    "lastModified": "2026-10-22",
+    "lastModified": "2026-10-23",
     "x-ogLocale": "en_GB"
   },
   "x-strengths": [
@@ -572,7 +591,7 @@
     {
       "id": "ai-assisted-development",
       "title": "AI-assisted software development",
-      "summary": "Uses GitHub Copilot, Claude and Cursor to support implementation, testing and documentation. Built an MCP server that supplies coding agents with codebase and project context. The development team remains responsible for technical decisions, code review and quality assurance.",
+      "summary": "Uses GitHub Copilot, Claude, Codex, ChatGPT and Cursor to support implementation, testing and documentation. Built an MCP server that supplies coding agents with codebase and project context. The development team remains responsible for technical decisions, code review and quality assurance.",
       "short": true,
       "focus": ["ai-assisted"]
     },
@@ -607,8 +626,8 @@
     {
       "id": "ai-assisted",
       "label": "AI-assisted development",
-      "summary": "Senior .NET developer with 13+ years of experience. He uses GitHub Copilot, Claude and Cursor in his own development workflow to support implementation, testing and documentation, and built an MCP server to provide coding agents with codebase and project context. AI-assisted workflow automation is a separate service offered to clients: he built an Azure OpenAI-based document processing service and leads the development of rovatix at operandor. He adapts business automation to existing systems and the required human review steps.",
-      "skills": ["Azure OpenAI", "MCP", "GitHub Copilot", "Claude", "Cursor", "Azure Functions", "C#", ".NET", "Azure"]
+      "summary": "Senior .NET developer with 13+ years of experience. He uses GitHub Copilot, Claude, Codex, ChatGPT and Cursor in his own development workflow to support implementation, testing and documentation, and built an MCP server to provide coding agents with codebase and project context. AI-assisted workflow automation is a separate service offered to clients: he built an Azure OpenAI-based document processing service and leads the development of rovatix at operandor. He adapts business automation to existing systems and the required human review steps.",
+      "skills": ["Azure OpenAI", "MCP", "GitHub Copilot", "Claude", "Codex", "ChatGPT", "Cursor", "Azure Functions", "C#", ".NET", "Azure"]
     },
     {
       "id": "senior-dotnet",
@@ -618,28 +637,44 @@
     }
   ],
   "x-skillsAssessment": {
-    "basis": "documented-usage",
-    "assessedOn": "2026-10-22",
-    "note": "This assessment estimates usage from documented roles, projects, their duration and usage confirmed by Andor. Scores describe usage rather than proficiency; daily or weekly usage measurements are unavailable. Classification under earlier projects does not imply a loss of expertise.",
+    "basis": "documented-evidence",
+    "assessedOn": "2026-10-23",
+    "note": "The level shows how deeply Andor has worked with each technology in the documented positions and projects.",
     "scale": [
-      { "value": 5, "label": "Usage: core and recurring" },
-      { "value": 4, "label": "Usage: recurring across engagements" },
-      { "value": 3, "label": "Usage: project-specific" },
-      { "value": 2, "label": "Usage: earlier projects" },
-      { "value": 1, "label": "Usage: experimental" }
+      { "value": 5, "label": "Expert – led architecture, standards or migrations with it" },
+      { "value": 4, "label": "Advanced – designed solutions with it, reviewed code, solved complex issues" },
+      { "value": 3, "label": "Independent – built production features with it independently" },
+      { "value": 2, "label": "Working knowledge – worked with it in existing code" },
+      { "value": 1, "label": "Familiar – used it in experiments or practice projects" }
     ],
     "confirmedAssociations": [
-      { "skill": ".NET MAUI", "work": "operandor", "context": "experimental-project" },
+      { "skill": ".NET MAUI", "work": "operandor", "context": "experimental-project", "startDate": "2026", "endDate": "2026" },
+      { "skill": "Azure Service Bus", "work": "operandor", "context": "practice-project", "startDate": "2025", "endDate": "2025" },
+      { "skill": "Azure OpenAI", "project": "lightbloom-modular-modernisation", "startDate": "2025-08", "endDate": "2025" },
       { "skill": "Dapper", "project": "lightbloom-modular-modernisation" },
       { "skill": "Playwright", "project": "lightbloom-modular-modernisation" },
       { "skill": "Microservices", "work": "allwin" },
-      { "skill": "Microservices", "project": "agco-supplier-reporting" }
+      { "skill": "Kendo UI", "work": "allwin", "context": "smaller-project", "startDate": "2017", "endDate": "2017" },
+      { "skill": "SharePoint", "project": "allwin-permission-management", "startDate": "2015", "endDate": "2015" },
+      { "skill": "Telerik UI", "project": "allwin-vessel-tracking", "startDate": "2019", "endDate": "2019" },
+      { "skill": "Technical leadership", "work": "operandor" },
+      { "skill": "Technical leadership", "project": "lightbloom-modular-modernisation" },
+      { "skill": "Technical leadership", "project": "supercharge-insurance-saas" },
+      { "skill": "Technical leadership", "project": "agco-supplier-reporting" },
+      { "skill": "Technical leadership", "project": "nopcommerce-store" },
+      { "skill": "Technical leadership", "project": "service-management-system" },
+      { "skill": "Code review", "work": "operandor" },
+      { "skill": "Code review", "project": "lightbloom-modular-modernisation" },
+      { "skill": "Code review", "project": "agco-supplier-reporting" },
+      { "skill": "Mentoring", "project": "lightbloom-modular-modernisation" },
+      { "skill": "Mentoring", "project": "agco-supplier-reporting" }
     ]
   },
   "x-aliases": {
     "C#": ["csharp", "c sharp"],
     ".NET": ["dotnet", "dot net", ".NET Core", ".NET Framework"],
-    "ASP.NET Core": ["aspnetcore", "ASP.NET Core MVC", "ASP.NET Core Web API"],
+    "ASP.NET Core": ["aspnetcore", "ASP.NET Core Web API"],
+    "ASP.NET MVC": ["ASP.NET Core MVC"],
     "Entity Framework": ["EF", "EF Core", "Entity Framework Core", "EF6"],
     "SQL Server": ["MSSQL", "MS SQL", "MS SQL Server", "Microsoft SQL Server"],
     "T-SQL": ["TSQL", "Transact-SQL"],
@@ -656,6 +691,7 @@
     "Kubernetes": ["k8s"],
     "MCP": ["Model Context Protocol", "MCP server"],
     "GitHub Copilot": ["Copilot"],
+    "Codex": ["OpenAI Codex", "Codex CLI"],
     "TypeScript": ["TS"],
     "JavaScript": ["JS", "ECMAScript"],
     "React": ["React.js", "ReactJS"],
